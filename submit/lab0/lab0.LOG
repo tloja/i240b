@@ -1,0 +1,68 @@
+Script started on 2020-01-23 18:06:03-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+tloja1@g7-21:~/tmp/lab0$ ls ~/.ssh
+ls: cannot access '/home/tloja1/.ssh': No such file or directory
+tloja1@g7-21:~/tmp/lab0$ ssh -keygen
+Bad escape character 'ygen'.
+tloja1@g7-21:~/tmp/lab0$ ssh [K-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/tloja1/.ssh/id_rsa): 
+Created directory '/home/tloja1/.ssh'.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/tloja1/.ssh/id_rsa.
+Your public key has been saved in /home/tloja1/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:Bpe6//MtdR8jKsbbvQlmm+UtUOzo5mD/Ayre+Qx2XtQ tloja1@g7-21
+The key's randomart image is:
++---[RSA 2048]----+
+|                 |
+|         .       |
+|      . o   .    |
+|       +     o.  |
+|      . S   +. E |
+|       o   +.o.o.|
+|      . .=o=++..+|
+|       o+=&+X+o .|
+|      ..+=B%oB=. |
++----[SHA256]-----+
+tloja1@g7-21:~/tmp/lab0$ ssh-cop-id[K[K[Ky-d[Kid -i to[Kloja1@remote
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/tloja1/.ssh/id_rsa.pub"
+The authenticity of host 'remote (128.226.114.206)' can't be established.
+ECDSA key fingerprint is SHA256:UEIh1TASIC96TC1hhxVbkVS0DrddNKHk7Q2nzgDCt+Y.
+Are you sure you want to continue connecting (yes/no)? yes
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+tloja1@remote's password: 
+
+Number of key(s) added: 1
+
+Now try logging into the machine, with:   "ssh 'tloja1@remote'"
+and check to make sure that only the key(s) you wanted were added.
+
+tloja1@g7-21:~/tmp/lab0$ ls
+lab0.LOG
+tloja1@g7-21:~/tmp/lab0$ cd ../
+tloja1@g7-21:~/tmp$ cd..[K[K ../
+tloja1@g7-21:~$ ls
+a.out  Desktop	  Downloads  lab2.c  lab3.c  Pictures  Templates  Videos
+cs120  Documents  lab2	     lab3    Music   Public    tmp
+tloja1@g7-21:~$ cd cs[K[K[K tmp
+tloja1@g7-21:~/tmp$ ls
+lab0
+tloja1@g7-21:~/tmp$ cd[K[K~/.profile
+bash: /home/tloja1/.profile: No such file or directory
+tloja1@g7-21:~/tmp$ cd -
+/home/tloja1
+tloja1@g7-21:~$ ls
+a.out  Desktop	  Downloads  lab2.c  lab3.c  Pictures  Templates  Videos
+cs120  Documents  lab2	     lab3    Music   Public    tmp
+tloja1@g7-21:~$ ~/.profile
+bash: /home/tloja1/.profile: No such file or directory
+tloja1@g7-21:~$ ~[Kcd ../
+tloja1@g7-21:/home$ ls
+tloja1@g7-21:/home$ ~.[K/.profile
+bash: /home/tloja1/.profile: No such file or directory
+tloja1@g7-21:/home$ tloja1/
+bash: tloja1/: Is a directory
+tloja1@g7-21:/home$ ls
+	       

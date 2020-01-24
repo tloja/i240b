@@ -1,0 +1,1136 @@
+Script started on 2020-01-23 18:06:03-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+tloja1@g7-21:~/tmp/lab0$ ls ~/.ssh
+ls: cannot access '/home/tloja1/.ssh': No such file or directory
+tloja1@g7-21:~/tmp/lab0$ ssh -keygen
+Bad escape character 'ygen'.
+tloja1@g7-21:~/tmp/lab0$ ssh [K-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/tloja1/.ssh/id_rsa): 
+Created directory '/home/tloja1/.ssh'.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /home/tloja1/.ssh/id_rsa.
+Your public key has been saved in /home/tloja1/.ssh/id_rsa.pub.
+The key fingerprint is:
+SHA256:Bpe6//MtdR8jKsbbvQlmm+UtUOzo5mD/Ayre+Qx2XtQ tloja1@g7-21
+The key's randomart image is:
++---[RSA 2048]----+
+|                 |
+|         .       |
+|      . o   .    |
+|       +     o.  |
+|      . S   +. E |
+|       o   +.o.o.|
+|      . .=o=++..+|
+|       o+=&+X+o .|
+|      ..+=B%oB=. |
++----[SHA256]-----+
+tloja1@g7-21:~/tmp/lab0$ ssh-cop-id[K[K[Ky-d[Kid -i to[Kloja1@remote
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/tloja1/.ssh/id_rsa.pub"
+The authenticity of host 'remote (128.226.114.206)' can't be established.
+ECDSA key fingerprint is SHA256:UEIh1TASIC96TC1hhxVbkVS0DrddNKHk7Q2nzgDCt+Y.
+Are you sure you want to continue connecting (yes/no)? yes
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
+tloja1@remote's password: 
+
+Number of key(s) added: 1
+
+Now try logging into the machine, with:   "ssh 'tloja1@remote'"
+and check to make sure that only the key(s) you wanted were added.
+
+tloja1@g7-21:~/tmp/lab0$ ls
+lab0.LOG
+tloja1@g7-21:~/tmp/lab0$ cd ../
+tloja1@g7-21:~/tmp$ cd..[K[K ../
+tloja1@g7-21:~$ ls
+a.out  Desktop	  Downloads  lab2.c  lab3.c  Pictures  Templates  Videos
+cs120  Documents  lab2	     lab3    Music   Public    tmp
+tloja1@g7-21:~$ cd cs[K[K[K tmp
+tloja1@g7-21:~/tmp$ ls
+lab0
+tloja1@g7-21:~/tmp$ cd[K[K~/.profile
+bash: /home/tloja1/.profile: No such file or directory
+tloja1@g7-21:~/tmp$ cd -
+/home/tloja1
+tloja1@g7-21:~$ ls
+a.out  Desktop	  Downloads  lab2.c  lab3.c  Pictures  Templates  Videos
+cs120  Documents  lab2	     lab3    Music   Public    tmp
+tloja1@g7-21:~$ ~/.profile
+bash: /home/tloja1/.profile: No such file or directory
+tloja1@g7-21:~$ ~[Kcd ../
+tloja1@g7-21:/home$ ls
+aabrey1      cwetzel2	       jlevin38     nate	       slin111
+aagraw11     cwickiz1	       jli452	    nayan1	       sliu
+aaharon1     cwong11	       jli461	    naydin2	       sliu22
+aakin1	     cyang58	       jliebe12     nayef	       slnu1
+aalamer1     cybersec	       jlin129	    nbellam1	       sloscal1
+aambilw1     czhang27	       jlin269	    nbethan1	       smahmud2
+aamer	     czhou5	       jliu212	    nboeker1	       smanne1
+aandhar2     dallen9	       jloew	    nboyd3	       smartpark
+aanveka2     danzelo1	       jlouie2	    nburzyn1	       smasara1
+aashraf1     davehall	       jlu56	    ncilsal2	       smason8
+abalkum      davehallldap      jmcmah10     ncorvi1	       smestry1
+abelmna1     davidl	       jmeguir1     ndagost1	       smircha1
+abeltre1     dbalkan	       jmessin2     ndedios1	       smoore4
+abet	     dbottch1	       jmitche6     ndefeli2	       smorram1
+abetrev      dchhabd1	       jmohrma1     ndeshmu1	       smorri11
+abettest     dcordei1	       jmontgo4     NFS11	       smukka1
+abhagwa1     ddas1	       jmontgo5     ngarg3	       snagarak1
+abharan1     ddefazi1	       jocampo1     ngawade1	       snatu1
+abhat3	     ddemicc1	       josgood2     ngoyal1	       snimhan1
+abixby1      ddesai9	       joyedap1     ngreene5	       software
+abloodg1     ddhuri1	       jpan33	    ngrosso1	       soshay1
+abommin1     ddoddag1	       jparikh1     ngujar1	       sozdemi2
+abozkur1     devtyushkin       jpark349     ngupta4	       sozden1
+aburke5      dfan2	       jphilem1     nhofman1	       spalshe1
+acanino1     dfeinma1	       jquezad1     nilton	       spark215
+acarter6     dferna15	       jramli1	    nkimura	       sparra2
+aceylan1     dfitzge3	       jrandha1     nkokne1	       sparuch1
+achaud12     dfletch1	       jraskin3     nkommur1	       spatwa1
+achaud15     dgarden1	       jren18	    nli19	       spradha1
+achaudh9     dgaviol1	       jrising1     nmarman1	       sraghav2
+achavan4     dgeorge7	       jrodr151     nmishra1	       srally1
+achen172     dglazer1	       jrosen46     nmonast1	       srao12
+acheseb1     dgleaso2	       jrosen52     npatel62	       srapell2
+achhabr1     dgouvou1	       jrosswog     npatel64	       sraut1
+achotal1     dgriffith1        jrothbe3     npatil5	       srazak
+aclancy1     dharper1	       jryder	    npelleg1	       srevade1
+acmweb	     dhintz1	       jsanch49     npeters1	       sriram
+acohen13     dhuang43	       jschmit2     npoda1	       srupnar1
+acohen89     dickman	       jseiber1     nreisch1	       ss1
+acullo1      dima	       jshaikh1     nrogosz1	       ssahabh1
+acurrer1     dirwin1	       jsharke	    nruizto1	       ssahani1
+adesu1	     djacobs7	       jsiegel6     nsamant1	       ssalick1
+adhruv1      djagtap1	       jsimon7	    nsane3885	       ssamate1
+adilliw1     djhender	       jsimone1     nsharm11	       ssanaga1
+admread      djwillia	       jskovro1     nstecyn1	       ssankhe1
+adnan	     dkim17	       jstanle2     ntinen	       ssarems1
+adogana1     dkunkel	       jstein27     nuruchi1	       ssawwan1
+advweb	     dlam15	       jsteinberg   nvallej1	       ssaxena3
+aeghbal1     dli114	       jstpier1     nvander1	       ssayyad1
+aeker1	     dlockye1	       jstrohm1     nwallin1	       ssenkes1
+aevans1      dlundgren	       jstruck1     nxu4	       ssenthil
+afarrel3     dmacejk1	       jsu6	    oakgrove	       sshah90
+afelsen3     dmaisur1	       jsuhr2	    oalamut1	       ssharm53
+afergus6     dmeisel1	       jsutton3     ocinar1	       sshin
+aferrei3     dmosess1	       jswift3	    ocummin1	       ssing117
+agarcia3     dmu1	       jszacha1     oertan1	       ssingh99
+agarcia4     dnair3	       jterner1     ohatwal1	       ssivaku1
+agarrit1     dnarasi1	       jthakka1     oiffert1	       ssultan6
+ageorg39     doneal1	       jthoma64     okilic1	       sswetha
+agermos1     dpan8	       jtricoz1     okircan1	       stammis1
+agill10      dpaskal1	       jvail1	    okulkar4	       stapadi1
+agim1	     dpatel39	       jwang36	    omavitu1	       stapkee1
+agjonba1     dpatil2	       jweacho1     onur	       star
+agoetz3      dpaul12	       jweng8	    oolojed1	       steflik
+agoncal2     dpetzol2	       jwetzel1     optiweb	       sthorat2
+agrace2      dpham4	       jwhitak4     osanile1	       sthorat3
+agreenb3     dreyes12	       jwhite48     osayili1	       stoke1
+agross22     drichards1        jwill128     osnetsvn	       studio
+aguarin3     drseuss	       jwolter1     osweb	       studio.nobackup
+agujara1     dryan6	       jwong123     oudawan1	       sunyibo
+agummal1     dschroe1	       jwoyevo1     pacts	       svibhut1
+aheffer1     dschust2	       jwu166	    pdeshpa2	       svishwa2
+ahoriha1     dskoda1	       jwu6	    pdeshpa3	       swaghma1
+ajain13      dtelson1	       jyadav1	    pdexter1	       swang130
+ajain35      dthakur1	       jyao	    pfeng1	       swang206
+ajasper      dthatch1	       jyao6	    phao3	       swang214
+ajimen29     dtierne2	       jyoo45	    phdweb	       sweimer1
+ajinete1     dtimmer1	       jzee2019     phil	       syarram1
+ajohan78     dtownle1	       jzhang	    phmsvn	       syeung10
+ajoshi1      dwalcot1	       kagyapo1     pixelcode	       sysadmin
+akadu1	     dwalter2	       kandrad2     pkandhi1	       syudhoa1
+akafore1     dwang84	       kang	    pkapoor2	       szaman5
+akaleli1     dyang32	       kartik	    pkariya1	       szhai2
+akancha1     dzhang46	       kbahulkar    pkarthi1	       szhan188
+akapur4      eadler1	       kbaumst2     pkaushi1	       szhang
+akayhan1     eaktas	       kchanda2     pkulkar3	       szhu5
+akenjal1     ealdreabi	       kchings1     plnu2	       tabdazi1
+akenned8     eates1	       kchiu	    plonkar1	       tagrawa1
+akhot1	     ebasan1	       kcitlak1     pmadden	       talon1
+akulka17     ebaule1	       kcox4	    pmaino1	       tameesh
+akunz3	     ebenz1	       kdamodh1     pmcgoug1	       tbabako1
+alal2	     ebonzek1	       kdayala1     pokurog1	       tballin1
+alee884      ebreban1	       kdeshpa5     ppagar1	       tbarten1
+alee889      ecetine2	       kdh	    pparekh1	       tbartens
+alevenb1     eciraco1	       kdoughe2     pparmar2	       tbhagoo1
+aliang30     ecodrin1	       kdublin1     ppatel3	       tbrentar
+aliu81	     ecoolid1	       kfang2	    ppatel85	       tbrown57
+alongo5      edede1	       kferna11     ppatel95	       tchan29
+amadnic2     edurney1	       kgaffne1     ppatil7	       tcheng8
+amahaja4     eelliot4	       kgajwan1     ppawar3	       tchu4
+amathe13     eetheri1	       kgell1	    ppriyam1	       tdevadit
+amccart9     eezor1	       kghose	    pqi1	       test
+amchugh2     efergus3	       kgiampo1     prasanna	       tfan4
+amcmanu4     egeorge8	       kgoel1	    preddir1	       tfasano1
+ameya	     ehaddad1	       kgulve1	    preddyl1	       tgabrie2
+amillik1     ehuang35	       khaled	    project	       tgilber5
+amishr11     einal1	       khanson3     projects	       tgisi1
+anaik4	     eisikte1	       kharras	    projects.nobackup  tgonzag1
+anand	     ejang1	       khenneb1     psaha4	       tgrusze1
+anayak2      elakic1	       khill9	    psaha5	       tgundel1
+aneeman      elancer1	       khirana1     psahu1	       tgurung2
+aneesh	     elanger4	       khsieh3	    psammon1	       thalai1
+anikam1      elurye1	       kjayapr1     psehraw1	       thoa1
+ankit	     emarang1	       kjones47     psemegr1	       thoelze1
+aorella1     emattison	       kkasara1     pshang1	       thorowi1
+apadman1     emcnier2	       kkoka1	    pshrest1	       thung1
+apatel	     emergepl	       kkulkar3     psilves1	       thur1
+apateri1     emoelle2	       kkumawa1     psin	       ticket
+aperlow1     engage	       kkurtz	    psingh43	       tkapadi1
+aplotko1     epalani1	       klewis24     psinha1	       tkatz1
+aputnal1     epona	       kliu20	    ptanpur1	       tkump1
+aquach1      erdil	       kmahmou1     ptezcan1	       tli16
+arahma	     eserdar1	       kmanriq1     pthakka4	       tliu76
+aravind      eshapir9	       kmore4	    ptilley1	       tloja1
+arayala1     estern7	       kmoshie1     puppula1	       tlucher1
+arizzo10     et		       kna3	    pvalenta	       tman1
+arohill1     eterrac1	       knadeem1     pwakodi1	       tmarder1
+artir	     etilden	       knip1	    pwalke1	       tmatusz1
+asahai1      evorosh1	       koneill7     pwang22	       tpmsim
+asawant2     eway1	       kong	    pweb	       tquiles1
+asawwal1     eyalcin1	       kpathak1     pwilber1	       trecupe1
+aschwa30     eyavasc1	       kphill11     pyang	       tredban1
+aselvan1     ezagnus1	       kpierce5     pzhao3	       tsharma6
+aservet1     faculty	       kragava1     qjia4	       tshores1
+asharif1     faculty.nobackup  kramana1     qliang8	       tsrivas1
+asharm14     facweb	       kruan1	    qxiong1	       tstache1
+asharm47     fafram1	       ksaini1	    qzhang61	       tsteige1
+ashimiz1     falmato1	       ksawant1     raj		       tton1
+ashimiz2     fantona1	       ksingh35     rambast1	       tunsel1
+ashinde3     fbrione1	       ksingh42     ramsurat1	       twang61
+ashiral1     fchai1	       kstigle1     rbadada1	       twellin1
+asing134     femmanu1	       ksun1	    rberlan1	       twilli81
+astensl1     find	       kthote1	    rbey1	       twojtuk1
+astjohn      fitz	       ktiao1	    rbhowmik	       twrigh13
+astrong3     fmri	       kusovski     rblazej1	       txu
+athaile1     foreman	       kvartak2     rchen102	       tzhao7
+athakur2     forweb	       kwadeka1     rcheung5	       ubalci1
+atiwari3     fscott1	       kwallac6     rchowda1	       udeshpa1
+atom2	     ftahmas1	       kwan2	    rcomerf1	       uergash1
+atweedy1     gadu	       kwill113     rdelval1	       ukayaal1
+auy2	     gaic	       kwrite1	    rdhuri1	       umrigar
+avanroi1     gaming	       kyan12	    reckert	       upe
+avenetos1    garrison	       kyi3	    regress	       upuvvad1
+avinan	     gbejara1	       lander	    remadm	       urahman1
+aviswan3     gbenyis1	       larson	    rerinfo1	       usatlas1
+avora4	     gbiyani1	       lcanale2     reswara1	       usatlas2
+awalley1     gchen21	       lcoats1	    reu		       uscms01
+awaring1     gcrl	       ldo	    reu09	       uscms02
+awest3	     geert	       legion	    reustac1	       vbadagu1
+awilso16     ggonzal9	       legion2	    rfujita1	       vbakshi1
+aworm1	     ghlp	       lenny	    rgeary1	       vbandew1
+ayenugu1     ghose	       levliya1     rgirong1	       vbeauge1
+ayeung9      ghyan	       lgustaf1     rgollap1	       vbhosal1
+azaccag1     gkumar1	       lhsueh1	    rgonzal	       vchaska1
+balandi1     gliu10	       lijun	    rgunczl1	       vdevara2
+baltar	     globus	       liymn	    rhainin1	       vinkolar
+barry	     gmore3	       lkendal1     richardsond        vkatrag2
+bbeeral1     gmyers	       lkollur1     rimai1	       vkumari1
+bbrea1	     grad	       llasurd1     rimbro1	       vlsiweb
+bbuchan1     grad.nobackup     llu17	    rjoseph3	       vmalcev1
+bchadha1     grase	       lmanwan1     rkaur21	       vmunish1
+bchen111     grattih1	       lok	    rkelley2	       vparekh1
+bchen114     gredozu1	       lornawel     rklein14	       vragovs1
+bchoudh4     grid	       lrosenb1     rkugver1	       vsingh2
+bchrobot     gridex	       lsc01	    rkulka22	       vtran6
+bcohada1     gridweb	       lsearsangel  rlangen1	       vyadav1
+bdeore1      gsivana1	       lsunny1	    rlevass1	       watadv
+bdevrie1     gsoweb	       ltaveir1     rlotlik1	       wbennet1
+bdikmen1     gsteinb1	       lwisdom1     rmarvin1	       wcornej1
+bdobriy1     gstodda1	       lxu31	    rmccaul1	       wdai
+beaumont     gtan	       lyadagi1     rmccorm4	       wduan1
+bestus1      gtaskin1	       lyalcin1     rmei6	       weinscgg
+bgrant11     guydosh	       lyu	    rmeliti1	       welu
+bharari1     gvalenc2	       maber1	    rmittal1	       whuebne1
+bhogan9      gwang23	       maguila2     rmusale1	       wkeller3
+bizar1	     gwilber1	       mallingt     rnatara2	       wkenned1
+bkalayc1     gwint1	       maple	    robotics	       wleng1
+bkeuria1     gyerrad1	       marsene1     rorourk2	       wliu5
+bklayma1     hahuja1	       marss86	    rosew	       wliu68
+blackburn    halzein1	       marysomma1   rpena9	       wmeng
+blee75	     haygan1	       matlab	    rpokhar1	       wni
+blewis9      hbagdi1	       maziz3	    rquinli1	       wyang
+bliebe1      hbalu1	       mbagonis5    rrausha1	       wzhangc1
+bliew1	     hbrown10	       mbayhoc1     rriess1	       wzhao1
+blong	     hburkha1	       mbellus1     rriley	       xchen269
+blu20	     hburns3	       mbradsh3     rsaptar2	       xdeng7
+bmarti38     hchen113	       mcaldro1     rsaraf1	       xgao1
+bni2	     hdesai1	       mcetin3	    rsaxena3	       xgarcia2
+bpoliks      head	       mchen12	    rsayers1	       xguo38
+bpreise1     hfu11	       mcohen76     rshahul1	       xianli
+brathke1     hgarg1	       mcole8	    rshand1	       xli180
+brichar7     hjia3	       mdamiat1     rsharpe1	       xli210
+brobergj     hkang	       mdang1	    rshendl1	       xliang24
+brood	     hkilic2	       mdelgad1     rsmith23	       xluo22
+brose7	     hkulkar1	       mdevend1     rsomapu1	       xpeng
+brothbe3     hlauder1	       mdobies1     rsumit	       xshi1
+bsadhna1     hlum1	       meng	    rtes-mc	       xu_haohang
+bsaliba1     hmahaja1	       merwyn	    rthaiva1	       xwang247
+bsendir1     hmanda1	       mfarrel8     rthete1	       xwei
+bstace1      hmense1	       mfata3	    rwang4	       xwu30
+bsweet2      hmulla1	       mforcella    rwright3	       xwu9
+btas1	     hnikam1	       mfoster7     ryder	       xyu44
+btaylor1     hoeppner	       mgadi1	    rzaveri1	       xzhan215
+bugzilla     hpacher1	       mghayoumi    rzhang	       xzhan244
+bvuduth1     hparmar1	       mghosal1     rzheng14	       xzhang7
+bwang2	     hpham3	       mgogats1     sacosta8	       xzhang99
+bweiss1      hqin4	       mgomez4	    sagrawa4	       yanwang
+bwong28      hrasal1	       mgovinda     sahire1	       yaoliu
+byan2	     hribic1	       mgreen	    salqaht1	       ybai4
+byang20      hrode1	       mgupta3	    sameer	       ychandi1
+bzee1	     hroeder1	       mhems1	    samgrid	       ychen161
+bzhang73     hsloan1	       mhubli1	    samiri1	       ychen415
+cadathlon    hstein6	       mike	    samoore	       ydaggup1
+canlin	     huilu	       millerti     santobu	       yding25
+capsweb      hvadoda1	       mis	    sarnold4	       yegilme1
+cauchym      hwang161	       mjain8	    saswani1	       yguo71
+cayachi1     hwu71	       mjiang39     satoshi	       yhan1
+cazukwu1     hxiao4	       mjones46     saurabh	       yhu15
+cbanvar1     hyang51	       mkatz37	    sazarae1	       yhu92
+cbartol1     hyi2	       mkayaalp     sbadri1	       yhuan171
+cbehan1      hyingbo1	       mkhasaw1     sbailey6	       yingsun
+cbond2	     hzeng	       mkhoman1     sbankar1	       yjadhav1
+cbrugna1     hzhu1	       mkyea1	    sbaptis2	       yjagda1
+cchen17      hzou1	       mlatypo1     sbdc	       yjagdal1
+cchen8	     ids-web	       mlewis	    sbengal2	       yjiang5
+cchiauz1     igomez1	       mlin71	    sbettad1	       yjun1
+cchilds1     igoreli1	       mliu56	    sblack3	       ykucuk1
+cchoi20      ikilinc1	       mlrg	    sboggar1	       yli241
+ccipp1	     iliano	       mmadhan1     sbohn1	       yli418
+ccloss1      indangered        mmallow1     sbommal1	       ylin
+ccui5	     intrieri	       mmangal1     sbourke1	       ylin145
+ccui7	     iperdom1	       mmillar3     sbravo1	       ylin153
+cdaware1     isarfat1	       mmille60     scanavan	       yliu158
+cdf	     israat	       mmuffol1     scao16	       yliu377
+cdimegl1     ivdgl	       mnorton1     schaska1	       yliu401
+cdonovi1     iwobi	       mnussba2     schaud16	       ylu0
+cdowdle1     jabbott3	       mobicom2016  schen232	       ypan13
+cfiutak1     jalbert5	       molavar1     schinch1	       ypan3
+cglashe1     jalexa10	       monalisa     scogay1	       ypatel9
+cgopina1     jamjoom	       mozkaya1     scraver	       ysaglam1
+cguo9	     jarnold5	       mozsoy	    sdenman1	       yshinga1
+cgupta	     jarora2	       mparker4     sdesai12	       ysun106
+cguvenc1     jawayan1	       mparlaw1     sdesai13	       ysun59
+chanusa      jbabbit1	       mpatel43     sdesai14	       ytang4
+chao	     jbarkov1	       mpecha2	    sdesai9	       ytang43
+chart7	     jbarret3	       mperaza1     sdhanas1	       ytao15
+cherna19     jbednasz	       mpinz1	    sdhanek1	       yteng1
+chouck	     jberg3	       mplohet1     sdias1	       yxu
+chuang31     jburns11	       mpressi1     sdinc1	       yxu133
+ciweb	     jcadett1	       mquinn5	    sdoddam1	       yyang200
+cjenkin1     jcen3	       mreale	    sdoski1	       yyang202
+cjian1	     jchen249	       mreid9	    sdss	       yzhan202
+cjiang21     jchen441	       mriver25     secarch	       yzhan401
+cjoaqui1     jcipoll1	       mrldata	    secweb	       yzhang25
+cjones43     jcoddin1	       mrosato	    sforker1	       yzhang8
+ckshirs1     jcope1	       mroshid1     sgallag3	       zaugust1
+ckulkar2     jcurtin4	       mrotlev1     sgampal1	       zbayrak1
+clandgr1     jdaley2	       mruffne1     sgcpu	       zdu
+cli22	     jdeflor1	       msarica1     sgokarn1	       zfadika
+clin18	     jderder1	       mschult7     sgowdra1	       zfield2
+clindsa1     jdiaz48	       mschutz2     sgreenb8	       zfrankl1
+cliu118      jditkof1	       msha	    sgrimm2	       zge3
+clow1	     jdua1	       mshah38	    sgupta38	       zguo
+cmachaf1     jedouar1	       mshakar1     shalaha1	       zhangy
+cmcborr1     jeimer1	       msheldo2     shan	       zhangying
+cmmiller     jeipp1	       mshelto3     shane	       zhongfei
+cmontgo1     jelwell	       msim	    shanson1	       zhuang28
+cmoore2      jelwell1	       mslocum1     shanuma1	       zhuang80
+cmunro1      jeymer1	       mspano2	    shegde1	       ziegler
+colinb	     jfeinla1	       msweb	    shuhong	       zkabari1
+cpandit1     jferrin1	       msyed3	    siftekh1	       zkazemi1
+cpingal1     jgallia1	       mtan23	    sigda	       zli137
+cquelle3     jgoldb42	       mthakka2     simple	       zli160
+cs350	     jgumien1	       mthanga1     simplepath	       zli191
+cs441-test   jgwak1	       mtullo1	    sjain13	       zli192
+cs540sw      jhaller1	       munsal1	    sjanasw1	       zlin2
+csabet01_oc  jhart3	       mvallad1     sjoshi14	       zlin89
+csabet02_oc  jhartog1	       mvangor3     skadiri1	       zmarian1
+csabet03_oc  jhastie1	       mvani1	    skaldat1	       zqiu4
+cschnei3     jherath1	       mwarfor1     skalidi1	       zseymou1
+csherla1     jhertik1	       mweb	    skbu007	       zshu1
+csiegle1     jhicks	       mwerner7     skolhap1	       zwang252
+csimak1      jhuyghu1	       myan28	    skonath1	       zwen7
+cs-ipc	     jjacob44	       myuksek1     skorade1	       zzhan145
+csperry1     jjeanba2	       mzheng47     skothap1	       zzhan150
+csweb	     jjjcart	       mz-matlab    skremli1	       zzhan218
+ctran20      jjose1	       nabate1	    skumar	       zzhang27
+ctrembl1     jkassne1	       nael	    skunz1
+cutler	     jlei23	       nananth1     slellis1
+cviezel1     jleona15	       nanohub	    slin100
+tloja1@g7-21:/home$ ~.[K/.profile
+bash: /home/tloja1/.profile: No such file or directory
+tloja1@g7-21:/home$ tloja1/
+bash: tloja1/: Is a directory
+tloja1@g7-21:/home$ ls
+aabrey1      cwetzel2	       jlevin38     nate	       slin111
+aagraw11     cwickiz1	       jli452	    nayan1	       sliu
+aaharon1     cwong11	       jli461	    naydin2	       sliu22
+aakin1	     cyang58	       jliebe12     nayef	       slnu1
+aalamer1     cybersec	       jlin129	    nbellam1	       sloscal1
+aambilw1     czhang27	       jlin269	    nbethan1	       smahmud2
+aamer	     czhou5	       jliu212	    nboeker1	       smanne1
+aandhar2     dallen9	       jloew	    nboyd3	       smartpark
+aanveka2     danzelo1	       jlouie2	    nburzyn1	       smasara1
+aashraf1     davehall	       jlu56	    ncilsal2	       smason8
+abalkum      davehallldap      jmcmah10     ncorvi1	       smestry1
+abelmna1     davidl	       jmeguir1     ndagost1	       smircha1
+abeltre1     dbalkan	       jmessin2     ndedios1	       smoore4
+abet	     dbottch1	       jmitche6     ndefeli2	       smorram1
+abetrev      dchhabd1	       jmohrma1     ndeshmu1	       smorri11
+abettest     dcordei1	       jmontgo4     NFS11	       smukka1
+abhagwa1     ddas1	       jmontgo5     ngarg3	       snagarak1
+abharan1     ddefazi1	       jocampo1     ngawade1	       snatu1
+abhat3	     ddemicc1	       josgood2     ngoyal1	       snimhan1
+abixby1      ddesai9	       joyedap1     ngreene5	       software
+abloodg1     ddhuri1	       jpan33	    ngrosso1	       soshay1
+abommin1     ddoddag1	       jparikh1     ngujar1	       sozdemi2
+abozkur1     devtyushkin       jpark349     ngupta4	       sozden1
+aburke5      dfan2	       jphilem1     nhofman1	       spalshe1
+acanino1     dfeinma1	       jquezad1     nilton	       spark215
+acarter6     dferna15	       jramli1	    nkimura	       sparra2
+aceylan1     dfitzge3	       jrandha1     nkokne1	       sparuch1
+achaud12     dfletch1	       jraskin3     nkommur1	       spatwa1
+achaud15     dgarden1	       jren18	    nli19	       spradha1
+achaudh9     dgaviol1	       jrising1     nmarman1	       sraghav2
+achavan4     dgeorge7	       jrodr151     nmishra1	       srally1
+achen172     dglazer1	       jrosen46     nmonast1	       srao12
+acheseb1     dgleaso2	       jrosen52     npatel62	       srapell2
+achhabr1     dgouvou1	       jrosswog     npatel64	       sraut1
+achotal1     dgriffith1        jrothbe3     npatil5	       srazak
+aclancy1     dharper1	       jryder	    npelleg1	       srevade1
+acmweb	     dhintz1	       jsanch49     npeters1	       sriram
+acohen13     dhuang43	       jschmit2     npoda1	       srupnar1
+acohen89     dickman	       jseiber1     nreisch1	       ss1
+acullo1      dima	       jshaikh1     nrogosz1	       ssahabh1
+acurrer1     dirwin1	       jsharke	    nruizto1	       ssahani1
+adesu1	     djacobs7	       jsiegel6     nsamant1	       ssalick1
+adhruv1      djagtap1	       jsimon7	    nsane3885	       ssamate1
+adilliw1     djhender	       jsimone1     nsharm11	       ssanaga1
+admread      djwillia	       jskovro1     nstecyn1	       ssankhe1
+adnan	     dkim17	       jstanle2     ntinen	       ssarems1
+adogana1     dkunkel	       jstein27     nuruchi1	       ssawwan1
+advweb	     dlam15	       jsteinberg   nvallej1	       ssaxena3
+aeghbal1     dli114	       jstpier1     nvander1	       ssayyad1
+aeker1	     dlockye1	       jstrohm1     nwallin1	       ssenkes1
+aevans1      dlundgren	       jstruck1     nxu4	       ssenthil
+afarrel3     dmacejk1	       jsu6	    oakgrove	       sshah90
+afelsen3     dmaisur1	       jsuhr2	    oalamut1	       ssharm53
+afergus6     dmeisel1	       jsutton3     ocinar1	       sshin
+aferrei3     dmosess1	       jswift3	    ocummin1	       ssing117
+agarcia3     dmu1	       jszacha1     oertan1	       ssingh99
+agarcia4     dnair3	       jterner1     ohatwal1	       ssivaku1
+agarrit1     dnarasi1	       jthakka1     oiffert1	       ssultan6
+ageorg39     doneal1	       jthoma64     okilic1	       sswetha
+agermos1     dpan8	       jtricoz1     okircan1	       stammis1
+agill10      dpaskal1	       jvail1	    okulkar4	       stapadi1
+agim1	     dpatel39	       jwang36	    omavitu1	       stapkee1
+agjonba1     dpatil2	       jweacho1     onur	       star
+agoetz3      dpaul12	       jweng8	    oolojed1	       steflik
+agoncal2     dpetzol2	       jwetzel1     optiweb	       sthorat2
+agrace2      dpham4	       jwhitak4     osanile1	       sthorat3
+agreenb3     dreyes12	       jwhite48     osayili1	       stoke1
+agross22     drichards1        jwill128     osnetsvn	       studio
+aguarin3     drseuss	       jwolter1     osweb	       studio.nobackup
+agujara1     dryan6	       jwong123     oudawan1	       sunyibo
+agummal1     dschroe1	       jwoyevo1     pacts	       svibhut1
+aheffer1     dschust2	       jwu166	    pdeshpa2	       svishwa2
+ahoriha1     dskoda1	       jwu6	    pdeshpa3	       swaghma1
+ajain13      dtelson1	       jyadav1	    pdexter1	       swang130
+ajain35      dthakur1	       jyao	    pfeng1	       swang206
+ajasper      dthatch1	       jyao6	    phao3	       swang214
+ajimen29     dtierne2	       jyoo45	    phdweb	       sweimer1
+ajinete1     dtimmer1	       jzee2019     phil	       syarram1
+ajohan78     dtownle1	       jzhang	    phmsvn	       syeung10
+ajoshi1      dwalcot1	       kagyapo1     pixelcode	       sysadmin
+akadu1	     dwalter2	       kandrad2     pkandhi1	       syudhoa1
+akafore1     dwang84	       kang	    pkapoor2	       szaman5
+akaleli1     dyang32	       kartik	    pkariya1	       szhai2
+akancha1     dzhang46	       kbahulkar    pkarthi1	       szhan188
+akapur4      eadler1	       kbaumst2     pkaushi1	       szhang
+akayhan1     eaktas	       kchanda2     pkulkar3	       szhu5
+akenjal1     ealdreabi	       kchings1     plnu2	       tabdazi1
+akenned8     eates1	       kchiu	    plonkar1	       tagrawa1
+akhot1	     ebasan1	       kcitlak1     pmadden	       talon1
+akulka17     ebaule1	       kcox4	    pmaino1	       tameesh
+akunz3	     ebenz1	       kdamodh1     pmcgoug1	       tbabako1
+alal2	     ebonzek1	       kdayala1     pokurog1	       tballin1
+alee884      ebreban1	       kdeshpa5     ppagar1	       tbarten1
+alee889      ecetine2	       kdh	    pparekh1	       tbartens
+alevenb1     eciraco1	       kdoughe2     pparmar2	       tbhagoo1
+aliang30     ecodrin1	       kdublin1     ppatel3	       tbrentar
+aliu81	     ecoolid1	       kfang2	    ppatel85	       tbrown57
+alongo5      edede1	       kferna11     ppatel95	       tchan29
+amadnic2     edurney1	       kgaffne1     ppatil7	       tcheng8
+amahaja4     eelliot4	       kgajwan1     ppawar3	       tchu4
+amathe13     eetheri1	       kgell1	    ppriyam1	       tdevadit
+amccart9     eezor1	       kghose	    pqi1	       test
+amchugh2     efergus3	       kgiampo1     prasanna	       tfan4
+amcmanu4     egeorge8	       kgoel1	    preddir1	       tfasano1
+ameya	     ehaddad1	       kgulve1	    preddyl1	       tgabrie2
+amillik1     ehuang35	       khaled	    project	       tgilber5
+amishr11     einal1	       khanson3     projects	       tgisi1
+anaik4	     eisikte1	       kharras	    projects.nobackup  tgonzag1
+anand	     ejang1	       khenneb1     psaha4	       tgrusze1
+anayak2      elakic1	       khill9	    psaha5	       tgundel1
+aneeman      elancer1	       khirana1     psahu1	       tgurung2
+aneesh	     elanger4	       khsieh3	    psammon1	       thalai1
+anikam1      elurye1	       kjayapr1     psehraw1	       thoa1
+ankit	     emarang1	       kjones47     psemegr1	       thoelze1
+aorella1     emattison	       kkasara1     pshang1	       thorowi1
+apadman1     emcnier2	       kkoka1	    pshrest1	       thung1
+apatel	     emergepl	       kkulkar3     psilves1	       thur1
+apateri1     emoelle2	       kkumawa1     psin	       ticket
+aperlow1     engage	       kkurtz	    psingh43	       tkapadi1
+aplotko1     epalani1	       klewis24     psinha1	       tkatz1
+aputnal1     epona	       kliu20	    ptanpur1	       tkump1
+aquach1      erdil	       kmahmou1     ptezcan1	       tli16
+arahma	     eserdar1	       kmanriq1     pthakka4	       tliu76
+aravind      eshapir9	       kmore4	    ptilley1	       tloja1
+arayala1     estern7	       kmoshie1     puppula1	       tlucher1
+arizzo10     et		       kna3	    pvalenta	       tman1
+arohill1     eterrac1	       knadeem1     pwakodi1	       tmarder1
+artir	     etilden	       knip1	    pwalke1	       tmatusz1
+asahai1      evorosh1	       koneill7     pwang22	       tpmsim
+asawant2     eway1	       kong	    pweb	       tquiles1
+asawwal1     eyalcin1	       kpathak1     pwilber1	       trecupe1
+aschwa30     eyavasc1	       kphill11     pyang	       tredban1
+aselvan1     ezagnus1	       kpierce5     pzhao3	       tsharma6
+aservet1     faculty	       kragava1     qjia4	       tshores1
+asharif1     faculty.nobackup  kramana1     qliang8	       tsrivas1
+asharm14     facweb	       kruan1	    qxiong1	       tstache1
+asharm47     fafram1	       ksaini1	    qzhang61	       tsteige1
+ashimiz1     falmato1	       ksawant1     raj		       tton1
+ashimiz2     fantona1	       ksingh35     rambast1	       tunsel1
+ashinde3     fbrione1	       ksingh42     ramsurat1	       twang61
+ashiral1     fchai1	       kstigle1     rbadada1	       twellin1
+asing134     femmanu1	       ksun1	    rberlan1	       twilli81
+astensl1     find	       kthote1	    rbey1	       twojtuk1
+astjohn      fitz	       ktiao1	    rbhowmik	       twrigh13
+astrong3     fmri	       kusovski     rblazej1	       txu
+athaile1     foreman	       kvartak2     rchen102	       tzhao7
+athakur2     forweb	       kwadeka1     rcheung5	       ubalci1
+atiwari3     fscott1	       kwallac6     rchowda1	       udeshpa1
+atom2	     ftahmas1	       kwan2	    rcomerf1	       uergash1
+atweedy1     gadu	       kwill113     rdelval1	       ukayaal1
+auy2	     gaic	       kwrite1	    rdhuri1	       umrigar
+avanroi1     gaming	       kyan12	    reckert	       upe
+avenetos1    garrison	       kyi3	    regress	       upuvvad1
+avinan	     gbejara1	       lander	    remadm	       urahman1
+aviswan3     gbenyis1	       larson	    rerinfo1	       usatlas1
+avora4	     gbiyani1	       lcanale2     reswara1	       usatlas2
+awalley1     gchen21	       lcoats1	    reu		       uscms01
+awaring1     gcrl	       ldo	    reu09	       uscms02
+awest3	     geert	       legion	    reustac1	       vbadagu1
+awilso16     ggonzal9	       legion2	    rfujita1	       vbakshi1
+aworm1	     ghlp	       lenny	    rgeary1	       vbandew1
+ayenugu1     ghose	       levliya1     rgirong1	       vbeauge1
+ayeung9      ghyan	       lgustaf1     rgollap1	       vbhosal1
+azaccag1     gkumar1	       lhsueh1	    rgonzal	       vchaska1
+balandi1     gliu10	       lijun	    rgunczl1	       vdevara2
+baltar	     globus	       liymn	    rhainin1	       vinkolar
+barry	     gmore3	       lkendal1     richardsond        vkatrag2
+bbeeral1     gmyers	       lkollur1     rimai1	       vkumari1
+bbrea1	     grad	       llasurd1     rimbro1	       vlsiweb
+bbuchan1     grad.nobackup     llu17	    rjoseph3	       vmalcev1
+bchadha1     grase	       lmanwan1     rkaur21	       vmunish1
+bchen111     grattih1	       lok	    rkelley2	       vparekh1
+bchen114     gredozu1	       lornawel     rklein14	       vragovs1
+bchoudh4     grid	       lrosenb1     rkugver1	       vsingh2
+bchrobot     gridex	       lsc01	    rkulka22	       vtran6
+bcohada1     gridweb	       lsearsangel  rlangen1	       vyadav1
+bdeore1      gsivana1	       lsunny1	    rlevass1	       watadv
+bdevrie1     gsoweb	       ltaveir1     rlotlik1	       wbennet1
+bdikmen1     gsteinb1	       lwisdom1     rmarvin1	       wcornej1
+bdobriy1     gstodda1	       lxu31	    rmccaul1	       wdai
+beaumont     gtan	       lyadagi1     rmccorm4	       wduan1
+bestus1      gtaskin1	       lyalcin1     rmei6	       weinscgg
+bgrant11     guydosh	       lyu	    rmeliti1	       welu
+bharari1     gvalenc2	       maber1	    rmittal1	       whuebne1
+bhogan9      gwang23	       maguila2     rmusale1	       wkeller3
+bizar1	     gwilber1	       mallingt     rnatara2	       wkenned1
+bkalayc1     gwint1	       maple	    robotics	       wleng1
+bkeuria1     gyerrad1	       marsene1     rorourk2	       wliu5
+bklayma1     hahuja1	       marss86	    rosew	       wliu68
+blackburn    halzein1	       marysomma1   rpena9	       wmeng
+blee75	     haygan1	       matlab	    rpokhar1	       wni
+blewis9      hbagdi1	       maziz3	    rquinli1	       wyang
+bliebe1      hbalu1	       mbagonis5    rrausha1	       wzhangc1
+bliew1	     hbrown10	       mbayhoc1     rriess1	       wzhao1
+blong	     hburkha1	       mbellus1     rriley	       xchen269
+blu20	     hburns3	       mbradsh3     rsaptar2	       xdeng7
+bmarti38     hchen113	       mcaldro1     rsaraf1	       xgao1
+bni2	     hdesai1	       mcetin3	    rsaxena3	       xgarcia2
+bpoliks      head	       mchen12	    rsayers1	       xguo38
+bpreise1     hfu11	       mcohen76     rshahul1	       xianli
+brathke1     hgarg1	       mcole8	    rshand1	       xli180
+brichar7     hjia3	       mdamiat1     rsharpe1	       xli210
+brobergj     hkang	       mdang1	    rshendl1	       xliang24
+brood	     hkilic2	       mdelgad1     rsmith23	       xluo22
+brose7	     hkulkar1	       mdevend1     rsomapu1	       xpeng
+brothbe3     hlauder1	       mdobies1     rsumit	       xshi1
+bsadhna1     hlum1	       meng	    rtes-mc	       xu_haohang
+bsaliba1     hmahaja1	       merwyn	    rthaiva1	       xwang247
+bsendir1     hmanda1	       mfarrel8     rthete1	       xwei
+bstace1      hmense1	       mfata3	    rwang4	       xwu30
+bsweet2      hmulla1	       mforcella    rwright3	       xwu9
+btas1	     hnikam1	       mfoster7     ryder	       xyu44
+btaylor1     hoeppner	       mgadi1	    rzaveri1	       xzhan215
+bugzilla     hpacher1	       mghayoumi    rzhang	       xzhan244
+bvuduth1     hparmar1	       mghosal1     rzheng14	       xzhang7
+bwang2	     hpham3	       mgogats1     sacosta8	       xzhang99
+bweiss1      hqin4	       mgomez4	    sagrawa4	       yanwang
+bwong28      hrasal1	       mgovinda     sahire1	       yaoliu
+byan2	     hribic1	       mgreen	    salqaht1	       ybai4
+byang20      hrode1	       mgupta3	    sameer	       ychandi1
+bzee1	     hroeder1	       mhems1	    samgrid	       ychen161
+bzhang73     hsloan1	       mhubli1	    samiri1	       ychen415
+cadathlon    hstein6	       mike	    samoore	       ydaggup1
+canlin	     huilu	       millerti     santobu	       yding25
+capsweb      hvadoda1	       mis	    sarnold4	       yegilme1
+cauchym      hwang161	       mjain8	    saswani1	       yguo71
+cayachi1     hwu71	       mjiang39     satoshi	       yhan1
+cazukwu1     hxiao4	       mjones46     saurabh	       yhu15
+cbanvar1     hyang51	       mkatz37	    sazarae1	       yhu92
+cbartol1     hyi2	       mkayaalp     sbadri1	       yhuan171
+cbehan1      hyingbo1	       mkhasaw1     sbailey6	       yingsun
+cbond2	     hzeng	       mkhoman1     sbankar1	       yjadhav1
+cbrugna1     hzhu1	       mkyea1	    sbaptis2	       yjagda1
+cchen17      hzou1	       mlatypo1     sbdc	       yjagdal1
+cchen8	     ids-web	       mlewis	    sbengal2	       yjiang5
+cchiauz1     igomez1	       mlin71	    sbettad1	       yjun1
+cchilds1     igoreli1	       mliu56	    sblack3	       ykucuk1
+cchoi20      ikilinc1	       mlrg	    sboggar1	       yli241
+ccipp1	     iliano	       mmadhan1     sbohn1	       yli418
+ccloss1      indangered        mmallow1     sbommal1	       ylin
+ccui5	     intrieri	       mmangal1     sbourke1	       ylin145
+ccui7	     iperdom1	       mmillar3     sbravo1	       ylin153
+cdaware1     isarfat1	       mmille60     scanavan	       yliu158
+cdf	     israat	       mmuffol1     scao16	       yliu377
+cdimegl1     ivdgl	       mnorton1     schaska1	       yliu401
+cdonovi1     iwobi	       mnussba2     schaud16	       ylu0
+cdowdle1     jabbott3	       mobicom2016  schen232	       ypan13
+cfiutak1     jalbert5	       molavar1     schinch1	       ypan3
+cglashe1     jalexa10	       monalisa     scogay1	       ypatel9
+cgopina1     jamjoom	       mozkaya1     scraver	       ysaglam1
+cguo9	     jarnold5	       mozsoy	    sdenman1	       yshinga1
+cgupta	     jarora2	       mparker4     sdesai12	       ysun106
+cguvenc1     jawayan1	       mparlaw1     sdesai13	       ysun59
+chanusa      jbabbit1	       mpatel43     sdesai14	       ytang4
+chao	     jbarkov1	       mpecha2	    sdesai9	       ytang43
+chart7	     jbarret3	       mperaza1     sdhanas1	       ytao15
+cherna19     jbednasz	       mpinz1	    sdhanek1	       yteng1
+chouck	     jberg3	       mplohet1     sdias1	       yxu
+chuang31     jburns11	       mpressi1     sdinc1	       yxu133
+ciweb	     jcadett1	       mquinn5	    sdoddam1	       yyang200
+cjenkin1     jcen3	       mreale	    sdoski1	       yyang202
+cjian1	     jchen249	       mreid9	    sdss	       yzhan202
+cjiang21     jchen441	       mriver25     secarch	       yzhan401
+cjoaqui1     jcipoll1	       mrldata	    secweb	       yzhang25
+cjones43     jcoddin1	       mrosato	    sforker1	       yzhang8
+ckshirs1     jcope1	       mroshid1     sgallag3	       zaugust1
+ckulkar2     jcurtin4	       mrotlev1     sgampal1	       zbayrak1
+clandgr1     jdaley2	       mruffne1     sgcpu	       zdu
+cli22	     jdeflor1	       msarica1     sgokarn1	       zfadika
+clin18	     jderder1	       mschult7     sgowdra1	       zfield2
+clindsa1     jdiaz48	       mschutz2     sgreenb8	       zfrankl1
+cliu118      jditkof1	       msha	    sgrimm2	       zge3
+clow1	     jdua1	       mshah38	    sgupta38	       zguo
+cmachaf1     jedouar1	       mshakar1     shalaha1	       zhangy
+cmcborr1     jeimer1	       msheldo2     shan	       zhangying
+cmmiller     jeipp1	       mshelto3     shane	       zhongfei
+cmontgo1     jelwell	       msim	    shanson1	       zhuang28
+cmoore2      jelwell1	       mslocum1     shanuma1	       zhuang80
+cmunro1      jeymer1	       mspano2	    shegde1	       ziegler
+colinb	     jfeinla1	       msweb	    shuhong	       zkabari1
+cpandit1     jferrin1	       msyed3	    siftekh1	       zkazemi1
+cpingal1     jgallia1	       mtan23	    sigda	       zli137
+cquelle3     jgoldb42	       mthakka2     simple	       zli160
+cs350	     jgumien1	       mthanga1     simplepath	       zli191
+cs441-test   jgwak1	       mtullo1	    sjain13	       zli192
+cs540sw      jhaller1	       munsal1	    sjanasw1	       zlin2
+csabet01_oc  jhart3	       mvallad1     sjoshi14	       zlin89
+csabet02_oc  jhartog1	       mvangor3     skadiri1	       zmarian1
+csabet03_oc  jhastie1	       mvani1	    skaldat1	       zqiu4
+cschnei3     jherath1	       mwarfor1     skalidi1	       zseymou1
+csherla1     jhertik1	       mweb	    skbu007	       zshu1
+csiegle1     jhicks	       mwerner7     skolhap1	       zwang252
+csimak1      jhuyghu1	       myan28	    skonath1	       zwen7
+cs-ipc	     jjacob44	       myuksek1     skorade1	       zzhan145
+csperry1     jjeanba2	       mzheng47     skothap1	       zzhan150
+csweb	     jjjcart	       mz-matlab    skremli1	       zzhan218
+ctran20      jjose1	       nabate1	    skumar	       zzhang27
+ctrembl1     jkassne1	       nael	    skunz1
+cutler	     jlei23	       nananth1     slellis1
+cviezel1     jleona15	       nanohub	    slin100
+tloja1@g7-21:/home$ cd tloja1/
+tloja1@g7-21:~$ ls
+a.out  Desktop	  Downloads  lab2.c  lab3.c  Pictures  Templates  Videos
+cs120  Documents  lab2	     lab3    Music   Public    tmp
+tloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ ssh tlojaw[K1@remote
+Warning: Permanently added the ECDSA host key for IP address '128.226.114.202' to the list of known hosts.
+Linux remote02 4.19.0-5-amd64 #1 SMP Debian 4.19.37-5 (2019-06-19) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+tloja1@remote02:~$ ^C
+tloja1@remote02:~$ ^C
+tloja1@remote02:~$ ^Q
+-bash: $'\021': command not found
+tloja1@remote02:~$ exit
+logout
+Connection to remote closed.
+tloja1@g7-21:~$ ls
+a.out  Desktop	  Downloads  lab2.c  lab3.c  Pictures  Templates  Videos
+cs120  Documents  lab2	     lab3    Music   Public    tmp
+tloja1@g7-21:~$ cd tpm[K[Kmp
+tloja1@g7-21:~/tmp$ ls
+lab0
+tloja1@g7-21:~/tmp$ cd lab0
+tloja1@g7-21:~/tmp/lab0$ ls
+lab0.LOG
+tloja1@g7-21:~/tmp/lab0$ gedit lab0.LOG
+
+(gedit:5935): Gtk-[1;33mWARNING[0m **: [34m18:20:55.256[0m: Calling org.xfce.Session.Manager.Inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.UnknownMethod: Method "Inhibit" with signature "susu" on interface "org.xfce.Session.Manager" doesn't exist
+
+^C
+tloja1@g7-21:~/tmp/lab0$ emacs ~/.profile
+tloja1@g7-21:~/tmp/lab0$ ls
+lab0.LOG
+tloja1@g7-21:~/tmp/lab0$ cd -
+/home/tloja1/tmp
+tloja1@g7-21:~/tmp$ cd -
+/home/tloja1/tmp/lab0
+tloja1@g7-21:~/tmp/lab0$ cd ../
+tloja1@g7-21:~/tmp$ cd ../
+tloja1@g7-21:~$ ls
+a.out  Desktop	  Downloads  lab2.c  lab3.c  Pictures  Templates  Videos
+cs120  Documents  lab2	     lab3    Music   Public    tmp
+tloja1@g7-21:~$ emacs ~/.profile
+tloja1@g7-21:~$ emacs ~/.bashrc
+tloja1@g7-21:~$ ls
+a.out  Desktop	  Downloads  lab2.c  lab3.c  Pictures  Templates  Videos
+cs120  Documents  lab2	     lab3    Music   Public    tmp
+tloja1@g7-21:~$ emacs ~/.profile
+tloja1@g7-21:~$ emacs ~/.bashrc
+tloja1@g7-21:~$ ssh: [K//tloja1@remote.cs.binghamton.edu/~umrigar/gti[K[Kit-repos/cs240.g it
+bash: ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git: No such file or directory
+tloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[K[Atloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[K[Atloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cemacs ~/.bashrc[Kssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git
+bash: ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git: No such file or directory
+tloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git
+bash: ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git: No such file or directory
+tloja1@g7-21:~$ ssh tloja1@remote
+Warning: Permanently added the ECDSA host key for IP address '128.226.114.205' to the list of known hosts.
+Linux remote05 4.19.0-5-amd64 #1 SMP Debian 4.19.37-5 (2019-06-19) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+-bash: /home/umrigar/cs240/bin/student.profile: Permission denied
+tloja1@remote05:~$ exit
+logout
+Connection to remote closed.
+tloja1@g7-21:~$ ssh tloja1@remote://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git
+bash: ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git: No such file or directory
+tloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kssh ://tloja1@remote.cs.binghamton.edu/`[K`umr[K[K[K[K`[K~umrigar/git-repos/cs240.git
+ssh: Could not resolve hostname remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git: Name or service not known
+tloja1@g7-21:~$ ssh ://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kssh ://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[1P://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+bash: ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git: No such file or directory
+tloja1@g7-21:~$ ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[1Ptloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Ptloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Ptloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+ssh: Could not resolve hostname remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git: Name or service not known
+tloja1@g7-21:~$ ssh tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+Warning: Permanently added the ECDSA host key for IP address '128.226.114.207' to the list of known hosts.
+Linux remote07 4.19.0-5-amd64 #1 SMP Debian 4.19.37-5 (2019-06-19) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+-bash: /home/umrigar/cs240/bin/student.profile: Permission denied
+tloja1@remote07:~$ cd [K[K[Kexit[K[K[K[Kexit[Kexit[2P^Qvim newfile.s[2@gedit[C[C[C[C[C[C[C[C[C[Ctouch[C[C[C[C[C[C[C[C[C[Ccd -[Kgcc project1.c -o project1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd -[Ktouch newfile.sgedit[C[C[C[C[C[C[C[C[C[C[2Pvim[C[C[C[C[C[C[C[C[C[C^Q[Kexit[Kexit
+logout
+Connection to remote closed.
+tloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ [Ktloja1@g7-21:~$ ls ~/.ssh
+authorized_keys  id_rsa  id_rsa.pub  known_hosts
+tloja1@g7-21:~$ tloja1@remote
+bash: tloja1@remote: command not found
+tloja1@g7-21:~$ t[Kssh tloja1@remote
+Warning: Permanently added the ECDSA host key for IP address '128.226.114.204' to the list of known hosts.
+Linux remote04 4.19.0-5-amd64 #1 SMP Debian 4.19.37-5 (2019-06-19) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+-bash: /home/umrigar/cs240/bin/student.profile: Permission denied
+tloja1@remote04:~$ exit
+logout
+Connection to remote closed.
+tloja1@g7-21:~$ emacs ~.profile
+tloja1@g7-21:~$ emacs ![K~[K~/.profile
+tloja1@g7-21:~$ emacs ~/.bashrc
+tloja1@g7-21:~$ emacs ~/.bashrcprofile[1P.profilessh tloja1@remote[4Ptloja1@remote[4Pls ~/.sshtloja1@remote
+bash: tloja1@remote: command not found
+tloja1@g7-21:~$ tloja1@remote[Ktloja1@remoteemacs ~/.bashrcprofile[1P.profilessh tloja1@remote[4Ptloja1@remotessh tloja1@remote
+Linux remote04 4.19.0-5-amd64 #1 SMP Debian 4.19.37-5 (2019-06-19) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Thu Jan 23 18:32:13 2020 from 128.226.119.250
+-bash: /home/umrigar/cs240/bin/student.profile: Permission denied
+tloja1@remote04:~$ ~[Kemacs ~/.profile
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[34d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[33d[?25l[30m[47m-UUU:----F1  [39;49m[1m[30m[47m*scratch*   [0m[39;49m[30m[47m   All L1     (Fundamental) ----------------------------------------------------------------------------------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[34d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[34;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[34;54H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[34;59H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[34;58H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[34;60H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25ldictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[34;77H[?25ldone[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[34;75H[?25ldone[H
+[?12l[?25h[?12;25h[34;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[34;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34;61H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34;10H[?25lusr/share/emacs/site-lisp/elpa/haskel[34@l-mode-16.1/haskell-mode-autoloads[H
+[?12l[?25h[?12;25h[34;96H[?25ldone[H
+[?12l[?25h[?12;25h[34;10H[?25letc/emacs/site-start.d/50haskell-mode[34P[H
+[?12l[?25h[?12;25h[34;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[34;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[34;75H[?25ldone[H
+[?12l[?25h[?12;25h[34;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[34;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[34;64H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[34;54H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[34;65H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[34;54H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[34;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c[34d[?25lLoading /etc/emacs/site-start.d/50texlive-lang-english.el (source)...done[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                                                                                                      [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[48;5;250m-UUU:----F1  [39;49m[1m[30m[48;5;250m*scratch*   [0m[39;49m[30m[48;5;250m   All L1     (Lisp Interaction ElDoc) -----------------------------------------------------------------------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[?2004h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H
+[?12l[?25h[?12;25h[34d[?25lSetting up indent for shell type sh[K[H
+[?12l[?25h[?12;25h[34d[?25lIndentation variables are now local.[H
+[?12l[?25h[?12;25h[34;13H[?25lsetup for shell type sh[K[H
+[?12l[?25h[?12;25h[34d[?25lIndentation setup for shell type sh[K[H[7mFile Edit Options Buffers Tools Sh-Script Help                                                                                                                             [0m[39;49m[27m
+[A
+. ~umrigar/cs240/bin/student.profile[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[48;5;250m-UU-:----F1  [39;49m[1m[30m[48;5;250m.profile    [0m[39;49m[30m[48;5;250m   All L1     (Shell-script[sh]) -----------------------------------------------------------------------------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[34d[K[33;34H[?25l[30m[48;5;250m2[39;49m[H
+
+[?12l[?25h[?12;25h[33;34H[?25l[30m[48;5;250m1[39;49m[H
+[?12l[?25h[?12;25h[34d[?25l[38;5;20mI-search: [39;49m[H
+[?12l[?25h[?12;25h[33;57H[?25l[30m[48;5;250m Isearch) [39;49m[H
+[?12l[?25h[?12;25h[34;11H[?25l`[?12l[?25h[?12;25h[?25l[38;5;20mFailing I-search: [39;49m[48;5;217m`[39;49m[H
+[?12l[?25h[?12;25h[34d[K[2d[34d[?25l[38;5;20mRun script: [39;49m/home/tloja1/.profile[1;33H[7mMinibuf Help  [0m[39;49m[27m[33;57H[30m[48;5;250m) --------[39;49m[34;34H[?12l[?25h[?12;25h[?25lBeginning of history; no preceding item[?12l[?25h[?12;25h[?25l[38;5;20mRun script: [39;49m/home/tloja1/.profile[K[?12l[?25h[?12;25h[?25lBeginning of history; no preceding item[?12l[?25h[?12;25h[?25l[38;5;20mRun script: [39;49m/home/tloja1/.profile[K[?12l[?25h[?12;25h[?25lEnd of history; no default available[?12l[?25h[?12;25h[?25l[38;5;20mRun script: [39;49m/home/tloja1/.profile[K[?12l[?25h[?12;25h[?25lEnd of history; no default available[?12l[?25h[?12;25h[?25l[38;5;20mRun script: [39;49m/home/tloja1/.profile[K[?12l[?25h[?12;25h[?25lz[?12l[?25h[?12;25h[?25lx[?12l[?25h[?12;25h[?25lc[?12l[?25h[?12;25h[?25lBeginning of history; no preceding item[?12l[?25h[?12;25h[?25l[38;5;20mRun script: [39;49m/home/tloja1/.profilezxc[K[?12l[?25h[?12;25h[?25lC-c C-v is undefined[K[?12l[?25h[?12;25h[?25l[38;5;20mRun script: [39;49m/home/tloja1/.profilezxc[?12l[?25h[?12;25h[K[?2004l[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m
+[1]+  Stopped                 emacs ~/.profile
+tloja1@remote04:~$ emacs ~/.profilexit[Kmacs ~/.profilexit[K[2P^Qvim newfile.s[2@gedit[C[C[C[C[C[C[C[C[C[Ctouch[C[C[C[C[C[C[C[C[C[Ccd -[Kgcc project1.c -o project1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcd project-1-spr19-tloja/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pgedit lab8.s[8Pcd -gedit mylib.h &[K &cd -[Kgedit lab8.scd project-1-spr19-tloja/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgcc project1.c -o project1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd -[Ktouch newfile.sgedit[C[C[C[C[C[C[C[C[C[C[2Pvim[C[C[C[C[C[C[C[C[C[C^Q[Kexitmacs ~/.profile[Ktlo[K[K[Kexit
+logout
+There are stopped jobs.
+tloja1@remote04:~$ exit
+logout
+Connection to remote closed.
+tloja1@g7-21:~$ ssh tloja1@rmo[K[Kemote
+Warning: Permanently added the ECDSA host key for IP address '128.226.114.203' to the list of known hosts.
+Linux remote03 4.19.0-5-amd64 #1 SMP Debian 4.19.37-5 (2019-06-19) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+-bash: /home/umrigar/cs240/bin/student.profile: Permission denied
+tloja1@remote03:~$ git config
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --default <value>     with --get, use default value when missing entry
+
+tloja1@remote03:~$ git config[Kexit
+logout
+Connection to remote closed.
+tloja1@g7-21:~$ git config
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --default <value>     with --get, use default value when missing entry
+
+tloja1@g7-21:~$ git config --bloal[K[K[K[K[K[K[K[K[K[K[K[Kfi[K[Knfig [K--list
+git: 'config--list' is not a git command. See 'git --help'.
+tloja1@g7-21:~$ go[K[Kgit config --list
+[?1h=user.name=Thomas Loja[m
+user.email=tloja1@binghamton.edu[m
+[K[?1l>tloja1@g7-21:~$ git config --list[1P--list[Kssh tloja1@remote[4Ptloja1@remote
+bash: tloja1@remote: command not found
+tloja1@g7-21:~$ ssh tloja1@remote
+Linux remote02 4.19.0-5-amd64 #1 SMP Debian 4.19.37-5 (2019-06-19) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Thu Jan 23 18:18:26 2020 from 128.226.119.250
+-bash: /home/umrigar/cs240/bin/student.profile: Permission denied
+tloja1@remote02:~$ exit
+logout
+Connection to remote closed.
+tloja1@g7-21:~$ ssh tloja1@remote[4Ptloja1@remotegit config --list[1P--list[Kssh tloja1@remote[4Ptloja1@remoteemacs ~/.bashrcprofile[1P.profilessh tloja1@remote[4Ptloja1@remote[4Pls ~/.sshssh tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git
+bash: ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git: No such file or directory
+tloja1@g7-21:~$ ssh ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git
+usage: ssh [-46AaCfGgKkMNnqsTtVvXxYy] [-B bind_interface]
+           [-b bind_address] [-c cipher_spec] [-D [bind_address:]port]
+           [-E log_file] [-e escape_char] [-F configfile] [-I pkcs11]
+           [-i identity_file] [-J [user@]host[:port]] [-L address]
+           [-l login_name] [-m mac_spec] [-O ctl_cmd] [-o option] [-p port]
+           [-Q query_option] [-R address] [-S ctl_path] [-W host:port]
+           [-w local_tun[:remote_tun]] destination [command]
+tloja1@g7-21:~$ ssh ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kssh ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kssh ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C tloja1@remote[K[4Ptloja1@remotessh tloja1@remote[4Ptloja1@remote
+bash: tloja1@remote: command not found
+tloja1@g7-21:~$ tloja1@remotessh ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4P://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C tloja1@remote[K
+Warning: Permanently added the ECDSA host key for IP address '128.226.114.200' to the list of known hosts.
+Linux remote00 4.19.0-5-amd64 #1 SMP Debian 4.19.37-5 (2019-06-19) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+-bash: /home/umrigar/cs240/bin/student.profile: Permission denied
+tloja1@remote00:~$ exitgit config[6Pexitmacs ~/.profilexit[K[2P^Qvim newfile.s[2@gedit[C[C[C[C[C[C[C[C[C[Ctouch[C[C[C[C[C[C[C[C[C[Ccd -[Kgcc project1.c -o project1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pcd project-1-spr19-tloja/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[13Pgedit lab8.s[8Pcd -gedit mylib.h &[Kvim project1.c[2@gedit[C[C[C[C[C[C[C[C[C[C[C[1P project1.ct project1.c[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmkdir - p[K[Kp ~/projects
+tloja1@remote00:~$ cd ~/projects
+tloja1@remote00:~/projects$ git clone tl[K[Ktloja[K[K[K[K[Kssh://user![K@remote.cs.binghamton.edu/~umrigar/git=[K-repos.[K/cs240.git
+Cloning into 'cs240'...
+The authenticity of host 'remote.cs.binghamton.edu (128.226.114.200)' can't be established.
+ECDSA key fingerprint is SHA256:UEIh1TASIC96TC1hhxVbkVS0DrddNKHk7Q2nzgDCt+Y.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'remote.cs.binghamton.edu' (ECDSA) to the list of known hosts.
+user@remote.cs.binghamton.edu's password: 
+Permission denied, please try again.
+user@remote.cs.binghamton.edu's password: 
+
+tloja1@remote00:~/projects$ git clone ssh://user@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[1P@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cl@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cj@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Cloning into 'cs240'...
+/home/tloja1/.bashrc: line 1: /home/umrigar/cs240/bin/student.rc: Permission denied
+remote: Enumerating objects: 217, done.[K
+remote: Counting objects:   0% (1/217)   [Kremote: Counting objects:   1% (3/217)   [Kremote: Counting objects:   2% (5/217)   [Kremote: Counting objects:   3% (7/217)   [Kremote: Counting objects:   4% (9/217)   [Kremote: Counting objects:   5% (11/217)   [Kremote: Counting objects:   6% (14/217)   [Kremote: Counting objects:   7% (16/217)   [Kremote: Counting objects:   8% (18/217)   [Kremote: Counting objects:   9% (20/217)   [Kremote: Counting objects:  10% (22/217)   [Kremote: Counting objects:  11% (24/217)   [Kremote: Counting objects:  12% (27/217)   [Kremote: Counting objects:  13% (29/217)   [Kremote: Counting objects:  14% (31/217)   [Kremote: Counting objects:  15% (33/217)   [Kremote: Counting objects:  16% (35/217)   [Kremote: Counting objects:  17% (37/217)   [Kremote: Counting objects:  18% (40/217)   [Kremote: Counting objects:  19% (42/217)   [Kremote: Counting objects:  20% (44/217)   [Kremote: Counting objects:  21% (46/217)   [Kremote: Counting objects:  22% (48/217)   [Kremote: Counting objects:  23% (50/217)   [Kremote: Counting objects:  24% (53/217)   [Kremote: Counting objects:  25% (55/217)   [Kremote: Counting objects:  26% (57/217)   [Kremote: Counting objects:  27% (59/217)   [Kremote: Counting objects:  28% (61/217)   [Kremote: Counting objects:  29% (63/217)   [Kremote: Counting objects:  30% (66/217)   [Kremote: Counting objects:  31% (68/217)   [Kremote: Counting objects:  32% (70/217)   [Kremote: Counting objects:  33% (72/217)   [Kremote: Counting objects:  34% (74/217)   [Kremote: Counting objects:  35% (76/217)   [Kremote: Counting objects:  36% (79/217)   [Kremote: Counting objects:  37% (81/217)   [Kremote: Counting objects:  38% (83/217)   [Kremote: Counting objects:  39% (85/217)   [Kremote: Counting objects:  40% (87/217)   [Kremote: Counting objects:  41% (89/217)   [Kremote: Counting objects:  42% (92/217)   [Kremote: Counting objects:  43% (94/217)   [Kremote: Counting objects:  44% (96/217)   [Kremote: Counting objects:  45% (98/217)   [Kremote: Counting objects:  46% (100/217)   [Kremote: Counting objects:  47% (102/217)   [Kremote: Counting objects:  48% (105/217)   [Kremote: Counting objects:  49% (107/217)   [Kremote: Counting objects:  50% (109/217)   [Kremote: Counting objects:  51% (111/217)   [Kremote: Counting objects:  52% (113/217)   [Kremote: Counting objects:  53% (116/217)   [Kremote: Counting objects:  54% (118/217)   [Kremote: Counting objects:  55% (120/217)   [Kremote: Counting objects:  56% (122/217)   [Kremote: Counting objects:  57% (124/217)   [Kremote: Counting objects:  58% (126/217)   [Kremote: Counting objects:  59% (129/217)   [Kremote: Counting objects:  60% (131/217)   [Kremote: Counting objects:  61% (133/217)   [Kremote: Counting objects:  62% (135/217)   [Kremote: Counting objects:  63% (137/217)   [Kremote: Counting objects:  64% (139/217)   [Kremote: Counting objects:  65% (142/217)   [Kremote: Counting objects:  66% (144/217)   [Kremote: Counting objects:  67% (146/217)   [Kremote: Counting objects:  68% (148/217)   [Kremote: Counting objects:  69% (150/217)   [Kremote: Counting objects:  70% (152/217)   [Kremote: Counting objects:  71% (155/217)   [Kremote: Counting objects:  72% (157/217)   [Kremote: Counting objects:  73% (159/217)   [Kremote: Counting objects:  74% (161/217)   [Kremote: Counting objects:  75% (163/217)   [Kremote: Counting objects:  76% (165/217)   [Kremote: Counting objects:  77% (168/217)   [Kremote: Counting objects:  78% (170/217)   [Kremote: Counting objects:  79% (172/217)   [Kremote: Counting objects:  80% (174/217)   [Kremote: Counting objects:  81% (176/217)   [Kremote: Counting objects:  82% (178/217)   [Kremote: Counting objects:  83% (181/217)   [Kremote: Counting objects:  84% (183/217)   [Kremote: Counting objects:  85% (185/217)   [Kremote: Counting objects:  86% (187/217)   [Kremote: Counting objects:  87% (189/217)   [Kremote: Counting objects:  88% (191/217)   [Kremote: Counting objects:  89% (194/217)   [Kremote: Counting objects:  90% (196/217)   [Kremote: Counting objects:  91% (198/217)   [Kremote: Counting objects:  92% (200/217)   [Kremote: Counting objects:  93% (202/217)   [Kremote: Counting objects:  94% (204/217)   [Kremote: Counting objects:  95% (207/217)   [Kremote: Counting objects:  96% (209/217)   [Kremote: Counting objects:  97% (211/217)   [Kremote: Counting objects:  98% (213/217)   [Kremote: Counting objects:  99% (215/217)   [Kremote: Counting objects: 100% (217/217)   [Kremote: Counting objects: 100% (217/217), done.[K
+remote: Compressing objects:   0% (1/208)   [Kremote: Compressing objects:   1% (3/208)   [Kremote: Compressing objects:   2% (5/208)   [Kremote: Compressing objects:   3% (7/208)   [Kremote: Compressing objects:   4% (9/208)   [Kremote: Compressing objects:   5% (11/208)   [Kremote: Compressing objects:   6% (13/208)   [Kremote: Compressing objects:   7% (15/208)   [Kremote: Compressing objects:   8% (17/208)   [Kremote: Compressing objects:   9% (19/208)   [Kremote: Compressing objects:  10% (21/208)   [Kremote: Compressing objects:  11% (23/208)   [Kremote: Compressing objects:  12% (25/208)   [Kremote: Compressing objects:  13% (28/208)   [Kremote: Compressing objects:  14% (30/208)   [Kremote: Compressing objects:  15% (32/208)   [Kremote: Compressing objects:  16% (34/208)   [Kremote: Compressing objects:  17% (36/208)   [Kremote: Compressing objects:  18% (38/208)   [Kremote: Compressing objects:  19% (40/208)   [Kremote: Compressing objects:  20% (42/208)   [Kremote: Compressing objects:  21% (44/208)   [Kremote: Compressing objects:  22% (46/208)   [Kremote: Compressing objects:  23% (48/208)   [Kremote: Compressing objects:  24% (50/208)   [Kremote: Compressing objects:  25% (52/208)   [Kremote: Compressing objects:  26% (55/208)   [Kremote: Compressing objects:  27% (57/208)   [Kremote: Compressing objects:  28% (59/208)   [Kremote: Compressing objects:  29% (61/208)   [Kremote: Compressing objects:  30% (63/208)   [Kremote: Compressing objects:  31% (65/208)   [Kremote: Compressing objects:  32% (67/208)   [Kremote: Compressing objects:  33% (69/208)   [Kremote: Compressing objects:  34% (71/208)   [Kremote: Compressing objects:  35% (73/208)   [Kremote: Compressing objects:  36% (75/208)   [Kremote: Compressing objects:  37% (77/208)   [Kremote: Compressing objects:  38% (80/208)   [Kremote: Compressing objects:  39% (82/208)   [Kremote: Compressing objects:  40% (84/208)   [Kremote: Compressing objects:  41% (86/208)   [Kremote: Compressing objects:  42% (88/208)   [Kremote: Compressing objects:  43% (90/208)   [Kremote: Compressing objects:  44% (92/208)   [Kremote: Compressing objects:  45% (94/208)   [Kremote: Compressing objects:  46% (96/208)   [Kremote: Compressing objects:  47% (98/208)   [Kremote: Compressing objects:  48% (100/208)   [Kremote: Compressing objects:  49% (102/208)   [Kremote: Compressing objects:  50% (104/208)   [Kremote: Compressing objects:  51% (107/208)   [Kremote: Compressing objects:  52% (109/208)   [Kremote: Compressing objects:  53% (111/208)   [Kremote: Compressing objects:  54% (113/208)   [Kremote: Compressing objects:  55% (115/208)   [Kremote: Compressing objects:  56% (117/208)   [Kremote: Compressing objects:  57% (119/208)   [Kremote: Compressing objects:  58% (121/208)   [Kremote: Compressing objects:  59% (123/208)   [Kremote: Compressing objects:  60% (125/208)   [Kremote: Compressing objects:  61% (127/208)   [Kremote: Compressing objects:  62% (129/208)   [Kremote: Compressing objects:  63% (132/208)   [Kremote: Compressing objects:  64% (134/208)   [Kremote: Compressing objects:  65% (136/208)   [Kremote: Compressing objects:  66% (138/208)   [Kremote: Compressing objects:  67% (140/208)   [Kremote: Compressing objects:  68% (142/208)   [Kremote: Compressing objects:  69% (144/208)   [Kremote: Compressing objects:  70% (146/208)   [Kremote: Compressing objects:  71% (148/208)   [Kremote: Compressing objects:  72% (150/208)   [Kremote: Compressing objects:  73% (152/208)   [Kremote: Compressing objects:  74% (154/208)   [Kremote: Compressing objects:  75% (156/208)   [Kremote: Compressing objects:  76% (159/208)   [Kremote: Compressing objects:  77% (161/208)   [Kremote: Compressing objects:  78% (163/208)   [Kremote: Compressing objects:  79% (165/208)   [Kremote: Compressing objects:  80% (167/208)   [Kremote: Compressing objects:  81% (169/208)   [Kremote: Compressing objects:  82% (171/208)   [Kremote: Compressing objects:  83% (173/208)   [Kremote: Compressing objects:  84% (175/208)   [Kremote: Compressing objects:  85% (177/208)   [Kremote: Compressing objects:  86% (179/208)   [Kremote: Compressing objects:  87% (181/208)   [Kremote: Compressing objects:  88% (184/208)   [Kremote: Compressing objects:  89% (186/208)   [Kremote: Compressing objects:  90% (188/208)   [Kremote: Compressing objects:  91% (190/208)   [Kremote: Compressing objects:  92% (192/208)   [Kremote: Compressing objects:  93% (194/208)   [Kremote: Compressing objects:  94% (196/208)   [Kremote: Compressing objects:  95% (198/208)   [Kremote: Compressing objects:  96% (200/208)   [Kremote: Compressing objects:  97% (202/208)   [Kremote: Compressing objects:  98% (204/208)   [Kremote: Compressing objects:  99% (206/208)   [Kremote: Compressing objects: 100% (208/208)   [Kremote: Compressing objects: 100% (208/208), done.[K
+Receiving objects:   0% (1/217)   Receiving objects:   1% (3/217)   Receiving objects:   2% (5/217)   Receiving objects:   3% (7/217)   Receiving objects:   4% (9/217)   Receiving objects:   5% (11/217)   Receiving objects:   6% (14/217)   Receiving objects:   7% (16/217)   Receiving objects:   8% (18/217)   Receiving objects:   9% (20/217)   Receiving objects:  10% (22/217)   Receiving objects:  11% (24/217)   Receiving objects:  12% (27/217)   Receiving objects:  13% (29/217)   Receiving objects:  14% (31/217)   Receiving objects:  15% (33/217)   Receiving objects:  16% (35/217)   Receiving objects:  17% (37/217)   Receiving objects:  18% (40/217)   Receiving objects:  19% (42/217)   Receiving objects:  20% (44/217)   Receiving objects:  21% (46/217)   Receiving objects:  22% (48/217)   Receiving objects:  23% (50/217)   Receiving objects:  24% (53/217)   Receiving objects:  25% (55/217)   Receiving objects:  26% (57/217)   Receiving objects:  27% (59/217)   Receiving objects:  28% (61/217)   Receiving objects:  29% (63/217)   Receiving objects:  30% (66/217)   Receiving objects:  31% (68/217)   Receiving objects:  32% (70/217)   Receiving objects:  33% (72/217)   Receiving objects:  34% (74/217)   Receiving objects:  35% (76/217)   Receiving objects:  36% (79/217)   Receiving objects:  37% (81/217)   Receiving objects:  38% (83/217)   Receiving objects:  39% (85/217)   Receiving objects:  40% (87/217)   Receiving objects:  41% (89/217)   Receiving objects:  42% (92/217)   Receiving objects:  43% (94/217)   Receiving objects:  44% (96/217)   Receiving objects:  45% (98/217)   Receiving objects:  46% (100/217)   Receiving objects:  47% (102/217)   Receiving objects:  48% (105/217)   Receiving objects:  49% (107/217)   Receiving objects:  50% (109/217)   Receiving objects:  51% (111/217)   Receiving objects:  52% (113/217)   Receiving objects:  53% (116/217)   Receiving objects:  54% (118/217)   Receiving objects:  55% (120/217)   Receiving objects:  56% (122/217)   Receiving objects:  57% (124/217)   Receiving objects:  58% (126/217)   Receiving objects:  59% (129/217)   Receiving objects:  60% (131/217)   Receiving objects:  61% (133/217)   Receiving objects:  62% (135/217)   Receiving objects:  63% (137/217)   Receiving objects:  64% (139/217)   Receiving objects:  65% (142/217)   Receiving objects:  66% (144/217)   Receiving objects:  67% (146/217)   Receiving objects:  68% (148/217)   Receiving objects:  69% (150/217)   Receiving objects:  70% (152/217)   Receiving objects:  71% (155/217)   Receiving objects:  72% (157/217)   Receiving objects:  73% (159/217)   Receiving objects:  74% (161/217)   Receiving objects:  75% (163/217)   Receiving objects:  76% (165/217)   Receiving objects:  77% (168/217)   Receiving objects:  78% (170/217)   Receiving objects:  79% (172/217)   Receiving objects:  80% (174/217)   Receiving objects:  81% (176/217)   Receiving objects:  82% (178/217)   Receiving objects:  83% (181/217)   Receiving objects:  84% (183/217)   Receiving objects:  85% (185/217)   Receiving objects:  86% (187/217)   Receiving objects:  87% (189/217)   Receiving objects:  88% (191/217)   Receiving objects:  89% (194/217)   Receiving objects:  90% (196/217)   Receiving objects:  91% (198/217)   Receiving objects:  92% (200/217)   Receiving objects:  93% (202/217)   Receiving objects:  94% (204/217)   remote: Total 217 (delta 92), reused 0 (delta 0)[K
+Receiving objects:  95% (207/217)   Receiving objects:  96% (209/217)   Receiving objects:  97% (211/217)   Receiving objects:  98% (213/217)   Receiving objects:  99% (215/217)   Receiving objects: 100% (217/217)   Receiving objects: 100% (217/217), 3.07 MiB | 10.80 MiB/s, done.
+Resolving deltas:   0% (0/92)   Resolving deltas:   2% (2/92)   Resolving deltas:   3% (3/92)   Resolving deltas:   4% (4/92)   Resolving deltas:   6% (6/92)   Resolving deltas:   9% (9/92)   Resolving deltas:  13% (12/92)   Resolving deltas:  32% (30/92)   Resolving deltas:  35% (33/92)   Resolving deltas:  36% (34/92)   Resolving deltas:  40% (37/92)   Resolving deltas:  42% (39/92)   Resolving deltas:  45% (42/92)   Resolving deltas:  47% (44/92)   Resolving deltas:  52% (48/92)   Resolving deltas:  53% (49/92)   Resolving deltas:  54% (50/92)   Resolving deltas:  55% (51/92)   Resolving deltas:  56% (52/92)   Resolving deltas:  57% (53/92)   Resolving deltas:  60% (56/92)   Resolving deltas:  64% (59/92)   Resolving deltas:  65% (60/92)   Resolving deltas:  72% (67/92)   Resolving deltas:  75% (69/92)   Resolving deltas:  81% (75/92)   Resolving deltas:  82% (76/92)   Resolving deltas:  83% (77/92)   Resolving deltas:  84% (78/92)   Resolving deltas:  85% (79/92)   Resolving deltas:  88% (81/92)   Resolving deltas:  98% (91/92)   Resolving deltas: 100% (92/92)   Resolving deltas: 100% (92/92), done.
+tloja1@remote00:~/projects$ cd ~
+tloja1@remote00:~$ ln -s projects/cs240
+tloja1@remote00:~$ git log -N
+fatal: not a git repository (or any parent up to mount point /import)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+tloja1@remote00:~$ git log -5
+fatal: not a git repository (or any parent up to mount point /import)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+tloja1@remote00:~$ git log -5[Kgit log -5Nln -s projects/cs240cd ~[Kgit clone ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Puser@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ~[Kln -s projects/cs240[10Pgit log -N5[Kexit[K[K[K[Kls
+ a.out	 cs120	 cs240	 Desktop   Documents   Downloads   lab2   lab2.c   lab3   lab3.c   Music   Pictures  '~.profile'   projects   Public   Templates   tmp	 Videos
+tloja1@remote00:~$ exit[K[K[K[Kgit log -3/labs/lab0.umt
+fatal: not a git repository (or any parent up to mount point /import)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+tloja1@remote00:~$ git log -3/labs/lab0.umt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kgit log -5Nln -s projects/cs240cd ~[Kgit clone ssh://tloja1@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2Puser@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd ~/projects[Kgit clone ssh://user@remote.cs.binghamton.edu/~umrigar/git-repos/cs240.git[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khttps://github.com/tloja/i240b.git
+Cloning into 'i240b'...
+remote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)[Kremote: Counting objects:  66% (2/3)[Kremote: Counting objects: 100% (3/3)[Kremote: Counting objects: 100% (3/3), done.[K
+remote: Compressing objects:  50% (1/2)[Kremote: Compressing objects: 100% (2/2)[Kremote: Compressing objects: 100% (2/2), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)   Unpacking objects:  66% (2/3)   Unpacking objects: 100% (3/3)   Unpacking objects: 100% (3/3), done.
+tloja1@remote00:~$ ~/projects
+-bash: /home/tloja1/projects: Is a directory
+tloja1@remote00:~$ cd projects/
+tloja1@remote00:~/projects$ git clone https://github.com/tloja/i240b.git
+Cloning into 'i240b'...
+remote: Enumerating objects: 3, done.[K
+remote: Counting objects:  33% (1/3)[Kremote: Counting objects:  66% (2/3)[Kremote: Counting objects: 100% (3/3)[Kremote: Counting objects: 100% (3/3), done.[K
+remote: Compressing objects:  50% (1/2)[Kremote: Compressing objects: 100% (2/2)[Kremote: Compressing objects: 100% (2/2), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)   Unpacking objects:  66% (2/3)   Unpacking objects: 100% (3/3)   Unpacking objects: 100% (3/3), done.
+tloja1@remote00:~/projects$ cd ~
+tloja1@remote00:~$ ln -s projects/cs240[K[K[K[K[K2[Ki240b
+ln: failed to create symbolic link './i240b': File exists
+tloja1@remote00:~$ ln -s projects/i240b[K[K[K[K[Kcs240
+ln: failed to create symbolic link './cs240': File exists
+tloja1@remote00:~$ ln -s projects/cs240[K[K[K[K[Ki250[K[K40
+tloja1@remote00:~$ cd i240b/
+tloja1@remote00:~/i240b$ ls -[K
+tloja1@remote00:~/i240b$ ls
+tloja1@remote00:~/i240b$ ls -
+ls: cannot access '-': No such file or directory
+tloja1@remote00:~/i240b$ ig[K[Kgit pull
+remote: Enumerating objects: 4, done.[K
+remote: Counting objects:  25% (1/4)[Kremote: Counting objects:  50% (2/4)[Kremote: Counting objects:  75% (3/4)[Kremote: Counting objects: 100% (4/4)[Kremote: Counting objects: 100% (4/4), done.[K
+remote: Compressing objects:  50% (1/2)[Kremote: Compressing objects: 100% (2/2)[Kremote: Compressing objects: 100% (2/2), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Unpacking objects:  33% (1/3)   Unpacking objects:  66% (2/3)   Unpacking objects: 100% (3/3)   Unpacking objects: 100% (3/3), done.
+From https://github.com/tloja/i240b
+   a776936..db06c36  master     -> origin/master
+Updating a776936..db06c36
+Fa
