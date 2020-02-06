@@ -1,0 +1,806 @@
+Script started on 2020-02-06 17:50:44-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+bash: /home/umrigar/cs240/bin/student.rc: Permission denied
+tloja1@g7-21:~/i240b/submit/lab2$ ls
+lab2.LOG
+tloja1@g7-21:~/i240b/submit/lab2$ cd ~/i240b/submit/lab2
+tloja1@g7-21:~/i240b/submit/lab2$ cd -r ~/cs240/labs/lab2/exercises/* .
+bash: cd: -r: invalid option
+cd: usage: cd [-L|[-P [-e]] [-@]] [dir]
+tloja1@g7-21:~/i240b/submit/lab2$ cd -r ~/cs240/labs/lab2/exercises/* .[1P[1@p
+cp: cannot stat '/home/tloja1/cs240/labs/lab2/exercises/*': No such file or directory
+tloja1@g7-21:~/i240b/submit/lab2$ cp -r ~/cs240/labs/lab2/exercises/* .[C[K
+cp: missing destination file operand after '/home/tloja1/cs240/labs/lab2/exercises/*'
+Try 'cp --help' for more information.
+tloja1@g7-21:~/i240b/submit/lab2$ cp -r ~/cs240/labs/lab2/exercises/* .[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ~/8240b/s[K[K[K[K[K[K[Ki40[K[K240b/submit/a[Klab2
+tloja1@g7-21:~/i240b/submit/lab2$ cp -r ~/sc[K[Kc[Kcs240/labs/lab2/exercises/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd ../
+tloja1@g7-21:~/i240b/submit$ cd ../
+tloja1@g7-21:~/i240b$ cd ../
+tloja1@g7-21:~$ ls
+ a.out	 Desktop     i240    lab2.c   Music	   projects    tmp
+ cs120	 Documents   i240b   lab3     Pictures	   Public      Videos
+ cs240	 Downloads   lab2    lab3.c  '~.profile'   Templates
+tloja1@g7-21:~$ cd cs240
+tloja1@g7-21:~/cs240$ git pull
+/home/tloja1/.bashrc: line 1: /home/umrigar/cs240/bin/student.rc: Permission denied
+remote: Enumerating objects: 105, done.[K
+remote: Counting objects:   0% (1/105)   [Kremote: Counting objects:   1% (2/105)   [Kremote: Counting objects:   2% (3/105)   [Kremote: Counting objects:   3% (4/105)   [Kremote: Counting objects:   4% (5/105)   [Kremote: Counting objects:   5% (6/105)   [Kremote: Counting objects:   6% (7/105)   [Kremote: Counting objects:   7% (8/105)   [Kremote: Counting objects:   8% (9/105)   [Kremote: Counting objects:   9% (10/105)   [Kremote: Counting objects:  10% (11/105)   [Kremote: Counting objects:  11% (12/105)   [Kremote: Counting objects:  12% (13/105)   [Kremote: Counting objects:  13% (14/105)   [Kremote: Counting objects:  14% (15/105)   [Kremote: Counting objects:  15% (16/105)   [Kremote: Counting objects:  16% (17/105)   [Kremote: Counting objects:  17% (18/105)   [Kremote: Counting objects:  18% (19/105)   [Kremote: Counting objects:  19% (20/105)   [Kremote: Counting objects:  20% (21/105)   [Kremote: Counting objects:  21% (23/105)   [Kremote: Counting objects:  22% (24/105)   [Kremote: Counting objects:  23% (25/105)   [Kremote: Counting objects:  24% (26/105)   [Kremote: Counting objects:  25% (27/105)   [Kremote: Counting objects:  26% (28/105)   [Kremote: Counting objects:  27% (29/105)   [Kremote: Counting objects:  28% (30/105)   [Kremote: Counting objects:  29% (31/105)   [Kremote: Counting objects:  30% (32/105)   [Kremote: Counting objects:  31% (33/105)   [Kremote: Counting objects:  32% (34/105)   [Kremote: Counting objects:  33% (35/105)   [Kremote: Counting objects:  34% (36/105)   [Kremote: Counting objects:  35% (37/105)   [Kremote: Counting objects:  36% (38/105)   [Kremote: Counting objects:  37% (39/105)   [Kremote: Counting objects:  38% (40/105)   [Kremote: Counting objects:  39% (41/105)   [Kremote: Counting objects:  40% (42/105)   [Kremote: Counting objects:  41% (44/105)   [Kremote: Counting objects:  42% (45/105)   [Kremote: Counting objects:  43% (46/105)   [Kremote: Counting objects:  44% (47/105)   [Kremote: Counting objects:  45% (48/105)   [Kremote: Counting objects:  46% (49/105)   [Kremote: Counting objects:  47% (50/105)   [Kremote: Counting objects:  48% (51/105)   [Kremote: Counting objects:  49% (52/105)   [Kremote: Counting objects:  50% (53/105)   [Kremote: Counting objects:  51% (54/105)   [Kremote: Counting objects:  52% (55/105)   [Kremote: Counting objects:  53% (56/105)   [Kremote: Counting objects:  54% (57/105)   [Kremote: Counting objects:  55% (58/105)   [Kremote: Counting objects:  56% (59/105)   [Kremote: Counting objects:  57% (60/105)   [Kremote: Counting objects:  58% (61/105)   [Kremote: Counting objects:  59% (62/105)   [Kremote: Counting objects:  60% (63/105)   [Kremote: Counting objects:  61% (65/105)   [Kremote: Counting objects:  62% (66/105)   [Kremote: Counting objects:  63% (67/105)   [Kremote: Counting objects:  64% (68/105)   [Kremote: Counting objects:  65% (69/105)   [Kremote: Counting objects:  66% (70/105)   [Kremote: Counting objects:  67% (71/105)   [Kremote: Counting objects:  68% (72/105)   [Kremote: Counting objects:  69% (73/105)   [Kremote: Counting objects:  70% (74/105)   [Kremote: Counting objects:  71% (75/105)   [Kremote: Counting objects:  72% (76/105)   [Kremote: Counting objects:  73% (77/105)   [Kremote: Counting objects:  74% (78/105)   [Kremote: Counting objects:  75% (79/105)   [Kremote: Counting objects:  76% (80/105)   [Kremote: Counting objects:  77% (81/105)   [Kremote: Counting objects:  78% (82/105)   [Kremote: Counting objects:  79% (83/105)   [Kremote: Counting objects:  80% (84/105)   [Kremote: Counting objects:  81% (86/105)   [Kremote: Counting objects:  82% (87/105)   [Kremote: Counting objects:  83% (88/105)   [Kremote: Counting objects:  84% (89/105)   [Kremote: Counting objects:  85% (90/105)   [Kremote: Counting objects:  86% (91/105)   [Kremote: Counting objects:  87% (92/105)   [Kremote: Counting objects:  88% (93/105)   [Kremote: Counting objects:  89% (94/105)   [Kremote: Counting objects:  90% (95/105)   [Kremote: Counting objects:  91% (96/105)   [Kremote: Counting objects:  92% (97/105)   [Kremote: Counting objects:  93% (98/105)   [Kremote: Counting objects:  94% (99/105)   [Kremote: Counting objects:  95% (100/105)   [Kremote: Counting objects:  96% (101/105)   [Kremote: Counting objects:  97% (102/105)   [Kremote: Counting objects:  98% (103/105)   [Kremote: Counting objects:  99% (104/105)   [Kremote: Counting objects: 100% (105/105)   [Kremote: Counting objects: 100% (105/105), done.[K
+remote: Compressing objects:   1% (1/84)   [Kremote: Compressing objects:   2% (2/84)   [Kremote: Compressing objects:   3% (3/84)   [Kremote: Compressing objects:   4% (4/84)   [Kremote: Compressing objects:   5% (5/84)   [Kremote: Compressing objects:   7% (6/84)   [Kremote: Compressing objects:   8% (7/84)   [Kremote: Compressing objects:   9% (8/84)   [Kremote: Compressing objects:  10% (9/84)   [Kremote: Compressing objects:  11% (10/84)   [Kremote: Compressing objects:  13% (11/84)   [Kremote: Compressing objects:  14% (12/84)   [Kremote: Compressing objects:  15% (13/84)   [Kremote: Compressing objects:  16% (14/84)   [Kremote: Compressing objects:  17% (15/84)   [Kremote: Compressing objects:  19% (16/84)   [Kremote: Compressing objects:  20% (17/84)   [Kremote: Compressing objects:  21% (18/84)   [Kremote: Compressing objects:  22% (19/84)   [Kremote: Compressing objects:  23% (20/84)   [Kremote: Compressing objects:  25% (21/84)   [Kremote: Compressing objects:  26% (22/84)   [Kremote: Compressing objects:  27% (23/84)   [Kremote: Compressing objects:  28% (24/84)   [Kremote: Compressing objects:  29% (25/84)   [Kremote: Compressing objects:  30% (26/84)   [Kremote: Compressing objects:  32% (27/84)   [Kremote: Compressing objects:  33% (28/84)   [Kremote: Compressing objects:  34% (29/84)   [Kremote: Compressing objects:  35% (30/84)   [Kremote: Compressing objects:  36% (31/84)   [Kremote: Compressing objects:  38% (32/84)   [Kremote: Compressing objects:  39% (33/84)   [Kremote: Compressing objects:  40% (34/84)   [Kremote: Compressing objects:  41% (35/84)   [Kremote: Compressing objects:  42% (36/84)   [Kremote: Compressing objects:  44% (37/84)   [Kremote: Compressing objects:  45% (38/84)   [Kremote: Compressing objects:  46% (39/84)   [Kremote: Compressing objects:  47% (40/84)   [Kremote: Compressing objects:  48% (41/84)   [Kremote: Compressing objects:  50% (42/84)   [Kremote: Compressing objects:  51% (43/84)   [Kremote: Compressing objects:  52% (44/84)   [Kremote: Compressing objects:  53% (45/84)   [Kremote: Compressing objects:  54% (46/84)   [Kremote: Compressing objects:  55% (47/84)   [Kremote: Compressing objects:  57% (48/84)   [Kremote: Compressing objects:  58% (49/84)   [Kremote: Compressing objects:  59% (50/84)   [Kremote: Compressing objects:  60% (51/84)   [Kremote: Compressing objects:  61% (52/84)   [Kremote: Compressing objects:  63% (53/84)   [Kremote: Compressing objects:  64% (54/84)   [Kremote: Compressing objects:  65% (55/84)   [Kremote: Compressing objects:  66% (56/84)   [Kremote: Compressing objects:  67% (57/84)   [Kremote: Compressing objects:  69% (58/84)   [Kremote: Compressing objects:  70% (59/84)   [Kremote: Compressing objects:  71% (60/84)   [Kremote: Compressing objects:  72% (61/84)   [Kremote: Compressing objects:  73% (62/84)   [Kremote: Compressing objects:  75% (63/84)   [Kremote: Compressing objects:  76% (64/84)   [Kremote: Compressing objects:  77% (65/84)   [Kremote: Compressing objects:  78% (66/84)   [Kremote: Compressing objects:  79% (67/84)   [Kremote: Compressing objects:  80% (68/84)   [Kremote: Compressing objects:  82% (69/84)   [Kremote: Compressing objects:  83% (70/84)   [Kremote: Compressing objects:  84% (71/84)   [Kremote: Compressing objects:  85% (72/84)   [Kremote: Compressing objects:  86% (73/84)   [Kremote: Compressing objects:  88% (74/84)   [Kremote: Compressing objects:  89% (75/84)   [Kremote: Compressing objects:  90% (76/84)   [Kremote: Compressing objects:  91% (77/84)   [Kremote: Compressing objects:  92% (78/84)   [Kremote: Compressing objects:  94% (79/84)   [Kremote: Compressing objects:  95% (80/84)   [Kremote: Compressing objects:  96% (81/84)   [Kremote: Compressing objects:  97% (82/84)   [Kremote: Compressing objects:  98% (83/84)   [Kremote: Compressing objects: 100% (84/84)   [Kremote: Compressing objects: 100% (84/84), done.[K
+Unpacking objects:   1% (1/90)   Unpacking objects:   2% (2/90)   Unpacking objects:   3% (3/90)   Unpacking objects:   4% (4/90)   Unpacking objects:   5% (5/90)   Unpacking objects:   6% (6/90)   Unpacking objects:   7% (7/90)   Unpacking objects:   8% (8/90)   Unpacking objects:  10% (9/90)   Unpacking objects:  11% (10/90)   Unpacking objects:  12% (11/90)   Unpacking objects:  13% (12/90)   Unpacking objects:  14% (13/90)   Unpacking objects:  15% (14/90)   Unpacking objects:  16% (15/90)   Unpacking objects:  17% (16/90)   Unpacking objects:  18% (17/90)   Unpacking objects:  20% (18/90)   Unpacking objects:  21% (19/90)   Unpacking objects:  22% (20/90)   Unpacking objects:  23% (21/90)   Unpacking objects:  24% (22/90)   Unpacking objects:  25% (23/90)   Unpacking objects:  26% (24/90)   Unpacking objects:  27% (25/90)   Unpacking objects:  28% (26/90)   Unpacking objects:  30% (27/90)   Unpacking objects:  31% (28/90)   Unpacking objects:  32% (29/90)   Unpacking objects:  33% (30/90)   Unpacking objects:  34% (31/90)   Unpacking objects:  35% (32/90)   Unpacking objects:  36% (33/90)   Unpacking objects:  37% (34/90)   Unpacking objects:  38% (35/90)   Unpacking objects:  40% (36/90)   Unpacking objects:  41% (37/90)   Unpacking objects:  42% (38/90)   Unpacking objects:  43% (39/90)   Unpacking objects:  44% (40/90)   Unpacking objects:  45% (41/90)   Unpacking objects:  46% (42/90)   Unpacking objects:  47% (43/90)   Unpacking objects:  48% (44/90)   Unpacking objects:  50% (45/90)   remote: Total 90 (delta 49), reused 0 (delta 0)[K
+Unpacking objects:  51% (46/90)   Unpacking objects:  52% (47/90)   Unpacking objects:  53% (48/90)   Unpacking objects:  54% (49/90)   Unpacking objects:  55% (50/90)   Unpacking objects:  56% (51/90)   Unpacking objects:  57% (52/90)   Unpacking objects:  58% (53/90)   Unpacking objects:  60% (54/90)   Unpacking objects:  61% (55/90)   Unpacking objects:  62% (56/90)   Unpacking objects:  63% (57/90)   Unpacking objects:  64% (58/90)   Unpacking objects:  65% (59/90)   Unpacking objects:  66% (60/90)   Unpacking objects:  67% (61/90)   Unpacking objects:  68% (62/90)   Unpacking objects:  70% (63/90)   Unpacking objects:  71% (64/90)   Unpacking objects:  72% (65/90)   Unpacking objects:  73% (66/90)   Unpacking objects:  74% (67/90)   Unpacking objects:  75% (68/90)   Unpacking objects:  76% (69/90)   Unpacking objects:  77% (70/90)   Unpacking objects:  78% (71/90)   Unpacking objects:  80% (72/90)   Unpacking objects:  81% (73/90)   Unpacking objects:  82% (74/90)   Unpacking objects:  83% (75/90)   Unpacking objects:  84% (76/90)   Unpacking objects:  85% (77/90)   Unpacking objects:  86% (78/90)   Unpacking objects:  87% (79/90)   Unpacking objects:  88% (80/90)   Unpacking objects:  90% (81/90)   Unpacking objects:  91% (82/90)   Unpacking objects:  92% (83/90)   Unpacking objects:  93% (84/90)   Unpacking objects:  94% (85/90)   Unpacking objects:  95% (86/90)   Unpacking objects:  96% (87/90)   Unpacking objects:  97% (88/90)   Unpacking objects:  98% (89/90)   Unpacking objects: 100% (90/90)   Unpacking objects: 100% (90/90), done.
+From ssh://remote.cs.binghamton.edu/~umrigar/git-repos/cs240
+   0b7b862..5dd8253  master     -> origin/master
+Updating 0b7b862..5dd8253
+Fast-forward
+ index.html                                  |  24 [32m+[m[31m-[m
+ index.umt                                   |   6 [32m+[m
+ labs/index.html                             |   4 [32m+[m[31m-[m
+ labs/index.umt                              |   9 [32m+[m[31m-[m
+ labs/lab2/exercises/.gitignore              |   1 [32m+[m
+ labs/lab2/exercises/1-hello/.gitignore      |   1 [32m+[m
+ labs/lab2/exercises/1-hello/Makefile        |   3 [32m+[m
+ labs/lab2/exercises/1-hello/README          |   1 [32m+[m
+ labs/lab2/exercises/1-hello/hello.cc        |  22 [32m++[m
+ labs/lab2/exercises/2-hello/.gitignore      |   1 [32m+[m
+ labs/lab2/exercises/2-hello/Makefile        |   3 [32m+[m
+ labs/lab2/exercises/2-hello/README          |   4 [32m+[m
+ labs/lab2/exercises/2-hello/hello.cc        |  48 [32m++++[m
+ labs/lab2/exercises/3-overload/.gitignore   |   1 [32m+[m
+ labs/lab2/exercises/3-overload/Makefile     |   3 [32m+[m
+ labs/lab2/exercises/3-overload/overload.cc  |  16 [32m++[m
+ labs/lab2/exercises/Makefile                |   2 [32m+[m
+ labs/lab2/lab2.html                         | 257 [32m++++++++++++++++++++[m
+ labs/lab2/lab2.pdf                          | Bin [31m0[m -> [32m93531[m bytes
+ labs/lab2/lab2.umt                          | 358 [32m++++++++++++++++++++++++++++[m
+ labs/lab2/lab2/hl-fine_blue.css             |  19 [32m++[m
+ labs/lab2/lab2/hl-fine_blue.sty             |  19 [32m++[m
+ labs/submission/submission/hl-fine_blue.css |   2 [32m+[m[31m-[m
+ labs/submission/submission/hl-fine_blue.sty |   2 [32m+[m[31m-[m
+ slides/c++-intro/c++-intro.html             | 228 [32m++++++++++++++[m[31m----[m
+ slides/c++-intro/c++-intro.pdf              | Bin [31m167175[m -> [32m201292[m bytes
+ slides/c++-intro/c++-intro.umt              | 148 [32m+++++++++++[m[31m-[m
+ slides/c++-intro/c++-intro/hl-fine_blue.css |   2 [32m+[m[31m-[m
+ slides/c++-intro/c++-intro/hl-fine_blue.sty |   2 [32m+[m[31m-[m
+ slides/c++-intro/code/.gitignore            |   6 [32m+[m
+ slides/c++-intro/code/Makefile              |  12 [32m+[m[31m-[m
+ slides/c++-intro/code/alloc-dealloc.cc      |  26 [32m++[m
+ slides/c++-intro/code/class-point.cc        |  33 [32m+++[m
+ slides/c++-intro/code/struct-point.cc       |  31 [32m+++[m
+ slides/c++-intro/code/sum-array.cc          |  14 [32m+[m[31m-[m
+ slides/c++-intro/code/vec1.cc               |  40 [32m++++[m
+ 36 files changed, 1266 insertions(+), 82 deletions(-)
+ create mode 100644 labs/lab2/exercises/.gitignore
+ create mode 100644 labs/lab2/exercises/1-hello/.gitignore
+ create mode 100644 labs/lab2/exercises/1-hello/Makefile
+ create mode 100644 labs/lab2/exercises/1-hello/README
+ create mode 100644 labs/lab2/exercises/1-hello/hello.cc
+ create mode 100644 labs/lab2/exercises/2-hello/.gitignore
+ create mode 100644 labs/lab2/exercises/2-hello/Makefile
+ create mode 100644 labs/lab2/exercises/2-hello/README
+ create mode 100644 labs/lab2/exercises/2-hello/hello.cc
+ create mode 100644 labs/lab2/exercises/3-overload/.gitignore
+ create mode 100644 labs/lab2/exercises/3-overload/Makefile
+ create mode 100644 labs/lab2/exercises/3-overload/overload.cc
+ create mode 100644 labs/lab2/exercises/Makefile
+ create mode 100644 labs/lab2/lab2.html
+ create mode 100644 labs/lab2/lab2.pdf
+ create mode 100644 labs/lab2/lab2.umt
+ create mode 100644 labs/lab2/lab2/hl-fine_blue.css
+ create mode 100644 labs/lab2/lab2/hl-fine_blue.sty
+ create mode 100644 slides/c++-intro/code/.gitignore
+ create mode 100644 slides/c++-intro/code/alloc-dealloc.cc
+ create mode 100644 slides/c++-intro/code/class-point.cc
+ create mode 100644 slides/c++-intro/code/struct-point.cc
+ create mode 100644 slides/c++-intro/code/vec1.cc
+tloja1@g7-21:~/cs240$ cd ~/i240b/submit/lab2
+tloja1@g7-21:~/i240b/submit/lab2$ cp -r ~/cs240/labs/lab2/exercises/* .
+tloja1@g7-21:~/i240b/submit/lab2$ cd eercises/1-he[K[K[K[Kl-[K[K[K[K[K[K[K[K[K[Kxercises/1-[K[K1-hello
+bash: cd: exercises/1-hello: No such file or directory
+tloja1@g7-21:~/i240b/submit/lab2$ ls
+1-hello  2-hello  3-overload  lab2.LOG	Makefile
+tloja1@g7-21:~/i240b/submit/lab2$ cd exercises/1-hello
+bash: cd: exercises/1-hello: No such file or directory
+tloja1@g7-21:~/i240b/submit/lab2$ ls
+1-hello  2-hello  3-overload  lab2.LOG	Makefile
+tloja1@g7-21:~/i240b/submit/lab2$ cd [1Plscd exercises/1-hellols[Kcd exercises/1-hellop -r ~/cs240/labs/lab2/exercises/* .[15Pd ~/i240b/submit/lab2p -r ~/cs240/labs/lab2/exercises/* .[17Pd exercises/1-hellols[Kcd exercises/1-hellols[Kcd exercises/1-hellols[Kcd exercises/1-hellols[K[K[K;[Kls -l
+total 20
+drwxr-xr-x 2 tloja1 tloja1    86 Feb  6 17:53 1-hello
+drwxr-xr-x 2 tloja1 tloja1    86 Feb  6 17:53 2-hello
+drwxr-xr-x 2 tloja1 tloja1    72 Feb  6 17:53 3-overload
+-rw-r--r-- 1 tloja1 tloja1 16384 Feb  6 17:53 lab2.LOG
+-rw-r--r-- 1 tloja1 tloja1    41 Feb  6 17:53 Makefile
+tloja1@g7-21:~/i240b/submit/lab2$ ls -l[Kcd exercises/1-hellols[K[K[Kls
+1-hello  2-hello  3-overload  lab2.LOG	Makefile
+tloja1@g7-21:~/i240b/submit/lab2$ ls -l
+total 20
+drwxr-xr-x 2 tloja1 tloja1    86 Feb  6 17:53 1-hello
+drwxr-xr-x 2 tloja1 tloja1    86 Feb  6 17:53 2-hello
+drwxr-xr-x 2 tloja1 tloja1    72 Feb  6 17:53 3-overload
+-rw-r--r-- 1 tloja1 tloja1 16384 Feb  6 17:53 lab2.LOG
+-rw-r--r-- 1 tloja1 tloja1    41 Feb  6 17:53 Makefile
+tloja1@g7-21:~/i240b/submit/lab2$ make
+Makefile:2: *** missing separator (did you mean TAB instead of 8 spaces?).  Stop.
+tloja1@g7-21:~/i240b/submit/lab2$ cd exercises/1-hello
+bash: cd: exercises/1-hello: No such file or directory
+tloja1@g7-21:~/i240b/submit/lab2$ cd [K[K[Kcd exercises/1-hello[Kls
+1-hello  2-hello  3-overload  lab2.LOG	Makefile
+tloja1@g7-21:~/i240b/submit/lab2$ cd 1-hello/
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ ls
+hello.cc  Makefile  README
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ make
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ ./hello
+usage: ./hello NAME...
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ ./hello bart lisa
+hello bart
+hello lisa
+hello tloja1@g7-21:~/i240b/submit/lab2/1-hello$ gdb hello
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from hello...done.
+(gdb) start bart lisa
+Temporary breakpoint 1 at 0x11cd: file hello.cc, line 13.
+Starting program: /import/linux/home1/tloja1/i240b/submit/lab2/1-hello/hello bart lisa
+
+Temporary breakpoint 1, main (argc=3, argv=0x7fffffffe798) at hello.cc:13
+13	  if (argc == 1) {
+(gdb) 1
+Undefined command: "1".  Try "help".
+(gdb) l
+8	}
+9	
+10	int 
+11	main(int argc, const char *argv[])
+12	{
+13	  if (argc == 1) {
+14	    std::cerr << "usage: " << argv[0] << " NAME..." << std::endl;
+15	    std::exit(1);
+16	  }
+17	  else {
+(gdb) 
+18	    for (int i = 1; i <= argc; i++) {
+19	      sayHello(argv[i]);
+20	    }
+21	  }
+22	}
+(gdb) 1 23
+Undefined command: "1".  Try "help".
+(gdb) 1 3
+Undefined command: "1".  Try "help".
+(gdb) l 2
+1	#include <iostream>
+2	#include <cstdlib>
+3	
+4	static void
+5	sayHello(const char *name)
+6	{
+7	  std::cout << "hello " << name << std::endl;
+8	}
+9	
+10	int 
+(gdb) b sayHello
+Breakpoint 2 at 0x555555555181: file hello.cc, line 7.
+(gdb) argc
+Undefined command: "argc".  Try "help".
+(gdb) p argc
+$1 = 3
+(gdb) p argv
+$2 = (const char **) 0x7fffffffe798
+(gdb) type[K[K[K[Kp argv[0], p argvp[K[1],et[K[K[K
+No symbol "p" in current context.
+(gdb) p argv[0], p argv[1][K[K[K[K[K[K[K[K[K[K[K
+$3 = 0x7fffffffea8a "/import/linux/home1/tloja1/i240b/submit/lab2/1-hello/hello"
+(gdb) p *argv@3
+$4 = {
+  0x7fffffffea8a "/import/linux/home1/tloja1/i240b/submit/lab2/1-hello/hello", 
+  0x7fffffffeac5 "bart", 0x7fffffffeaca "lisa"}
+(gdb) n
+18	    for (int i = 1; i <= argc; i++) {
+(gdb) n
+19	      sayHello(argv[i]);
+(gdb) i
+"info" must be followed by the name of an info command.
+List of info subcommands:
+
+info address -- Describe where symbol SYM is stored
+info all-registers -- List of all registers and their contents
+info args -- Argument variables of current stack frame
+info auto-load -- Print current status of auto-loaded files
+info auxv -- Display the inferior's auxiliary vector
+info bookmarks -- Status of user-settable bookmarks
+info breakpoints -- Status of specified breakpoints (all user-settable breakpoints if no argument)
+info checkpoints -- IDs of currently known checkpoints
+info classes -- All Objective-C classes
+info common -- Print out the values contained in a Fortran COMMON block
+info copying -- Conditions for redistributing copies of GDB
+info dcache -- Print information on the dcache performance
+info display -- Expressions to display when program stops
+info exceptions -- List all Ada exception names
+info extensions -- All filename extensions associated with a source language
+info files -- Names of targets and files being debugged
+info float -- Print the status of the floating point unit
+info frame -- All about selected stack frame
+info frame-filter -- List all registered Python frame-filters
+info functions -- All function names
+--Type <RET> for more, q to quit, c to continue without paging--q
+Quit
+(gdb) l[Kn
+
+Breakpoint 2, sayHello (name=0x7fffffffeac5 "bart") at hello.cc:7
+7	  std::cout << "hello " << name << std::endl;
+(gdb) c.sayHello()
+A syntax error in expression, near `.sayHello()'.
+(gdb) a c.sayHello()
+Ambiguous command "a c.sayHello()": actions, add-auto-load-safe-path, add-auto-load-scripts-directory, add-inferior...
+(gdb) l
+2	#include <cstdlib>
+3	
+4	static void
+5	sayHello(const char *name)
+6	{
+7	  std::cout << "hello " << name << std::endl;
+8	}
+9	
+10	int 
+11	main(int argc, const char *argv[])
+(gdb) backtrace
+#0  sayHello (name=0x7fffffffeac5 "bart") at hello.cc:7
+#1  0x0000555555555257 in main (argc=3, argv=0x7fffffffe798) at hello.cc:19
+(gdb) up
+#1  0x0000555555555257 in main (argc=3, argv=0x7fffffffe798) at hello.cc:19
+19	      sayHello(argv[i]);
+(gdb) l
+14	    std::cerr << "usage: " << argv[0] << " NAME..." << std::endl;
+15	    std::exit(1);
+16	  }
+17	  else {
+18	    for (int i = 1; i <= argc; i++) {
+19	      sayHello(argv[i]);
+20	    }
+21	  }
+22	}
+(gdb) down
+#0  sayHello (name=0x7fffffffeac5 "bart") at hello.cc:7
+7	  std::cout << "hello " << name << std::endl;
+(gdb) l
+2	#include <cstdlib>
+3	
+4	static void
+5	sayHello(const char *name)
+6	{
+7	  std::cout << "hello " << name << std::endl;
+8	}
+9	
+10	int 
+11	main(int argc, const char *argv[])
+(gdb) c.sayHello()
+A syntax error in expression, near `.sayHello()'.
+(gdb) a c.Hello[K[K[K[K[KsayHello()
+Ambiguous command "a c.sayHello()": actions, add-auto-load-safe-path, add-auto-load-scripts-directory, add-inferior...
+(gdb) up
+#1  0x0000555555555257 in main (argc=3, argv=0x7fffffffe798) at hello.cc:19
+19	      sayHello(argv[i]);
+(gdb) up[K[Kl i
+Function "i" not defined.
+(gdb) l
+14	    std::cerr << "usage: " << argv[0] << " NAME..." << std::endl;
+15	    std::exit(1);
+16	  }
+17	  else {
+18	    for (int i = 1; i <= argc; i++) {
+19	      sayHello(argv[i]);
+20	    }
+21	  }
+22	}
+(gdb) l argv[i]
+Function "argv[i]" not defined.
+(gdb) l 14
+9	
+10	int 
+11	main(int argc, const char *argv[])
+12	{
+13	  if (argc == 1) {
+14	    std::cerr << "usage: " << argv[0] << " NAME..." << std::endl;
+15	    std::exit(1);
+16	  }
+17	  else {
+18	    for (int i = 1; i <= argc; i++) {
+(gdb) q
+A debugging session is active.
+
+	Inferior 1 [process 20311] will be killed.
+
+Quit anyway? (y or n) y
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ ls[K[Kmake
+make: 'hello' is up to date.
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ ./he[K[K1-hell[K[K[K[K[K[K[K/hello
+usage: ./hello NAME...
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ ./hello bar lis[K[K[K[Kt lisa
+hello bart
+hello lisa
+hello tloja1@g7-21:~/i240b/submit/lab2/1-hello$ ls
+hello  hello.cc  Makefile  README
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ emacs hello.cc
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ emacs hello.ccls[K./hello bart lisa[K[3Pmakegdb hello[5Pmake
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ makeemacs hello.ccls[K./hello bart lisa[K bart lisa[K
+usage: ./hello NAME...
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ ./hello[3Pmakeemacs hello.ccls[K./hello bart lisa
+hello bart
+hello lisa
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ g++ hello.cc
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ g++ hello.cc./hello bart lisa[K[3Pmake
+make: 'hello' is up to date.
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ makeg++ hello.cc./hello bart lisa[K bart lisa
+hello bart
+hello lisa
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ ./hello bart lisamake[Kg++ hello.cc./hello bart lisa[5Pg++ hello.cc[K[K[K[K[K[K[K[Kc[K-c hello.cc
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ g++ -c hello.cc./hello bart lisamake[K
+cc   hello.o   -o hello
+/usr/bin/ld: hello.o: in function `sayHello(char const*)':
+hello.cc:(.text+0x16): undefined reference to `std::cout'
+/usr/bin/ld: hello.cc:(.text+0x1b): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: hello.cc:(.text+0x2d): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: hello.cc:(.text+0x37): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)'
+/usr/bin/ld: hello.cc:(.text+0x42): undefined reference to `std::ostream::operator<<(std::ostream& (*)(std::ostream&))'
+/usr/bin/ld: hello.o: in function `main':
+hello.cc:(.text+0x68): undefined reference to `std::cerr'
+/usr/bin/ld: hello.cc:(.text+0x6d): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: hello.cc:(.text+0x82): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: hello.cc:(.text+0x91): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: hello.cc:(.text+0x9b): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)'
+/usr/bin/ld: hello.cc:(.text+0xa6): undefined reference to `std::ostream::operator<<(std::ostream& (*)(std::ostream&))'
+/usr/bin/ld: hello.o: in function `__static_initialization_and_destruction_0(int, int)':
+hello.cc:(.text+0x114): undefined reference to `std::ios_base::Init::Init()'
+/usr/bin/ld: hello.cc:(.text+0x129): undefined reference to `std::ios_base::Init::~Init()'
+collect2: error: ld returned 1 exit status
+make: *** [<builtin>: hello] Error 1
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ makeg++ -c hello.cc./hello bart lisamake[Kg++ hello.cc./hello bart lisa[5Pg++ hello.cc[8Pmake[K[K[K[Kls
+a.out  hello.cc  hello.cc~  hello.o  Makefile  README
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ rm hello.cc~
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ ls
+a.out  hello.cc  hello.o  Makefile  README
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ make
+cc   hello.o   -o hello
+/usr/bin/ld: hello.o: in function `sayHello(char const*)':
+hello.cc:(.text+0x16): undefined reference to `std::cout'
+/usr/bin/ld: hello.cc:(.text+0x1b): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: hello.cc:(.text+0x2d): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: hello.cc:(.text+0x37): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)'
+/usr/bin/ld: hello.cc:(.text+0x42): undefined reference to `std::ostream::operator<<(std::ostream& (*)(std::ostream&))'
+/usr/bin/ld: hello.o: in function `main':
+hello.cc:(.text+0x68): undefined reference to `std::cerr'
+/usr/bin/ld: hello.cc:(.text+0x6d): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: hello.cc:(.text+0x82): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: hello.cc:(.text+0x91): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: hello.cc:(.text+0x9b): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)'
+/usr/bin/ld: hello.cc:(.text+0xa6): undefined reference to `std::ostream::operator<<(std::ostream& (*)(std::ostream&))'
+/usr/bin/ld: hello.o: in function `__static_initialization_and_destruction_0(int, int)':
+hello.cc:(.text+0x114): undefined reference to `std::ios_base::Init::Init()'
+/usr/bin/ld: hello.cc:(.text+0x129): undefined reference to `std::ios_base::Init::~Init()'
+collect2: error: ld returned 1 exit status
+make: *** [<builtin>: hello] Error 1
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ make[2Plsrm hello.cc~ls[Kmakeg++ -c hello.cc./hello bart lisamake[K./hello bart lisa[2Pg++ -c hello.ccmake[K[2Plsmakeg++ -c hello.cc./hello bart lisa
+bash: ./hello: No such file or directory
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ ./hello bart lisamake[K[2Plsrm hello.cc~ls[Krm hello.cc~ls[Kmake./hello bart lisa[Kls
+a.out  hello.cc  hello.o  Makefile  README
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ cd hell[K[K[K[K[K[K[Kemacs hello.cc
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ emacs hello.ccls[K./hello bart lisamake[K[2Plsrm hello.cc~ls[Kmakeg++ -c hello.cc./hello bart lisamake[K./hello bart lisa[2Pg++ -c hello.ccmake[K[2Plsrm hello.cc~ls[Kmake./hello bart lisals[Kemacs hello.cc[Kls
+a.out  hello.cc  hello.o  Makefile  README
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ makefil[K[K[K[K[K[K[Kg++ hello.cc
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ g++ hello.ccls[Kemacs hello.ccls[K./hello bart lisamake[K[2Plsmake
+cc   hello.o   -o hello
+/usr/bin/ld: hello.o: in function `sayHello(char const*)':
+hello.cc:(.text+0x16): undefined reference to `std::cout'
+/usr/bin/ld: hello.cc:(.text+0x1b): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: hello.cc:(.text+0x2d): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: hello.cc:(.text+0x37): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)'
+/usr/bin/ld: hello.cc:(.text+0x42): undefined reference to `std::ostream::operator<<(std::ostream& (*)(std::ostream&))'
+/usr/bin/ld: hello.o: in function `main':
+hello.cc:(.text+0x68): undefined reference to `std::cerr'
+/usr/bin/ld: hello.cc:(.text+0x6d): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: hello.cc:(.text+0x82): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: hello.cc:(.text+0x91): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: hello.cc:(.text+0x9b): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)'
+/usr/bin/ld: hello.cc:(.text+0xa6): undefined reference to `std::ostream::operator<<(std::ostream& (*)(std::ostream&))'
+/usr/bin/ld: hello.o: in function `__static_initialization_and_destruction_0(int, int)':
+hello.cc:(.text+0x114): undefined reference to `std::ios_base::Init::Init()'
+/usr/bin/ld: hello.cc:(.text+0x129): undefined reference to `std::ios_base::Init::~Init()'
+collect2: error: ld returned 1 exit status
+make: *** [<builtin>: hello] Error 1
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ makeg++ hello.ccls[Kemacs hello.ccls[K./hello bart lisamake[K[2Plsmake./hello bart lisals[Kemacs hello.ccls[K[K[Kemacs ma
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ emacs makefile
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ ls
+a.out  hello.cc  hello.o  Makefile  README
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ emacs Makefile 
+^Ctloja1@g7-21:~/i240b/submit/lab2/1-hello$ cd -[K../
+tloja1@g7-21:~/i240b/submit/lab2$ c[Kls
+1-hello  2-hello  3-overload  lab2.LOG	Makefile
+tloja1@g7-21:~/i240b/submit/lab2$ c[Kcp -r ~/cs240/labs/lab2/exercises/* .
+tloja1@g7-21:~/i240b/submit/lab2$ ls
+1-hello  2-hello  3-overload  lab2.LOG	Makefile
+tloja1@g7-21:~/i240b/submit/lab2$ cd 1-hello/
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ ls
+a.out  hello.cc  hello.o  Makefile  README
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ cd[K[Kmake
+g++ -g -Wall -std=c++17   -c -o hello.o hello.cc
+cc   hello.o   -o hello
+/usr/bin/ld: hello.o: in function `sayHello(char const*)':
+/home/tloja1/i240b/submit/lab2/1-hello/hello.cc:7: undefined reference to `std::cout'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:7: undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:7: undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:7: undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:7: undefined reference to `std::ostream::operator<<(std::ostream& (*)(std::ostream&))'
+/usr/bin/ld: hello.o: in function `main':
+/home/tloja1/i240b/submit/lab2/1-hello/hello.cc:14: undefined reference to `std::cerr'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:14: undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:14: undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:14: undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:14: undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:14: undefined reference to `std::ostream::operator<<(std::ostream& (*)(std::ostream&))'
+/usr/bin/ld: hello.o: in function `__static_initialization_and_destruction_0(int, int)':
+/usr/include/c++/8/iostream:74: undefined reference to `std::ios_base::Init::Init()'
+/usr/bin/ld: /usr/include/c++/8/iostream:74: undefined reference to `std::ios_base::Init::~Init()'
+collect2: error: ld returned 1 exit status
+make: *** [<builtin>: hello] Error 1
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ cd[K[K[Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ g++ -Wall -c hello.cc 
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ g++ -Wall -c hello.cc make[K
+cc   hello.o   -o hello
+/usr/bin/ld: hello.o: in function `sayHello(char const*)':
+hello.cc:(.text+0x16): undefined reference to `std::cout'
+/usr/bin/ld: hello.cc:(.text+0x1b): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: hello.cc:(.text+0x2d): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: hello.cc:(.text+0x37): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)'
+/usr/bin/ld: hello.cc:(.text+0x42): undefined reference to `std::ostream::operator<<(std::ostream& (*)(std::ostream&))'
+/usr/bin/ld: hello.o: in function `main':
+hello.cc:(.text+0x68): undefined reference to `std::cerr'
+/usr/bin/ld: hello.cc:(.text+0x6d): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: hello.cc:(.text+0x82): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: hello.cc:(.text+0x91): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: hello.cc:(.text+0x9b): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)'
+/usr/bin/ld: hello.cc:(.text+0xa6): undefined reference to `std::ostream::operator<<(std::ostream& (*)(std::ostream&))'
+/usr/bin/ld: hello.o: in function `__static_initialization_and_destruction_0(int, int)':
+hello.cc:(.text+0x114): undefined reference to `std::ios_base::Init::Init()'
+/usr/bin/ld: hello.cc:(.text+0x129): undefined reference to `std::ios_base::Init::~Init()'
+collect2: error: ld returned 1 exit status
+make: *** [<builtin>: hello] Error 1
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ makeg++ -Wall -c hello.cc make[Kg++ -Wall -c hello.cc -o hello.o
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ ls
+a.out  hello.cc  hello.o  Makefile  README
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ make
+cc   hello.o   -o hello
+/usr/bin/ld: hello.o: in function `sayHello(char const*)':
+hello.cc:(.text+0x16): undefined reference to `std::cout'
+/usr/bin/ld: hello.cc:(.text+0x1b): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: hello.cc:(.text+0x2d): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: hello.cc:(.text+0x37): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)'
+/usr/bin/ld: hello.cc:(.text+0x42): undefined reference to `std::ostream::operator<<(std::ostream& (*)(std::ostream&))'
+/usr/bin/ld: hello.o: in function `main':
+hello.cc:(.text+0x68): undefined reference to `std::cerr'
+/usr/bin/ld: hello.cc:(.text+0x6d): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: hello.cc:(.text+0x82): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: hello.cc:(.text+0x91): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: hello.cc:(.text+0x9b): undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)'
+/usr/bin/ld: hello.cc:(.text+0xa6): undefined reference to `std::ostream::operator<<(std::ostream& (*)(std::ostream&))'
+/usr/bin/ld: hello.o: in function `__static_initialization_and_destruction_0(int, int)':
+hello.cc:(.text+0x114): undefined reference to `std::ios_base::Init::Init()'
+/usr/bin/ld: hello.cc:(.text+0x129): undefined reference to `std::ios_base::Init::~Init()'
+collect2: error: ld returned 1 exit status
+make: *** [<builtin>: hello] Error 1
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ ls
+a.out  hello.cc  hello.o  Makefile  README
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ lsmake[2Plsg++ -Wall -c hello.cc -o hello.omake[Kg++ -Wall -c hello.cc make[K[2Plscd 1-hello/ls[Kcp -r ~/cs240/labs/lab2/exercises/* .ls[Kcd ../emacs Makefile ls[Kemacs makefile[K[4Pmakeg++ hello.ccls[Kemacs hello.ccls[K./hello bart lisamake[K[2Plsrm hello.cc~ls[Kmakeg++ -c hello.cc./hello bart lisamake[Kg++ hello.cc./hello bart lisa[K[3Pmakeemacs hello.ccls[Kemacs hello.cc
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ [Ktloja1@g7-21:~/i240b/submit/lab2/1-hello$ g++ -g -Wall -[Kfns-compare.cc -o[Ko f[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Khello.cc -o hello
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ make
+make: 'hello' is up to date.
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ he[K[K./hello
+usage: ./hello NAME...
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ /hello bart lisa
+bash: /hello: No such file or directory
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ /hello bart lisa[1@.
+hello bart
+hello lisa
+hello tloja1@g7-21:~/i240b/submit/lab2/1-hello$ emacs hello.cc
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ emacs hello.cc./hello bart lisa[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9P./hello[3Pmakeg++ -g -Wall hello.cc -o hello
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ g++ -g -Wall hello.cc -o hello[16Pemacs hello.cc./hello bart lisa[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@.[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3Pemacs hello.cc./hello bart lisa[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9P./hello[3Pmake
+g++ -g -Wall -std=c++17   -c -o hello.o hello.cc
+cc   hello.o   -o hello
+/usr/bin/ld: hello.o: in function `sayHello(char const*)':
+/home/tloja1/i240b/submit/lab2/1-hello/hello.cc:7: undefined reference to `std::cout'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:7: undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:7: undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:7: undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:7: undefined reference to `std::ostream::operator<<(std::ostream& (*)(std::ostream&))'
+/usr/bin/ld: hello.o: in function `main':
+/home/tloja1/i240b/submit/lab2/1-hello/hello.cc:14: undefined reference to `std::cerr'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:14: undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:14: undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:14: undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:14: undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:14: undefined reference to `std::ostream::operator<<(std::ostream& (*)(std::ostream&))'
+/usr/bin/ld: hello.o: in function `__static_initialization_and_destruction_0(int, int)':
+/usr/include/c++/8/iostream:74: undefined reference to `std::ios_base::Init::Init()'
+/usr/bin/ld: /usr/include/c++/8/iostream:74: undefined reference to `std::ios_base::Init::~Init()'
+collect2: error: ld returned 1 exit status
+make: *** [<builtin>: hello] Error 1
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ make[Kmakeg++ -g -Wall hello.cc -o hellomake[K[K;[Kls
+a.out  hello.cc  hello.cc~  hello.o  Makefile  README
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ lsmakeg++ -g -Wall hello.cc -o hello[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K-std=c++7[K17 -o hello[K[K[K[K[K[K[K[K[K hello.cc -o hello
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ g++ -g -Wall -std=c++17 hello.cc -o hellols[Kmake
+make: 'hello' is up to date.
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ makeg++ -g -Wall -std=c++17 hello.cc -o hellols[Kmake[2Plsg++ -g -Wall -std=c++17 hello.cc -o hellomake[K[K./hello
+usage: ./hello NAME...
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ ./hello bart
+hello bart
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ ./hello bart lisa
+hello bart
+hello lisa
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ ./hello bart lisa[K[K[3Pmakeg++ -g -Wall -std=c++17 hello.cc -o hellols[Kmakeg++ -g -Wall hello.cc -o hello[16Pemacs hello.cc./hello bart lisa[3Pemacs hello.cc
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ emacs hello.cc./hello bart lisa[K[K[3Pmakeg++ -g -Wall -std=c++17 hello.cc -o hellols[Kg++ -g -Wall -std=c++17 hello.cc -o hello
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ g++ -g -Wall -std=c++17 hello.cc -o hello[27Pemacs hello.cc./hello bart lisa[K[K[3Pmake
+make: 'hello' is up to date.
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ makeg++ -g -Wall -std=c++17 hello.cc -o hello[27Pemacs hello.cc./hello bart lisa[K lisa[3Pemacs hello.cc
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ emacs hello.ccmake[Kg++ -g -Wall -std=c++17 hello.cc -o hello[27Pemacs hello.ccg++ -g -Wall -std=c++17 hello.cc -o hellomake[Kemacs hello.cc[K./hello bart lisa
+hello bart
+hello lisa
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ ./hello bart lisa[3Pemacs hello.ccmake[Kemacs hello.cc
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ emacs hello.cc./hello bart lisa[3Pemacs hello.ccmake[Kg++ -g -Wall -std=c++17 hello.cc -o hello[27Pemacs hello.ccg++ -g -Wall -std=c++17 hello.cc -o hello
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ g++ -g -Wall -std=c++17 hello.cc -o hello[27Pemacs hello.cc
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ emacs hello.ccg++ -g -Wall -std=c++17 hello.cc -o hello[27Pemacs hello.cc./hello bart lisa[3Pemacs hello.ccmake[Kg++ -g -Wall -std=c++17 hello.cc -o hellomake[K
+g++ -g -Wall -std=c++17   -c -o hello.o hello.cc
+cc   hello.o   -o hello
+/usr/bin/ld: hello.o: in function `sayHello(char const*)':
+/home/tloja1/i240b/submit/lab2/1-hello/hello.cc:7: undefined reference to `std::cout'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:7: undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:7: undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:7: undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:7: undefined reference to `std::ostream::operator<<(std::ostream& (*)(std::ostream&))'
+/usr/bin/ld: hello.o: in function `main':
+/home/tloja1/i240b/submit/lab2/1-hello/hello.cc:14: undefined reference to `std::cerr'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:14: undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:14: undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:14: undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:14: undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:14: undefined reference to `std::ostream::operator<<(std::ostream& (*)(std::ostream&))'
+/usr/bin/ld: hello.o: in function `__static_initialization_and_destruction_0(int, int)':
+/usr/include/c++/8/iostream:74: undefined reference to `std::ios_base::Init::Init()'
+/usr/bin/ld: /usr/include/c++/8/iostream:74: undefined reference to `std::ios_base::Init::~Init()'
+collect2: error: ld returned 1 exit status
+make: *** [<builtin>: hello] Error 1
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ makeemacs hello.ccg++ -g -Wall -std=c++17 hello.cc -o hello
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ g++ -g -Wall -std=c++17 hello.cc -o hellomake[K
+make: 'hello' is up to date.
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ makeg++ -g -Wall -std=c++17 hello.cc -o hellomake[Kemacs hello.ccg++ -g -Wall -std=c++17 hello.cc -o hello[27Pemacs hello.cc./hello bart lisa[3Pemacs hello.cc./hello bart lisa
+hello bart
+hello bart
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ ./hello bart lisa[Kemacs hello.cc
+^Ctloja1@g7-21:~/i240b/submit/lab2/1-hello$ emacs hello.cc./hello bart lisamake[Kg++ -g -Wall -std=c++17 hello.cc -o hello[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls
+a.out  hello  hello.cc	hello.cc~  hello.o  Makefile  README
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ emacs README 
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ emacs README ls[Kemacs hello.cc./hello bart lisamake[K./hello bart lisamake[Kg++ -g -Wall -std=c++17 hello.cc -o hellomake[Kg++ -g -Wall -std=c++17 hello.cc -o hellomake[K./hello bart lisa[3Pemacs hello.cc
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ emacs hello.cc[1PREADME ls[Kemacs hello.ccls[Kemacs hello.cc./hello bart lisamake[K./hello bart lisamake[Kg++ -g -Wall -std=c++17 hello.cc -o hellomake[K./hello bart lisa[3Pemacs hello.ccls[Kemacs README ls[Kemacs hello.cc./hello bart lisamake[Kg++ -g -Wall -std=c++17 hello.cc -o hellomake[Kemacs hello.ccmake[Kg++ -g -Wall -std=c++17 hello.cc -o hello
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ g++ -g -Wall -std=c++17 hello.cc -o hello[27Pemacs hello.cc[1PREADME ls[Kemacs hello.cc./hello bart lisamake[K
+g++ -g -Wall -std=c++17   -c -o hello.o hello.cc
+cc   hello.o   -o hello
+/usr/bin/ld: hello.o: in function `sayHello(char const*)':
+/home/tloja1/i240b/submit/lab2/1-hello/hello.cc:7: undefined reference to `std::cout'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:7: undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:7: undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:7: undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:7: undefined reference to `std::ostream::operator<<(std::ostream& (*)(std::ostream&))'
+/usr/bin/ld: hello.o: in function `main':
+/home/tloja1/i240b/submit/lab2/1-hello/hello.cc:14: undefined reference to `std::cerr'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:14: undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:14: undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:14: undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:14: undefined reference to `std::basic_ostream<char, std::char_traits<char> >& std::endl<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&)'
+/usr/bin/ld: /home/tloja1/i240b/submit/lab2/1-hello/hello.cc:14: undefined reference to `std::ostream::operator<<(std::ostream& (*)(std::ostream&))'
+/usr/bin/ld: hello.o: in function `__static_initialization_and_destruction_0(int, int)':
+/usr/include/c++/8/iostream:74: undefined reference to `std::ios_base::Init::Init()'
+/usr/bin/ld: /usr/include/c++/8/iostream:74: undefined reference to `std::ios_base::Init::~Init()'
+collect2: error: ld returned 1 exit status
+make: *** [<builtin>: hello] Error 1
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ makeg++ -g -Wall -std=c++17 hello.cc -o hello[27Pemacs hello.ccg++ -g -Wall -std=c++17 hello.cc -o hello
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ g++ -g -Wall -std=c++17 hello.cc -o hellomake[K
+make: 'hello' is up to date.
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ makeg++ -g -Wall -std=c++17 hello.cc -o hellomake[Kg++ -g -Wall -std=c++17 hello.cc -o hello[27Pemacs hello.cc[1PREADME ls[Kemacs hello.cc./hello bart lisamake[K./hello bart lisa
+hello bart
+tloja1@g7-21:~/i240b/submit/lab2/1-hello$ cd -
+/home/tloja1/i240b/submit/lab2
+tloja1@g7-21:~/i240b/submit/lab2$ ls
+1-hello  2-hello  3-overload  lab2.LOG	Makefile
+tloja1@g7-21:~/i240b/submit/lab2$ cd 2-hello/
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ ls
+hello.cc  Makefile  README
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ make
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ ls
+hello  hello.cc  Makefile  README
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ emacs hello.cc 
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ emacs hello.cc ls[Kmake[2Plsmake
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+[01m[Khello.cc:[m[K In function â€˜[01m[Kvoid upcaseWords(const char*, char*)[m[Kâ€™:
+[01m[Khello.cc:15:25:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before â€˜[01m[K;[m[Kâ€™ token
+   for (int i = 0; i < n+[01;31m[K;[m[K i++) {
+                         [01;31m[K^[m[K
+make: *** [<builtin>: hello] Error 1
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ makeemacs hello.cc ls[Kmake[2Plsemacs hello.cc 
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ emacs hello.cc 
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ emacs hello.cc make[K
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ makeemacs hello.cc make[K[K./hello bart
+Hello Bart
+Segmentation fault
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ ./hello bart[8Pmakeemacs hello.cc make[Kemacs hello.cc make[K./hello bart[K./hello bart[8Pmakeemacs hello.cc make[Kemacs hello.cc ls[Kemacs hello.cc make[Kemacs hello.cc make[K./hello bart[K[K[K[Kthom[K[K[K[Kmark zucker
+Hello Mark
+Hello Zucker
+Segmentation fault
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ ./ [Khello 'lis [Ka simpson'
+Hello Lisa SimpsonÃU
+Segmentation fault
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ ./hello 'lisa simpson'
+Hello Lisa SimpsonâU
+Segmentation fault
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ emacs hello.cc
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ emacs hello.cc./hello 'lisa simpson'[3Pmark zucker[7Pbart[8Pmakeemacs hello.cc make[K
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ makeemacs hello.cc./hello 'lisa simpson'
+Hello Lisa SimpsonTV
+Segmentation fault
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ ./hello 'lisa simpson'make[K./hello 'lisa simpson'make[Kemacs hello.cc./hello 'lisa simpson'[8Pemacs hello.ccmake[K./hello 'lisa simpson'[K./hello 'lisa simpson'make[Kemacs hello.cc./hello 'lisa simpson'[8Pemacs hello.ccmake[K[K[K[K[Kg++[K+ -g -Wall -std=c++17 hello.cc -o hello
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ g++ -g -Wall -std=c++17 hello.cc -o hello[19P./hello 'lisa simpson'make[K
+make: 'hello' is up to date.
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ makeg++ -g -Wall -std=c++17 hello.cc -o hello[19P./hello 'lisa simpson'make[K./hello 'lisa simpson'
+Hello Lisa SimpsonæU
+Segmentation fault
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ ./hello 'lisa simpson'make[Kg++ -g -Wall -std=c++17 hello.cc -o hello[19P./hello 'lisa simpson'make[Kemacs hello.cc./hello 'lisa simpson'[8Pemacs hello.cc
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ cd ../
+tloja1@g7-21:~/i240b/submit/lab2$ ls
+1-hello  2-hello  3-overload  lab2.LOG	Makefile
+tloja1@g7-21:~/i240b/submit/lab2$ cd 3-overload
+tloja1@g7-21:~/i240b/submit/lab2/3-overload$ ls
+Makefile  overload.cc
+tloja1@g7-21:~/i240b/submit/lab2/3-overload$ make
+g++ -g -Wall -std=c++17    overload.cc   -o overload
+tloja1@g7-21:~/i240b/submit/lab2/3-overload$ ./overload
+f(a) = 3; f(&a) = 4; f(a, b) = -1
+tloja1@g7-21:~/i240b/submit/lab2/3-overload$ gdb
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word".
+(gdb) ./l[Koverload
+Undefined command: "".  Try "help".
+(gdb) b f( 
+if      task    thread  
+(gdb) b f( 
+if      task    thread  
+(gdb) b f( 
+if      task    thread  
+(gdb) b f( 
+if      task    thread  
+(gdb) b f( [Kint*)
+No symbol table is loaded.  Use the "file" command.
+Make breakpoint pending on future shared library load? (y or [n]) fil[K[K[Kn
+(gdb) file
+No executable file now.
+No symbol file now.
+(gdb) file [K[K[K[K[Khello
+Undefined command: "hello".  Try "help".
+(gdb) q
+tloja1@g7-21:~/i240b/submit/lab2/3-overload$ gdb o[K[K[K[K[Kgdb
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word".
+(gdb) overload
+Undefined command: "overload".  Try "help".
+(gdb) q
+tloja1@g7-21:~/i240b/submit/lab2/3-overload$ gdb overload
+GNU gdb (Debian 8.2.1-2+b3) 8.2.1
+Copyright (C) 2018 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-linux-gnu".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<http://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from overload...done.
+(gdb) b f(int[K[K[K int
+f(int)       f(int*)      f(int, int)  
+(gdb) b f( int
+f(int)       f(int*)      f(int, int)  
+(gdb) b f( int
+f(int)       f(int*)      f(int, int)  
+(gdb) b f( intI[K*0
+Function "f( int*0" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) g[Ky
+Breakpoint 1 (f( int*0) pending.
+(gdb) r
+Starting program: /import/linux/home1/tloja1/i240b/submit/lab2/3-overload/overload 
+f(a) = 3; f(&a) = 4; f(a, b) = -1
+[Inferior 1 (process 28691) exited normally]
+(gdb) p a
+$1 = {i = {0, 1045149306}, d = 1.2904777690891933e-08}
+(gdb) p *a
+Attempt to take contents of a non-pointer value.
+(gdb) p *a=5
+Attempt to take contents of a non-pointer value.
+(gdb) q
+tloja1@g7-21:~/i240b/submit/lab2/3-overload$ gdb overload[K./overload[6Pmake[2Plsmake./overloadgdb[K overload[Kcd -
+/home/tloja1/i240b/submit/lab2
+tloja1@g7-21:~/i240b/submit/lab2$ l[Kls
+1-hello  2-hello  3-overload  lab2.LOG	Makefile
+tloja1@g7-21:~/i240b/submit/lab2$ cd 2-hello/
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ ls
+hello  hello.cc  hello.cc~  Makefile  README
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ cd hello.cc
+bash: cd: hello.cc: Not a directory
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ emacs hello.cc
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ make
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ ./hello bart
+Hello Bart
+Segmentation fault
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ ./ [Ke[Khello lisa simpson
+Hello Lisa
+Hello Simpson
+Segmentation fault
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ ./hello 'lisa simpson'
+Hello Lisa SimpsonV
+Segmentation fault
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ ./hello 'lisa simpson'[2Plisa simpson[8Pbart[8Pmakeemacs hello.cc[3Pcd[C[C[C[C[C[C[C[C[C[3@emacs[C[C[C[C[C[C[C[C[C
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ emacs hello.cc./hello 'lisa simpson'[2Plisa simpson[8Pbart[8Pmakeemacs hello.ccmake[K
+g++ -g -Wall -std=c++17    hello.cc   -o hello
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ makeemacs hello.cc./hello 'lisa simpson'
+Hello Lisa Simpson
+Segmentation fault
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ ./hello 'lisa simpson'make[Kemacs hello.cc./hello 'lisa simpson'[2Plisa simpson'lisa simpson'[2Plisa simpson[8Pbartlisa simpson'lisa simpson'
+Hello Lisa Simpson
+Segmentation fault
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ ./hello 'lisa simpson'[K[K[Keafaefa'
+Hello Lisa Simpseafaefa
+Segmentation fault
+tloja1@g7-21:~/i240b/submit/lab2/2-hello$ ./hello 'lisa simpseafaefa'[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kemacs hello.cc
+tloja1@g7
