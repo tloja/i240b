@@ -1,0 +1,83 @@
+Script started on 2020-02-13 18:06:28-05:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+bash: /home/umrigar/cs240/bin/student.rc: Permission denied
+tloja1@g7-40:~/i240b/submit/lab3$ cd ~/i240b/subi[Kmit/lab3
+tloja1@g7-40:~/i240b/submit/lab3$ cp -r ~/cs240/labs/lab3/exr[Kercises .
+tloja1@g7-40:~/i240b/submit/lab3$ ls
+exercises  lab3.LOG
+tloja1@g7-40:~/i240b/submit/lab3$ cd exercises/
+tloja1@g7-40:~/i240b/submit/lab3/exercises$ ls
+1-greet  2-greet  3-greet  4-sortnums  5-numpaths  data  Makefile
+tloja1@g7-40:~/i240b/submit/lab3/exercises$ emacs .gitni[K[Kignore
+tloja1@g7-40:~/i240b/submit/lab3/exercises$ ls
+1-greet  2-greet  3-greet  4-sortnums  5-numpaths  data  Makefile
+tloja1@g7-40:~/i240b/submit/lab3/exercises$ ls
+1-greet  2-greet  3-greet  4-sortnums  5-numpaths  data  Makefile
+tloja1@g7-40:~/i240b/submit/lab3/exercises$ ls
+1-greet  2-greet  3-greet  4-sortnums  5-numpaths  data  Makefile
+tloja1@g7-40:~/i240b/submit/lab3/exercises$ emacs[K[K[K[K[Ktouh[Kch .gitignore
+tloja1@g7-40:~/i240b/submit/lab3/exercises$ ls
+1-greet  2-greet  3-greet  4-sortnums  5-numpaths  data  Makefile
+tloja1@g7-40:~/i240b/submit/lab3/exercises$ git commit
+On branch lab3
+Untracked files:
+	[31m../[m
+
+nothing added to commit but untracked files present
+tloja1@g7-40:~/i240b/submit/lab3/exercises$ git add -A
+tloja1@g7-40:~/i240b/submit/lab3/exercises$ git commit
+hint: Waiting for your editor to close the file... [?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"~/i240b/.git/COMMIT_EDITMSG" 37L, 1065C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[2;1H[34m# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch [m[35mlab3[m
+[34m# [m[35mChanges to be committed:[m
+[34m#       [m[32mnew file[m[34m: [m[31m  .gitignore[m
+[34m#       [m[32mnew file[m[34m: [m[31m  1-greet/.gitignore[m
+[34m#       [m[32mnew file[m[34m: [m[31m  1-greet/README[m
+[34m#       [m[32mnew file[m[34m: [m[31m  1-greet/greet.cc[m
+[34m#       [m[32mnew file[m[34m: [m[31m  2-greet/.gitignore[m
+[34m#       [m[32mnew file[m[34m: [m[31m  2-greet/README[m
+[34m#       [m[32mnew file[m[34m: [m[31m  2-greet/greet.cc[m
+[34m#       [m[32mnew file[m[34m: [m[31m  3-greet/.gitignore[m
+[34m#       [m[32mnew file[m[34m: [m[31m  3-greet/README[m
+[34m#       [m[32mnew file[m[34m: [m[31m  3-greet/greet.cc[m
+[34m#       [m[32mnew file[m[34m: [m[31m  4-sortnums/.gitignore[m
+[34m#       [m[32mnew file[m[34m: [m[31m  4-sortnums/nums1.dat[m
+[34m#       [m[32mnew file[m[34m: [m[31m  4-sortnums/nums2.dat[m
+[34m#       [m[32mnew file[m[34m: [m[31m  4-sortnums/sortnums.cc[m
+[34m#       [m[32mnew file[m[34m: [m[31m  5-numpaths/.gitignore[m
+[34m#       [m[32mnew file[m[34m: [m[31m  5-numpaths/numpaths.cc[m
+[34m#       [m[32mnew file[m[34m: [m[31m  Makefile[m[24;63H1,0-1[9CTop]2;COMMIT_EDITMSG (~/i240b/.git) - VIM]1;COMMIT_EDITMSG[1;1H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[27m[23m[29m[m[H[2J[?25l[2;1H[96m# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch [m[38;5;224mlab3[m
+[96m# [m[38;5;81mChanges to be committed:[m
+[96m#       [m[38;5;121mnew file[m[96m: [m[95m  .gitignore[m
+[96m#       [m[38;5;121mnew file[m[96m: [m[95m  1-greet/.gitignore[m
+[96m#       [m[38;5;121mnew file[m[96m: [m[95m  1-greet/README[m
+[96m#       [m[38;5;121mnew file[m[96m: [m[95m  1-greet/greet.cc[m
+[96m#       [m[38;5;121mnew file[m[96m: [m[95m  2-greet/.gitignore[m
+[96m#       [m[38;5;121mnew file[m[96m: [m[95m  2-greet/README[m
+[96m#       [m[38;5;121mnew file[m[96m: [m[95m  2-greet/greet.cc[m
+[96m#       [m[38;5;121mnew file[m[96m: [m[95m  3-greet/.gitignore[m
+[96m#       [m[38;5;121mnew file[m[96m: [m[95m  3-greet/README[m
+[96m#       [m[38;5;121mnew file[m[96m: [m[95m  3-greet/greet.cc[m
+[96m#       [m[38;5;121mnew file[m[96m: [m[95m  4-sortnums/.gitignore[m
+[96m#       [m[38;5;121mnew file[m[96m: [m[95m  4-sortnums/nums1.dat[m
+[96m#       [m[38;5;121mnew file[m[96m: [m[95m  4-sortnums/nums2.dat[m
+[96m#       [m[38;5;121mnew file[m[96m: [m[95m  4-sortnums/sortnums.cc[m
+[96m#       [m[38;5;121mnew file[m[96m: [m[95m  5-numpaths/.gitignore[m
+[96m#       [m[38;5;121mnew file[m[96m: [m[95m  5-numpaths/numpaths.cc[m
+[96m#       [m[38;5;121mnew file[m[96m: [m[95m  Makefile[m[24;63H1,0-1[9CTop"~/i240b/.git/COMMIT_EDITMSG" 37L, 1065C[1;1H[?25h[?25l[24;1HType  :qa!  and press <E...all changes and exit Vim[24;63H[K[24;63H1,0-1[9CTop[1;1H[?25h[?25l[24;53H^[[1;1H[24;53H  [1;1H[24;53H^[[1;1H[24;53H  [1;1H[?25h[?25l[24;53H^[[1;1H[24;53H  [1;1H[24;53H^[[1;1H[24;53H  [1;1H[?25h[?25l[24;53H^[[1;1H[24;53H  [1;1H[24;53H^[[1;1H[24;53H  [1;1H[?25h[?25l[24;63H[K[24;63H1,0-1[9CTop[1;1H[?25h[?25l[24;63H[K[24;63H1,0-1[9CTop[1;1H[?25h[?25l[24;53H^X[1;1H[24;53H  [1;1H[?25h[?25l[24;53HE[1;1H[24;53H [2;1H[24;63H2,1  [2;1H[?25h[?25l[24;53HE[2;1H[24;53H [2;8H[24;65H8[2;8H[?25h[?25l[24;53Hk[2;8H[24;53H [1;1H[24;63H1,0-1[1;1H[?25h[?25l[24;53Hk[1;1H[24;53H [1;1H[?25h[?25l[24;53H<[1;1H[?25h[?25l[24;54HE[1;1H[24;53H  [1;1H]2;COMMIT_EDITMSG + (~/i240b/.git) - VIM]1;COMMIT_EDITMSG[?25h[?25l[24;53H,[1;1H[24;53H [1;1H[?25h[?25l[24;53Hq[1;1H[?25h[?25l[24;54Ha[1;1H[24;1H[1mrecording @a[m[24;13H[K[24;63H1,0-1[9CTop[1;1H[?25h[?25l[24;53H^[[1;1H[24;53H  [1;1H[24;53H^[[1;1H[24;53H  [1;1H[?25h[?25l[24;53H^[[1;1H[24;53H  [1;1H[24;53H^[[1;1H[24;53H  [1;1H[?25h[?25l[24;53H^[[1;1H[24;53H  [1;1H[24;53H^[[1;1H[24;53H  [1;1H[?25h[?25l[24;53H^[[1;1H[24;53H  [1;1H[24;53H^[[1;1H[24;53H  [1;1H[?25h[?25l[24;53Hl[1;1H[24;53H [1;1H[?25h[?25l[24;53Hj[1;1H[24;53H [2;1H[24;63H2,1  [2;1H[?25h[?25l[24;53Hl[2;1H[24;53H [2;2H[24;65H2[2;2H[?25h[?25l[24;53Hk[2;2H[24;53H [1;1H[24;63H1,0-1[1;1H[?25h[?25l[24;1HType  :qa!  and press <E...all changes and exit Vim[24;63H[K[24;1H[1mrecording @a[m[24;13H[K[24;63H1,0-1[9CTop[1;1H[?25h[?25l[24;53Hq[1;1H[24;1H[K[1;1H[24;63H1,0-1[9CTop[1;1H[?25h[?25l[24;53Hq[1;1H[?25h[?25l[24;53H [1;1H[?25h[?1006l[?1002l[?2004l[?1006h[?1002h[?2004h[?1006l[?1002l[?2004l[?1006h[?1002h[?2004h[?1006l[?1002l[?2004l[?1006h[?1002h[?2004h[?25l[9;20H[95m.gi 1-greet/README[m[24;63H9,17-23[9;23H[?25h[?25l[?25h[?25l[24;53Hq[9;23H[?25h[?25l[24;54He[9;23H[24;1H[1mrecording @e[m[24;53H[K[24;63H9,17-23[7CTop[9;23H[?25h[?25l[24;53Hw[9;23H[24;53H [9;24H[24;66H8-24[9;24H[?25h[?25l[24;1HType  :qa!  and press <E...all changes and exit Vim[24;63H[K[24;1H[1mrecording @e[m[24;13H[K[24;63H9,18-24[7CTop[9;24H[?25h[?25l[24;53H^Z[9;24H[24;1H
+[?2004l[?1l>[?25h[?1049l[23;0;0t]2;Terminal - ]1;Terminal - [23;2t[23;1t[22;2t[22;1t[?1006l[?1002l[?2004l
+[1]+  Stopped                 git commit
+tloja1@g7-40:~/i240b/submit/lab3/exercises$ git commitadd -A
+tloja1@g7-40:~/i240b/submit/lab3/exercises$ git add -Acommitadd -Acommitadd -Acommitadd -A[Ktouch .gitignore
+tloja1@g7-40:~/i240b/submit/lab3/exercises$ ls
+1-greet  2-greet  3-greet  4-sortnums  5-numpaths  data  Makefile
+tloja1@g7-40:~/i240b/submit/lab3/exercises$ cd 1-greet/
+tloja1@g7-40:~/i240b/submit/lab3/exercises/1-greet$ ls -l
+total 8
+-rw-r--r-- 1 tloja1 tloja1 717 Feb 13 18:07 greet.cc
+-rw-r--r-- 1 tloja1 tloja1  54 Feb 13 18:07 README
+tloja1@g7-40:~/i240b/submit/lab3/exercises/1-greet$ ls
+greet.cc  README
