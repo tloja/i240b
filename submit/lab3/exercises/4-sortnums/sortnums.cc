@@ -37,5 +37,6 @@ main(int argc, char* argv[])
   }
   auto nums = readNums(std::vector<std::string>(&argv[1], &argv[argc]));
   sort(nums.begin(), nums.end());
+  reverse(nums.begin(), nums.end());
   for (auto n : nums) { std::cout << n << std::endl; }
 }

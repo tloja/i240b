@@ -23,7 +23,7 @@ main(int argc, const char *argv[])
   else {
     for (int i = 1; i < argc; i++) {
       const char* x = greetMsg(argv[i]); 
-      std::cout << greetMsg(argv[i]) << std::endl;
+      std::cout << x << std::endl;
       delete[] x;
     }
   }
