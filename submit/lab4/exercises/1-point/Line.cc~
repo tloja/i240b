@@ -1,0 +1,22 @@
+#include "point.cc"
+#include "point.hh"
+
+#include <iostream>
+#include <cmath>
+#include <string>
+#include <sstream>
+
+    struct Line {
+    Point p1,p2;
+    double Line::  length() const{
+      return p1.distance(p2);
+    }
+    Line(Point p1-in, Point p2-in) : p1(p1-in), p2(p2-in){};
+    std::string Line:: toString() const {
+     std::stringstream s;
+     s << p1.toString() + "--" + p2.toString() + "length = " << length();
+     return s.str();
+}
+int main(){
+  return 0;
+}
