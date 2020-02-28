@@ -1,0 +1,608 @@
+Script started on 2020-02-27 17:55:10-05:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="80" LINES="24"]
+bash: /home/umrigar/cs240/bin/student.rc: Permission denied
+tloja1@g7-15:~/i240b/submit/lab5$ cd ~/i240b/submit/lab5
+tloja1@g7-15:~/i240b/submit/lab5$ cp -r /`cs240/labs/lab5/exercises .
+> ^C
+tloja1@g7-15:~/i240b/submit/lab5$ cp -r /`cs240/labs/lab5/exercises .[1P
+cp: cannot stat '/cs240/labs/lab5/exercises': No such file or directory
+tloja1@g7-15:~/i240b/submit/lab5$ cd ../
+tloja1@g7-15:~/i240b/submit$ cd ../
+tloja1@g7-15:~/i240b$ cd ../
+tloja1@g7-15:~$ cs[Kd cs240
+tloja1@g7-15:~/cs240$ ls
+announce.html  docs	      hws	  labs	    README.md
+announce.umt   exams-quizzes  index.html  misc	    slides
+assets	       exercises      index.umt   projects  umt.make
+tloja1@g7-15:~/cs240$ cd labs/
+tloja1@g7-15:~/cs240/labs$ ls
+index.html  index.umt  lab0  lab1  lab2  lab3  lab4  submission
+tloja1@g7-15:~/cs240/labs$ cd la[K[K[K[K[Kcd ../
+tloja1@g7-15:~/cs240$ gitp ull
+bash: gitp: command not found
+tloja1@g7-15:~/cs240$ git pull
+/home/tloja1/.bashrc: line 1: /home/umrigar/cs240/bin/student.rc: Permission denied
+remote: Enumerating objects: 182, done.[K
+remote: Counting objects:   0% (1/182)   [Kremote: Counting objects:   1% (2/182)   [Kremote: Counting objects:   2% (4/182)   [Kremote: Counting objects:   3% (6/182)   [Kremote: Counting objects:   4% (8/182)   [Kremote: Counting objects:   5% (10/182)   [Kremote: Counting objects:   6% (11/182)   [Kremote: Counting objects:   7% (13/182)   [Kremote: Counting objects:   8% (15/182)   [Kremote: Counting objects:   9% (17/182)   [Kremote: Counting objects:  10% (19/182)   [Kremote: Counting objects:  11% (21/182)   [Kremote: Counting objects:  12% (22/182)   [Kremote: Counting objects:  13% (24/182)   [Kremote: Counting objects:  14% (26/182)   [Kremote: Counting objects:  15% (28/182)   [Kremote: Counting objects:  16% (30/182)   [Kremote: Counting objects:  17% (31/182)   [Kremote: Counting objects:  18% (33/182)   [Kremote: Counting objects:  19% (35/182)   [Kremote: Counting objects:  20% (37/182)   [Kremote: Counting objects:  21% (39/182)   [Kremote: Counting objects:  22% (41/182)   [Kremote: Counting objects:  23% (42/182)   [Kremote: Counting objects:  24% (44/182)   [Kremote: Counting objects:  25% (46/182)   [Kremote: Counting objects:  26% (48/182)   [Kremote: Counting objects:  27% (50/182)   [Kremote: Counting objects:  28% (51/182)   [Kremote: Counting objects:  29% (53/182)   [Kremote: Counting objects:  30% (55/182)   [Kremote: Counting objects:  31% (57/182)   [Kremote: Counting objects:  32% (59/182)   [Kremote: Counting objects:  33% (61/182)   [Kremote: Counting objects:  34% (62/182)   [Kremote: Counting objects:  35% (64/182)   [Kremote: Counting objects:  36% (66/182)   [Kremote: Counting objects:  37% (68/182)   [Kremote: Counting objects:  38% (70/182)   [Kremote: Counting objects:  39% (71/182)   [Kremote: Counting objects:  40% (73/182)   [Kremote: Counting objects:  41% (75/182)   [Kremote: Counting objects:  42% (77/182)   [Kremote: Counting objects:  43% (79/182)   [Kremote: Counting objects:  44% (81/182)   [Kremote: Counting objects:  45% (82/182)   [Kremote: Counting objects:  46% (84/182)   [Kremote: Counting objects:  47% (86/182)   [Kremote: Counting objects:  48% (88/182)   [Kremote: Counting objects:  49% (90/182)   [Kremote: Counting objects:  50% (91/182)   [Kremote: Counting objects:  51% (93/182)   [Kremote: Counting objects:  52% (95/182)   [Kremote: Counting objects:  53% (97/182)   [Kremote: Counting objects:  54% (99/182)   [Kremote: Counting objects:  55% (101/182)   [Kremote: Counting objects:  56% (102/182)   [Kremote: Counting objects:  57% (104/182)   [Kremote: Counting objects:  58% (106/182)   [Kremote: Counting objects:  59% (108/182)   [Kremote: Counting objects:  60% (110/182)   [Kremote: Counting objects:  61% (112/182)   [Kremote: Counting objects:  62% (113/182)   [Kremote: Counting objects:  63% (115/182)   [Kremote: Counting objects:  64% (117/182)   [Kremote: Counting objects:  65% (119/182)   [Kremote: Counting objects:  66% (121/182)   [Kremote: Counting objects:  67% (122/182)   [Kremote: Counting objects:  68% (124/182)   [Kremote: Counting objects:  69% (126/182)   [Kremote: Counting objects:  70% (128/182)   [Kremote: Counting objects:  71% (130/182)   [Kremote: Counting objects:  72% (132/182)   [Kremote: Counting objects:  73% (133/182)   [Kremote: Counting objects:  74% (135/182)   [Kremote: Counting objects:  75% (137/182)   [Kremote: Counting objects:  76% (139/182)   [Kremote: Counting objects:  77% (141/182)   [Kremote: Counting objects:  78% (142/182)   [Kremote: Counting objects:  79% (144/182)   [Kremote: Counting objects:  80% (146/182)   [Kremote: Counting objects:  81% (148/182)   [Kremote: Counting objects:  82% (150/182)   [Kremote: Counting objects:  83% (152/182)   [Kremote: Counting objects:  84% (153/182)   [Kremote: Counting objects:  85% (155/182)   [Kremote: Counting objects:  86% (157/182)   [Kremote: Counting objects:  87% (159/182)   [Kremote: Counting objects:  88% (161/182)   [Kremote: Counting objects:  89% (162/182)   [Kremote: Counting objects:  90% (164/182)   [Kremote: Counting objects:  91% (166/182)   [Kremote: Counting objects:  92% (168/182)   [Kremote: Counting objects:  93% (170/182)   [Kremote: Counting objects:  94% (172/182)   [Kremote: Counting objects:  95% (173/182)   [Kremote: Counting objects:  96% (175/182)   [Kremote: Counting objects:  97% (177/182)   [Kremote: Counting objects:  98% (179/182)   [Kremote: Counting objects:  99% (181/182)   [Kremote: Counting objects: 100% (182/182)   [Kremote: Counting objects: 100% (182/182), done.[K
+remote: Compressing objects:   0% (1/151)   [Kremote: Compressing objects:   1% (2/151)   [Kremote: Compressing objects:   2% (4/151)   [Kremote: Compressing objects:   3% (5/151)   [Kremote: Compressing objects:   4% (7/151)   [Kremote: Compressing objects:   5% (8/151)   [Kremote: Compressing objects:   6% (10/151)   [Kremote: Compressing objects:   7% (11/151)   [Kremote: Compressing objects:   8% (13/151)   [Kremote: Compressing objects:   9% (14/151)   [Kremote: Compressing objects:  10% (16/151)   [Kremote: Compressing objects:  11% (17/151)   [Kremote: Compressing objects:  12% (19/151)   [Kremote: Compressing objects:  13% (20/151)   [Kremote: Compressing objects:  14% (22/151)   [Kremote: Compressing objects:  15% (23/151)   [Kremote: Compressing objects:  16% (25/151)   [Kremote: Compressing objects:  17% (26/151)   [Kremote: Compressing objects:  18% (28/151)   [Kremote: Compressing objects:  19% (29/151)   [Kremote: Compressing objects:  20% (31/151)   [Kremote: Compressing objects:  21% (32/151)   [Kremote: Compressing objects:  22% (34/151)   [Kremote: Compressing objects:  23% (35/151)   [Kremote: Compressing objects:  24% (37/151)   [Kremote: Compressing objects:  25% (38/151)   [Kremote: Compressing objects:  26% (40/151)   [Kremote: Compressing objects:  27% (41/151)   [Kremote: Compressing objects:  28% (43/151)   [Kremote: Compressing objects:  29% (44/151)   [Kremote: Compressing objects:  30% (46/151)   [Kremote: Compressing objects:  31% (47/151)   [Kremote: Compressing objects:  32% (49/151)   [Kremote: Compressing objects:  33% (50/151)   [Kremote: Compressing objects:  34% (52/151)   [Kremote: Compressing objects:  35% (53/151)   [Kremote: Compressing objects:  36% (55/151)   [Kremote: Compressing objects:  37% (56/151)   [Kremote: Compressing objects:  38% (58/151)   [Kremote: Compressing objects:  39% (59/151)   [Kremote: Compressing objects:  40% (61/151)   [Kremote: Compressing objects:  41% (62/151)   [Kremote: Compressing objects:  42% (64/151)   [Kremote: Compressing objects:  43% (65/151)   [Kremote: Compressing objects:  44% (67/151)   [Kremote: Compressing objects:  45% (68/151)   [Kremote: Compressing objects:  46% (70/151)   [Kremote: Compressing objects:  47% (71/151)   [Kremote: Compressing objects:  48% (73/151)   [Kremote: Compressing objects:  49% (74/151)   [Kremote: Compressing objects:  50% (76/151)   [Kremote: Compressing objects:  51% (78/151)   [Kremote: Compressing objects:  52% (79/151)   [Kremote: Compressing objects:  53% (81/151)   [Kremote: Compressing objects:  54% (82/151)   [Kremote: Compressing objects:  55% (84/151)   [Kremote: Compressing objects:  56% (85/151)   [Kremote: Compressing objects:  57% (87/151)   [Kremote: Compressing objects:  58% (88/151)   [Kremote: Compressing objects:  59% (90/151)   [Kremote: Compressing objects:  60% (91/151)   [Kremote: Compressing objects:  61% (93/151)   [Kremote: Compressing objects:  62% (94/151)   [Kremote: Compressing objects:  63% (96/151)   [Kremote: Compressing objects:  64% (97/151)   [Kremote: Compressing objects:  65% (99/151)   [Kremote: Compressing objects:  66% (100/151)   [Kremote: Compressing objects:  67% (102/151)   [Kremote: Compressing objects:  68% (103/151)   [Kremote: Compressing objects:  69% (105/151)   [Kremote: Compressing objects:  70% (106/151)   [Kremote: Compressing objects:  71% (108/151)   [Kremote: Compressing objects:  72% (109/151)   [Kremote: Compressing objects:  73% (111/151)   [Kremote: Compressing objects:  74% (112/151)   [Kremote: Compressing objects:  75% (114/151)   [Kremote: Compressing objects:  76% (115/151)   [Kremote: Compressing objects:  77% (117/151)   [Kremote: Compressing objects:  78% (118/151)   [Kremote: Compressing objects:  79% (120/151)   [Kremote: Compressing objects:  80% (121/151)   [Kremote: Compressing objects:  81% (123/151)   [Kremote: Compressing objects:  82% (124/151)   [Kremote: Compressing objects:  83% (126/151)   [Kremote: Compressing objects:  84% (127/151)   [Kremote: Compressing objects:  85% (129/151)   [Kremote: Compressing objects:  86% (130/151)   [Kremote: Compressing objects:  87% (132/151)   [Kremote: Compressing objects:  88% (133/151)   [Kremote: Compressing objects:  89% (135/151)   [Kremote: Compressing objects:  90% (136/151)   [Kremote: Compressing objects:  91% (138/151)   [Kremote: Compressing objects:  92% (139/151)   [Kremote: Compressing objects:  93% (141/151)   [Kremote: Compressing objects:  94% (142/151)   [Kremote: Compressing objects:  95% (144/151)   [Kremote: Compressing objects:  96% (145/151)   [Kremote: Compressing objects:  97% (147/151)   [Kremote: Compressing objects:  98% (148/151)   [Kremote: Compressing objects:  99% (150/151)   [Kremote: Compressing objects: 100% (151/151)   [Kremote: Compressing objects: 100% (151/151), done.[K
+Receiving objects:   0% (1/157)   Receiving objects:   1% (2/157)   Receiving objects:   2% (4/157)   Receiving objects:   3% (5/157)   Receiving objects:   4% (7/157)   Receiving objects:   5% (8/157)   Receiving objects:   6% (10/157)   Receiving objects:   7% (11/157)   Receiving objects:   8% (13/157)   Receiving objects:   9% (15/157)   Receiving objects:  10% (16/157)   Receiving objects:  11% (18/157)   Receiving objects:  12% (19/157)   Receiving objects:  13% (21/157)   Receiving objects:  14% (22/157)   Receiving objects:  15% (24/157)   Receiving objects:  16% (26/157)   Receiving objects:  17% (27/157)   Receiving objects:  18% (29/157)   Receiving objects:  19% (30/157)   Receiving objects:  20% (32/157)   Receiving objects:  21% (33/157)   Receiving objects:  22% (35/157)   Receiving objects:  23% (37/157)   Receiving objects:  24% (38/157)   Receiving objects:  25% (40/157)   Receiving objects:  26% (41/157)   Receiving objects:  27% (43/157)   Receiving objects:  28% (44/157)   Receiving objects:  29% (46/157)   Receiving objects:  30% (48/157)   Receiving objects:  31% (49/157)   Receiving objects:  32% (51/157)   Receiving objects:  33% (52/157)   Receiving objects:  34% (54/157)   Receiving objects:  35% (55/157)   Receiving objects:  36% (57/157)   Receiving objects:  37% (59/157)   Receiving objects:  38% (60/157)   Receiving objects:  39% (62/157)   Receiving objects:  40% (63/157)   Receiving objects:  41% (65/157)   Receiving objects:  42% (66/157)   Receiving objects:  43% (68/157)   Receiving objects:  44% (70/157)   Receiving objects:  45% (71/157)   Receiving objects:  46% (73/157)   Receiving objects:  47% (74/157)   Receiving objects:  48% (76/157)   Receiving objects:  49% (77/157)   Receiving objects:  50% (79/157)   Receiving objects:  51% (81/157)   Receiving objects:  52% (82/157)   Receiving objects:  53% (84/157)   Receiving objects:  54% (85/157)   Receiving objects:  55% (87/157)   Receiving objects:  56% (88/157)   Receiving objects:  57% (90/157)   Receiving objects:  58% (92/157)   Receiving objects:  59% (93/157)   Receiving objects:  60% (95/157)   Receiving objects:  61% (96/157)   Receiving objects:  62% (98/157)   Receiving objects:  63% (99/157)   Receiving objects:  64% (101/157)   Receiving objects:  65% (103/157)   Receiving objects:  66% (104/157)   Receiving objects:  67% (106/157)   Receiving objects:  68% (107/157)   Receiving objects:  69% (109/157)   Receiving objects:  70% (110/157)   Receiving objects:  71% (112/157)   Receiving objects:  72% (114/157)   Receiving objects:  73% (115/157)   Receiving objects:  74% (117/157)   Receiving objects:  75% (118/157)   Receiving objects:  76% (120/157)   Receiving objects:  77% (121/157)   Receiving objects:  78% (123/157)   Receiving objects:  79% (125/157)   Receiving objects:  80% (126/157)   Receiving objects:  81% (128/157)   Receiving objects:  82% (129/157)   Receiving objects:  83% (131/157)   Receiving objects:  84% (132/157)   Receiving objects:  85% (134/157)   Receiving objects:  86% (136/157)   Receiving objects:  87% (137/157)   Receiving objects:  88% (139/157)   Receiving objects:  89% (140/157)   Receiving objects:  90% (142/157)   Receiving objects:  91% (143/157)   Receiving objects:  92% (145/157)   Receiving objects:  93% (147/157)   remote: Total 157 (delta 85), reused 0 (delta 0)[K
+Receiving objects:  94% (148/157)   Receiving objects:  95% (150/157)   Receiving objects:  96% (151/157)   Receiving objects:  97% (153/157)   Receiving objects:  98% (154/157)   Receiving objects:  99% (156/157)   Receiving objects: 100% (157/157)   Receiving objects: 100% (157/157), 777.07 KiB | 6.58 MiB/s, done.
+Resolving deltas:   0% (0/85)   Resolving deltas:   1% (1/85)   Resolving deltas:   2% (2/85)   Resolving deltas:   9% (8/85)   Resolving deltas:  10% (9/85)   Resolving deltas:  12% (11/85)   Resolving deltas:  16% (14/85)   Resolving deltas:  17% (15/85)   Resolving deltas:  18% (16/85)   Resolving deltas:  20% (17/85)   Resolving deltas:  21% (18/85)   Resolving deltas:  22% (19/85)   Resolving deltas:  25% (22/85)   Resolving deltas:  34% (29/85)   Resolving deltas:  49% (42/85)   Resolving deltas:  50% (43/85)   Resolving deltas:  51% (44/85)   Resolving deltas:  52% (45/85)   Resolving deltas:  55% (47/85)   Resolving deltas:  57% (49/85)   Resolving deltas:  58% (50/85)   Resolving deltas:  60% (51/85)   Resolving deltas:  61% (52/85)   Resolving deltas:  62% (53/85)   Resolving deltas:  75% (64/85)   Resolving deltas:  76% (65/85)   Resolving deltas:  77% (66/85)   Resolving deltas:  78% (67/85)   Resolving deltas:  88% (75/85)   Resolving deltas:  97% (83/85)   Resolving deltas: 100% (85/85)   Resolving deltas: 100% (85/85), completed with 17 local objects.
+From ssh://remote.cs.binghamton.edu/~umrigar/git-repos/cs240
+   0a00472..865153e  master     -> origin/master
+Updating 0a00472..865153e
+Fast-forward
+ hws/hw1/hw1.html                                   |   8 [32m+[m[31m-[m
+ hws/hw1/hw1.pdf                                    | Bin [31m85583[m -> [32m85584[m bytes
+ hws/hw1/hw1.umt                                    |   6 [32m+[m[31m-[m
+ index.html                                         |  36 [32m+[m[31m-[m
+ index.umt                                          |   9 [32m+[m
+ labs/index.html                                    |   2 [32m+[m
+ labs/index.umt                                     |   7 [32m+[m[31m-[m
+ labs/lab5/exercises/1-animal/.gitignore            |   3 [32m+[m
+ labs/lab5/exercises/1-animal/animal.hh             |  46 [32m+++[m
+ labs/lab5/exercises/1-animal/main.cc               |  22 [32m+[m
+ .../code => labs/lab5/exercises/2-expr}/.gitignore |   5 [32m+[m[31m-[m
+ labs/lab5/exercises/2-expr/expr.cc                 |  45 [32m++[m
+ labs/lab5/exercises/2-expr/expr.hh                 | 147 [32m+++++++[m
+ labs/lab5/exercises/2-expr/main.cc                 |  18 [32m+[m
+ labs/lab5/exercises/2-expr/parse.cc                |  49 [32m+++[m
+ labs/lab5/exercises/2-expr/parse.hh                |  12 [32m+[m
+ labs/lab5/exercises/2-expr/tostring.cc             |  11 [32m+[m
+ labs/lab5/exercises/2-expr/tostring.hh             |  15 [32m+[m
+ labs/lab5/exercises/Makefile                       |  56 [32m+++[m
+ labs/lab5/lab5.html                                | 148 [32m+++++++[m
+ labs/lab5/lab5.pdf                                 | Bin [31m0[m -> [32m73465[m bytes
+ labs/lab5/lab5.umt                                 | 210 [32m++++++++++[m
+ labs/lab5/lab5/hl-fine_blue.css                    |  19 [32m+[m
+ labs/lab5/lab5/hl-fine_blue.sty                    |  19 [32m+[m
+ projects/index.html                                |   1 [32m+[m
+ projects/index.umt                                 |   4 [32m+[m[31m-[m
+ projects/prj1-sol/.gitignore                       |   3 [32m+[m
+ projects/prj1-sol/Makefile                         |   3 [32m+[m
+ projects/prj1-sol/hints.txt                        |   5 [32m+[m
+ projects/prj1-sol/wordcounts.cc                    | 159 [32m+++++++[m
+ slides/c++-intro/c++-intro.html                    |  74 [32m++[m[31m--[m
+ slides/c++-intro/c++-intro.pdf                     | Bin [31m267533[m -> [32m267582[m bytes
+ slides/c++-intro/c++-intro.umt                     |  24 [32m+[m[31m-[m
+ slides/collections1/code/binary-search/.gitignore  |   3 [32m+[m
+ slides/collections1/code/binary-search/main.cc     |  81 [32m++++[m
+ slides/collections1/code/linear-search/.gitignore  |   3 [32m+[m
+ slides/collections1/code/linear-search/main.cc     |  44 [32m++[m
+ slides/collections1/code/{ => lists}/alist.hh      |   0
+ slides/collections1/code/{ => lists}/command.cc    |   0
+ slides/collections1/code/{ => lists}/command.hh    |   0
+ .../collections1/code/{ => lists}/dlinkedlist.hh   |   0
+ .../collections1/code/{ => lists}/freelist-link.hh |   0
+ slides/collections1/code/{ => lists}/linkedlist.hh |   0
+ slides/collections1/code/{ => lists}/list.hh       |   0
+ slides/collections1/code/{ => lists}/main.cc       |   0
+ slides/collections1/code/{ => lists}/tostring.cc   |   0
+ slides/collections1/code/{ => lists}/tostring.hh   |   0
+ slides/collections1/code/{ => lists}/xlist.hh      |   0
+ .../code/ordered-linear-search/.gitignore          |   3 [32m+[m
+ .../code/ordered-linear-search/main.cc             |  67 [32m+++[m
+ slides/collections1/code/queues/.gitignore         |   3 [32m+[m
+ slides/collections1/code/queues/aqueue.hh          |  68 [32m+++[m
+ slides/collections1/code/queues/main.cc            |  56 [32m+++[m
+ slides/collections1/code/queues/queue.hh           |  39 [32m++[m
+ slides/collections1/code/stacks/.gitignore         |   1 [32m+[m
+ slides/collections1/code/stacks/astack.hh          |  53 [32m+++[m
+ slides/collections1/code/stacks/lstack.hh          |  63 [32m+++[m
+ slides/collections1/code/stacks/stack.hh           |  35 [32m++[m
+ slides/collections1/collections1.html              | 248 [32m++++++++++[m[31m-[m
+ slides/collections1/collections1.pdf               | Bin [31m268085[m -> [32m426116[m bytes
+ slides/collections1/collections1.umt               | 455 [32m++++++++++++++++++++[m[31m-[m
+ slides/collections1/figs/array-queue-circular.png  | Bin [31m0[m -> [32m32367[m bytes
+ .../collections1/figs/array-queue-index-drift.png  | Bin [31m0[m -> [32m17554[m bytes
+ slides/collections1/figs/fact-trace.png            | Bin [31m0[m -> [32m31629[m bytes
+ slides/collections1/figs/two-stacks.png            | Bin [31m0[m -> [32m8250[m bytes
+ 65 files changed, 2286 insertions(+), 102 deletions(-)
+ create mode 100644 labs/lab5/exercises/1-animal/.gitignore
+ create mode 100644 labs/lab5/exercises/1-animal/animal.hh
+ create mode 100644 labs/lab5/exercises/1-animal/main.cc
+ rename {slides/collections1/code => labs/lab5/exercises/2-expr}/.gitignore (65%)
+ create mode 100644 labs/lab5/exercises/2-expr/expr.cc
+ create mode 100644 labs/lab5/exercises/2-expr/expr.hh
+ create mode 100644 labs/lab5/exercises/2-expr/main.cc
+ create mode 100644 labs/lab5/exercises/2-expr/parse.cc
+ create mode 100644 labs/lab5/exercises/2-expr/parse.hh
+ create mode 100644 labs/lab5/exercises/2-expr/tostring.cc
+ create mode 100644 labs/lab5/exercises/2-expr/tostring.hh
+ create mode 100644 labs/lab5/exercises/Makefile
+ create mode 100644 labs/lab5/lab5.html
+ create mode 100644 labs/lab5/lab5.pdf
+ create mode 100644 labs/lab5/lab5.umt
+ create mode 100644 labs/lab5/lab5/hl-fine_blue.css
+ create mode 100644 labs/lab5/lab5/hl-fine_blue.sty
+ create mode 100644 projects/prj1-sol/.gitignore
+ create mode 100644 projects/prj1-sol/Makefile
+ create mode 100644 projects/prj1-sol/hints.txt
+ create mode 100644 projects/prj1-sol/wordcounts.cc
+ create mode 100644 slides/collections1/code/binary-search/.gitignore
+ create mode 100644 slides/collections1/code/binary-search/main.cc
+ create mode 100644 slides/collections1/code/linear-search/.gitignore
+ create mode 100644 slides/collections1/code/linear-search/main.cc
+ rename slides/collections1/code/{ => lists}/alist.hh (100%)
+ rename slides/collections1/code/{ => lists}/command.cc (100%)
+ rename slides/collections1/code/{ => lists}/command.hh (100%)
+ rename slides/collections1/code/{ => lists}/dlinkedlist.hh (100%)
+ rename slides/collections1/code/{ => lists}/freelist-link.hh (100%)
+ rename slides/collections1/code/{ => lists}/linkedlist.hh (100%)
+ rename slides/collections1/code/{ => lists}/list.hh (100%)
+ rename slides/collections1/code/{ => lists}/main.cc (100%)
+ rename slides/collections1/code/{ => lists}/tostring.cc (100%)
+ rename slides/collections1/code/{ => lists}/tostring.hh (100%)
+ rename slides/collections1/code/{ => lists}/xlist.hh (100%)
+ create mode 100644 slides/collections1/code/ordered-linear-search/.gitignore
+ create mode 100644 slides/collections1/code/ordered-linear-search/main.cc
+ create mode 100644 slides/collections1/code/queues/.gitignore
+ create mode 100644 slides/collections1/code/queues/aqueue.hh
+ create mode 100644 slides/collections1/code/queues/main.cc
+ create mode 100644 slides/collections1/code/queues/queue.hh
+ create mode 100644 slides/collections1/code/stacks/.gitignore
+ create mode 100644 slides/collections1/code/stacks/astack.hh
+ create mode 100644 slides/collections1/code/stacks/lstack.hh
+ create mode 100644 slides/collections1/code/stacks/stack.hh
+ create mode 100644 slides/collections1/figs/array-queue-circular.png
+ create mode 100644 slides/collections1/figs/array-queue-index-drift.png
+ create mode 100644 slides/collections1/figs/fact-trace.png
+ create mode 100644 slides/collections1/figs/two-stacks.png
+tloja1@g7-15:~/cs240$ cd ~/i240b/submit/lab5
+tloja1@g7-15:~/i240b/submit/lab5$ cp -r ~/cs240/labs/lab5/er[Kxercises .
+tloja1@g7-15:~/i240b/submit/lab5$ cp -r ~/cs240/labs/lab5/exercises .[13Pd ~/i240b/submit/lab5p -r ~/cs240/labs/lab5/exercises .[Kcd exercises/l[K1-animal
+tloja1@g7-15:~/i240b/submit/lab5/exercises/1-animal$ ls --[Kl
+total 8
+-rw-r--r-- 1 tloja1 tloja1 608 Feb 27 18:00 animal.hh
+-rw-r--r-- 1 tloja1 tloja1 489 Feb 27 18:00 main.cc
+tloja1@g7-15:~/i240b/submit/lab5/exercises/1-animal$ make -f ../Makf[Kefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cc:10:24:[m[K [01;31m[Kerror: [m[Kinvalid abstract type ‘[01m[KAnimal[m[K’ for ‘[01m[Kanimals[m[K’
+   const Animal animals[[01;31m[K][m[K = { fido, fluffy };
+                        [01;31m[K^[m[K
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kanimal.hh:3:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KAnimal[m[K’:
+ class [01;36m[KAnimal[m[K {
+       [01;36m[K^~~~~~[m[K
+[01m[Kanimal.hh:8:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual std::__cxx11::string Animal::says() const[m[K’
+   virtual std::string [01;36m[Ksays[m[K()  const = 0;
+                       [01;36m[K^~~~[m[K
+[01m[Kmain.cc:10:43:[m[K [01;31m[Kerror: [m[Kcannot allocate an object of abstract type ‘[01m[KAnimal[m[K’
+   const Animal animals[] = { fido, fluffy [01;31m[K}[m[K;
+                                           [01;31m[K^[m[K
+[01m[Kmain.cc:10:43:[m[K [01;31m[Kerror: [m[Kcannot allocate an object of abstract type ‘[01m[KAnimal[m[K’
+[01m[Kmain.cc:11:25:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kconst Animal* animals [][m[K’
+   const Animal *animals[[01;31m[K][m[K = {
+                         [01;31m[K^[m[K
+[01m[Kmain.cc:10:16:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kconst Animal animals [2][m[K’
+   const Animal [01;36m[Kanimals[m[K[] = { fido, fluffy };
+                [01;36m[K^~~~~~~[m[K
+[01m[Kmain.cc:19:23:[m[K [01;31m[Kerror: [m[Kcannot allocate an object of abstract type ‘[01m[KAnimal[m[K’
+   for (auto animalP : [01;31m[Kanimals[m[K) {
+                       [01;31m[K^~~~~~~[m[K
+[01m[Kmain.cc:19:13:[m[K [01;31m[Kerror: [m[Kcannot declare variable ‘[01m[KanimalP[m[K’ to be of abstract type ‘[01m[KAnimal[m[K’
+   for (auto [01;31m[KanimalP[m[K : animals) {
+             [01;31m[K^~~~~~~[m[K
+[01m[Kmain.cc:20:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KAnimal[m[K’
+     out << animalP[01;31m[K->[m[Kname << " says " << animalP->says() << std::endl;
+                   [01;31m[K^~[m[K
+[01m[Kmain.cc:20:48:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KAnimal[m[K’
+     out << animalP->name << " says " << animalP[01;31m[K->[m[Ksays() << std::endl;
+                                                [01;31m[K^~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+tloja1@g7-15:~/i240b/submit/lab5/exercises/1-animal$ ls
+animal.hh  main.cc
+tloja1@g7-15:~/i240b/submit/lab5/exercises/1-animal$ emacs main.cc
+tloja1@g7-15:~/i240b/submit/lab5/exercises/1-animal$ emacs animal.hh 
+tloja1@g7-15:~/i240b/submit/lab5/exercises/1-animal$ emacs animal.hh [3Pmain.cc
+^Ctloja1@g7-15:~/i240b/submit/lab5/exercises/1-animal$ emacs main.ccanimal.hh 
+^Ctloja1@g7-15:~/i240b/submit/lab5/exercises/1-animal$ emacs animal.hh [3Pmain.ccanimal.hh [3Pmain.ccls[Kmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cc:10:24:[m[K [01;31m[Kerror: [m[Kinvalid abstract type ‘[01m[KAnimal[m[K’ for ‘[01m[Kanimals[m[K’
+   const Animal animals[[01;31m[K][m[K = { fido, fluffy };
+                        [01;31m[K^[m[K
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kanimal.hh:3:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KAnimal[m[K’:
+ class [01;36m[KAnimal[m[K {
+       [01;36m[K^~~~~~[m[K
+[01m[Kanimal.hh:8:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual std::__cxx11::string Animal::says() const[m[K’
+   virtual std::string [01;36m[Ksays[m[K()  const = 0;
+                       [01;36m[K^~~~[m[K
+[01m[Kmain.cc:10:43:[m[K [01;31m[Kerror: [m[Kcannot allocate an object of abstract type ‘[01m[KAnimal[m[K’
+   const Animal animals[] = { fido, fluffy [01;31m[K}[m[K;
+                                           [01;31m[K^[m[K
+[01m[Kmain.cc:10:43:[m[K [01;31m[Kerror: [m[Kcannot allocate an object of abstract type ‘[01m[KAnimal[m[K’
+[01m[Kmain.cc:11:25:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kconst Animal* animals [][m[K’
+   const Animal *animals[[01;31m[K][m[K = {
+                         [01;31m[K^[m[K
+[01m[Kmain.cc:10:16:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kconst Animal animals [2][m[K’
+   const Animal [01;36m[Kanimals[m[K[] = { fido, fluffy };
+                [01;36m[K^~~~~~~[m[K
+[01m[Kmain.cc:19:23:[m[K [01;31m[Kerror: [m[Kcannot allocate an object of abstract type ‘[01m[KAnimal[m[K’
+   for (auto animalP : [01;31m[Kanimals[m[K) {
+                       [01;31m[K^~~~~~~[m[K
+[01m[Kmain.cc:19:13:[m[K [01;31m[Kerror: [m[Kcannot declare variable ‘[01m[KanimalP[m[K’ to be of abstract type ‘[01m[KAnimal[m[K’
+   for (auto [01;31m[KanimalP[m[K : animals) {
+             [01;31m[K^~~~~~~[m[K
+[01m[Kmain.cc:20:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KAnimal[m[K’
+     out << animalP[01;31m[K->[m[Kname << " says " << animalP->says() << std::endl;
+                   [01;31m[K^~[m[K
+[01m[Kmain.cc:20:48:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KAnimal[m[K’
+     out << animalP->name << " says " << animalP[01;31m[K->[m[Ksays() << std::endl;
+                                                [01;31m[K^~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+tloja1@g7-15:~/i240b/submit/lab5/exercises/1-animal$ make -f ../Makefile[3Pemacs animal.hh [3Pmain.ccanimal.hh [3Pmain.ccanimal.hh 
+^Ctloja1@g7-15:~/i240b/submit/lab5/exercises/1-animal$ emacs animal.hh make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+[01m[Kmain.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cc:11:25:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kconst Animal* animals [][m[K’
+   const Animal *animals[[01;31m[K][m[K = {
+                         [01;31m[K^[m[K
+[01m[Kmain.cc:10:16:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kconst Animal animals [2][m[K’
+   const Animal [01;36m[Kanimals[m[K[] = { fido, fluffy };
+                [01;36m[K^~~~~~~[m[K
+[01m[Kmain.cc:20:19:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KAnimal[m[K’
+     out << animalP[01;31m[K->[m[Kname << " says " << animalP->says() << std::endl;
+                   [01;31m[K^~[m[K
+[01m[Kmain.cc:20:48:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[KAnimal[m[K’
+     out << animalP->name << " says " << animalP[01;31m[K->[m[Ksays() << std::endl;
+                                                [01;31m[K^~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+tloja1@g7-15:~/i240b/submit/lab5/exercises/1-animal$ make -f ../Makefile[3Pemacs animal.hh make -f ../Makefile[3Pemacs animal.hh make -f ../Makefile[3Pemacs animal.hh make -f ../Makefile[3Pemacs animal.hh 
+^Ctloja1@g7-15:~/i240b/submit/lab5/exercises/1-animal$ emacs animal.hh make -f ../Makefile[3Pemacs animal.hh make -f ../Makefile[3Pemacs animal.hh [3Pmain.ccanimal.hh [3Pmain.cc
+^Ctloja1@g7-15:~/i240b/submit/lab5/exercises/1-animal$ emacs main.ccanimal.hh make -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main main.o; do echo $t >>.gitignore; done
+tloja1@g7-15:~/i240b/submit/lab5/exercises/1-animal$ ls
+animal.hh  animal.hh~  main  main.cc  main.cc~	main.o
+tloja1@g7-15:~/i240b/submit/lab5/exercises/1-animal$ emacs animal.hh
+^Ctloja1@g7-15:~/i240b/submit/lab5/exercises/1-animal$ emacs main
+tloja1@g7-15:~/i240b/submit/lab5/exercises/1-animal$ emacs main.cc
+tloja1@g7-15:~/i240b/submit/lab5/exercises/1-animal$ emacs main.cc[Kanimal.hh
+^Ctloja1@g7-15:~/i240b/submit/lab5/exercises/1-animal$ emacs animal.hh[2Pmain.cc[Kanimal.hhls[Kmake -f ../Makefile[6Pemacs main.ccmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kanimal.hh:[m[K In member function ‘[01m[Kvirtual std::__cxx11::string Cat::says() const[m[K’:
+[01m[Kanimal.hh:33:29:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+     std::string eats() const[01;31m[K{[m[K
+                             [01;31m[K^[m[K
+[01m[Kmain.cc:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Kmain.cc:7:7:[m[K [01;31m[Kerror: [m[Kcannot declare variable ‘[01m[Kfluffy[m[K’ to be of abstract type ‘[01m[KCat[m[K’
+   Cat [01;31m[Kfluffy[m[K("fluffy"), simba("simba");
+       [01;31m[K^~~~~~[m[K
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kanimal.hh:26:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KCat[m[K’:
+ class [01;36m[KCat[m[K : public Animal {
+       [01;36m[K^~~[m[K
+[01m[Kanimal.hh:11:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual std::__cxx11::string Animal::eats() const[m[K’
+   virtual std::string [01;36m[Keats[m[K()  const = 0;
+                       [01;36m[K^~~~[m[K
+[01m[Kmain.cc:7:25:[m[K [01;31m[Kerror: [m[Kcannot declare variable ‘[01m[Ksimba[m[K’ to be of abstract type ‘[01m[KCat[m[K’
+   Cat fluffy("fluffy"), [01;31m[Ksimba[m[K("simba");
+                         [01;31m[K^~~~~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+tloja1@g7-15:~/i240b/submit/lab5/exercises/1-animal$ make -f ../Makefile[4Pemacs animal.hh
+^Ctloja1@g7-15:~/i240b/submit/lab5/exercises/1-animal$ emacs animal.hhmake -f ../Makefile[4Pemacs animal.hhmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ main.o -o main
+tloja1@g7-15:~/i240b/submit/lab5/exercises/1-animal$ make -f ../Makefile[4Pemacs animal.hhmake -f ../Makefile[4Pemacs animal.hhmake -f ../Makefile[4Pemacs animal.hhmake -f ../Makefile[4Pemacs animal.hhmake -f ../Makefile[Kmake -f ../Makefile[4Pemacs animal.hhmake -f ../Makefile[4Pemacs animal.hh[2Pmain.cc
+tloja1@g7-15:~/i240b/submit/lab5/exercises/1-animal$ emacs main.ccmake -f ../Makefile[4Pemacs animal.hhmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+g++ main.o -o main
+cat </dev/null >.gitignore
+echo .deps >.gitignore
+for t in main main.o; do echo $t >>.gitignore; done
+tloja1@g7-15:~/i240b/submit/lab5/exercises/1-animal$ make -f ../Makefile[6Pemacs main.ccmake -f ../Makefile[6Pemacs main.ccmake -f ../Makefile[K./main
+bessie eats  grass
+bossy eats  grass
+fido eats  meat
+fluffy eats  fish
+rufus eats  meat
+simba eats  fish
+tloja1@g7-15:~/i240b/submit/lab5/exercises/1-animal$ cd [K[K[Kcd ../
+tloja1@g7-15:~/i240b/submit/lab5/exercises$ ls
+1-animal  2-expr  Makefile
+tloja1@g7-15:~/i240b/submit/lab5/exercises$ cd 2-expr/
+tloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ ls
+expr.cc  expr.hh  main.cc  parse.cc  parse.hh  tostring.cc  tostring.hh
+tloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ ls
+expr.cc  expr.hh  main.cc  parse.cc  parse.hh  tostring.cc  tostring.hh
+tloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ emax[Kcs expr.
+tloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ emacs expr.cc
+tloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ emacs expr.cc[Kls[Kemacs expr.cc[Kls
+expr.cc  expr.hh  main.cc  parse.cc  parse.hh  tostring.cc  tostring.hh
+tloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ emacs main.cc 
+tloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ emacs main.cc ls[Kemacs expr.cc
+tloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ emacs expr.ccmain.cc ls[Kemacs main.cc [1Pexpr.cc[Kls
+expr.cc  expr.hh  main.cc  parse.cc  parse.hh  tostring.cc  tostring.hh
+tloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ emacs expr.hh
+^Ctloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ emacs expr.hhls[Kemacs expr.ccmain.cc ls[Kemacs expr.cc[Kls[Kcd 2-expr/ls[Kcd .././mainmake -f ../Makefile[6Pemacs main.ccmake -f ../Makefile
+g++ -MT tostring.o -MMD -MP -MF .deps/tostring.d -g -Wall -std=c++17 -c tostring.cc
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:[m[K In member function ‘[01m[Kstd::__cxx11::string IntExpr::dcCode() const[m[K’:
+[01m[Kexpr.hh:35:12:[m[K [01;31m[Kerror: [m[Kcould not convert ‘[01m[K((const IntExpr*)this)->IntExpr::value[m[K’ from ‘[01m[Kconst int[m[K’ to ‘[01m[Kstd::__cxx11::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’}
+     return [01;31m[Kvalue[m[K;}
+            [01;31m[K^~~~~[m[K
+[01m[Kexpr.hh:[m[K In member function ‘[01m[Kstd::__cxx11::string AddExpr::dcCode() const[m[K’:
+[01m[Kexpr.hh:64:18:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator+[m[K’ (operand types are ‘[01m[Kconst ExprPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<Expr>[m[K’} and ‘[01m[Kconst ExprPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<Expr>[m[K’})
+     return ([01;31m[Kleft + right[m[K);
+             [01;31m[K~~~~~^~~~~~~[m[K
+[01m[Kexpr.hh:64:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Koperator+(int, int)[m[K’ <built-in>
+[01m[Kexpr.hh:64:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kconst ExprPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<Expr>[m[K’} to ‘[01m[Kint[m[K’
+In file included from [01m[K/usr/include/c++/8/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/8/bits/char_traits.h:39[m[K,
+                 from [01m[K/usr/include/c++/8/ios:40[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/8/bits/stl_iterator.h:400:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr std::reverse_iterator<_Iterator> std::operator+(typename std::reverse_iterator<_Iterator>::difference_type, const std::reverse_iterator<_Iterator>&)[m[K’
+     [01;36m[Koperator[m[K+(typename reverse_iterator<_Iterator>::difference_type __n,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_iterator.h:400:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:64:20:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst ExprPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<Expr>[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+     return (left + [01;36m[Kright[m[K);
+                    [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/8/bits/char_traits.h:39[m[K,
+                 from [01m[K/usr/include/c++/8/ios:40[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/8/bits/stl_iterator.h:1195:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr std::move_iterator<_IteratorL> std::operator+(typename std::move_iterator<_IteratorL>::difference_type, const std::move_iterator<_IteratorL>&)[m[K’
+     [01;36m[Koperator[m[K+(typename move_iterator<_Iterator>::difference_type __n,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/stl_iterator.h:1195:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:64:20:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst ExprPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<Expr>[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+     return (left + [01;36m[Kright[m[K);
+                    [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/string:52[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/8/bits/basic_string.h:5927:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/basic_string.h:5927:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:64:20:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst ExprPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<Expr>[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+     return (left + [01;36m[Kright[m[K);
+                    [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/string:53[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/8/bits/basic_string.tcc:1157:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+     [01;36m[Koperator[m[K+(const _CharT* __lhs,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/basic_string.tcc:1157:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:64:20:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::shared_ptr<Expr>[m[K’
+     return (left + [01;36m[Kright[m[K);
+                    [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/string:53[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/8/bits/basic_string.tcc:1173:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+     [01;36m[Koperator[m[K+(_CharT __lhs, const basic_string<_CharT, _Traits, _Alloc>& __rhs)
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/basic_string.tcc:1173:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:64:20:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst ExprPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<Expr>[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+     return (left + [01;36m[Kright[m[K);
+                    [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/string:52[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/8/bits/basic_string.h:5964:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)[m[K’
+     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/basic_string.h:5964:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:64:20:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst ExprPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<Expr>[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+     return (left + [01;36m[Kright[m[K);
+                    [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/string:52[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/8/bits/basic_string.h:5980:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, _CharT)[m[K’
+     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs, _CharT __rhs)
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/basic_string.h:5980:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:64:20:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst ExprPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<Expr>[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+     return (left + [01;36m[Kright[m[K);
+                    [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/string:52[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/8/bits/basic_string.h:5992:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/basic_string.h:5992:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:64:20:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst ExprPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<Expr>[m[K’} have incompatible cv-qualifiers
+     return (left + [01;36m[Kright[m[K);
+                    [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/string:52[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/8/bits/basic_string.h:5998:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+     [01;36m[Koperator[m[K+(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/basic_string.h:5998:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:64:20:[m[K [01;36m[Knote: [m[K  ‘[01m[Kconst ExprPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<Expr>[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+     return (left + [01;36m[Kright[m[K);
+                    [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/string:52[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/8/bits/basic_string.h:6004:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/basic_string.h:6004:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:64:20:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst ExprPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<Expr>[m[K’} have incompatible cv-qualifiers
+     return (left + [01;36m[Kright[m[K);
+                    [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/string:52[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/8/bits/basic_string.h:6016:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+     [01;36m[Koperator[m[K+(const _CharT* __lhs,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/basic_string.h:6016:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:64:20:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::shared_ptr<Expr>[m[K’
+     return (left + [01;36m[Kright[m[K);
+                    [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/string:52[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/8/bits/basic_string.h:6022:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(_CharT, std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&)[m[K’
+     [01;36m[Koperator[m[K+(_CharT __lhs,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/basic_string.h:6022:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:64:20:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst ExprPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<Expr>[m[K’} have incompatible cv-qualifiers
+     return (left + [01;36m[Kright[m[K);
+                    [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/string:52[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/8/bits/basic_string.h:6028:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, const _CharT*)[m[K’
+     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/basic_string.h:6028:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:64:20:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst ExprPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<Expr>[m[K’} have incompatible cv-qualifiers
+     return (left + [01;36m[Kright[m[K);
+                    [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/c++/8/string:52[m[K,
+                 from [01m[K/usr/include/c++/8/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/8/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/8/ios:42[m[K,
+                 from [01m[K/usr/include/c++/8/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/8/iostream:39[m[K,
+                 from [01m[Ktostring.hh:4[m[K,
+                 from [01m[Kexpr.hh:4[m[K,
+                 from [01m[Kmain.cc:1[m[K:
+[01m[K/usr/include/c++/8/bits/basic_string.h:6034:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> std::__cxx11::basic_string<_CharT, _Traits, _Allocator> std::operator+(std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&&, _CharT)[m[K’
+     [01;36m[Koperator[m[K+(basic_string<_CharT, _Traits, _Alloc>&& __lhs,
+     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/8/bits/basic_string.h:6034:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:64:20:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kstd::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kconst ExprPtr[m[K’ {aka ‘[01m[Kconst std::shared_ptr<Expr>[m[K’} have incompatible cv-qualifiers
+     return (left + [01;36m[Kright[m[K);
+                    [01;36m[K^~~~~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+tloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ [Ktloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ make -f ../Makefile[6Pemacs expr.hhmake -f ../Makefile[6Pemacs expr.hh
+^Ctloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ emacs expr.hhmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:[m[K In member function ‘[01m[Kstd::__cxx11::string IntExpr::dcCode() const[m[K’:
+[01m[Kexpr.hh:35:18:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KToString[m[K’ in ‘[01m[K((const IntExpr*)this)->IntExpr::value[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+     return value.[01;31m[KToString[m[K();}
+                  [01;31m[K^~~~~~~~[m[K
+[01m[Kexpr.hh:[m[K In member function ‘[01m[Kstd::__cxx11::string AddExpr::dcCode() const[m[K’:
+[01m[Kexpr.hh:64:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class Expr[m[K’ {aka ‘[01m[Kclass Expr[m[K’} has no member named ‘[01m[KdcCode[m[K’
+     return left->[01;31m[KdcCode[m[K() + right->dcCode();
+                  [01;31m[K^~~~~~[m[K
+[01m[Kexpr.hh:64:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class Expr[m[K’ {aka ‘[01m[Kclass Expr[m[K’} has no member named ‘[01m[KdcCode[m[K’
+     return left->dcCode() + right->[01;31m[KdcCode[m[K();
+                                    [01;31m[K^~~~~~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+tloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ make -f ../Makefile[6Pemacs expr.hhmake -f ../Makefile
+g++ -MT main.o -MMD -MP -MF .deps/main.d -g -Wall -std=c++17 -c main.cc
+In file included from [01m[Kmain.cc:1[m[K:
+[01m[Kexpr.hh:[m[K In member function ‘[01m[Kstd::__cxx11::string IntExpr::dcCode() const[m[K’:
+[01m[Kexpr.hh:35:18:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KToString[m[K’ in ‘[01m[K((const IntExpr*)this)->IntExpr::value[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+     return value.[01;31m[KToString[m[K();}
+                  [01;31m[K^~~~~~~~[m[K
+[01m[Kexpr.hh:[m[K In member function ‘[01m[Kstd::__cxx11::string AddExpr::dcCode() const[m[K’:
+[01m[Kexpr.hh:64:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class Expr[m[K’ {aka ‘[01m[Kclass Expr[m[K’} has no member named ‘[01m[KdcCode[m[K’
+     return left->[01;31m[KdcCode[m[K() + right->dcCode();
+                  [01;31m[K^~~~~~[m[K
+[01m[Kexpr.hh:64:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class Expr[m[K’ {aka ‘[01m[Kclass Expr[m[K’} has no member named ‘[01m[KdcCode[m[K’
+     return left->dcCode() + right->[01;31m[KdcCode[m[K();
+                                    [01;31m[K^~~~~~[m[K
+make: *** [../Makefile:48: main.o] Error 1
+tloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ make -f ../Makefile[6Pemacs expr.hh
+^Ctloja1@g7-15:~/i240b/submit/lab5/exercises/2-expr$ exit
+
+Script done on 2020-02-27 19:08:10-05:00 [COMMAND_EXIT_CODE="0"]
