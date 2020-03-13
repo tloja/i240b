@@ -10,6 +10,7 @@
 class Expr : public ToString {
 public:
   virtual int eval() const = 0;
+  virtual std::string dcCode() const = 0;
 };
 
 //ExprPtr is an alias for a smart shared ptr to an Expr.
@@ -22,17 +23,16 @@ private:
   enum class Private { TAG };
 public:
   const int value;
-
   /** Factory function */
   static ExprPtr make(int val) {
     return std::make_shared<IntExpr>(val, Private::TAG);
+
   }
-
-  
+  std::string dcCode() const
+  {
+    return std::to_string(value);
+  }
   std::string toString() const;
-
-  std::string dcCode() const {
-    return value.ToString();}
 
   //use Private to ensure this constructor cannot be called from outside
   //this class even though it is public
@@ -57,12 +57,12 @@ public:
   static ExprPtr make(ExprPtr left, ExprPtr right) {
     return std::make_shared<AddExpr>(left, right, Private::TAG);
   }
-
+   std::string dcCode() const
+  {
+    return left->dcCode() + " " + right->dcCode() + " + ";
+  }
   std::string toString() const;
 
-  std::string dcCode() const{
-    return left->dcCode() + right->dcCode();
-  }
   //use Private to ensure this constructor cannot be called from outside
   //this class even though it is public
   AddExpr(ExprPtr& left, ExprPtr& right, Private x) :
@@ -70,7 +70,7 @@ public:
   }
 
   int eval() const { return left->eval() + right->eval(); }
-  
+
 }; //AddExpr
 
 
@@ -85,7 +85,10 @@ public:
   static ExprPtr make(ExprPtr left, ExprPtr right) {
     return std::make_shared<SubExpr>(left, right, Private::TAG);
   }
-
+  std::string dcCode() const
+  {
+    return left->dcCode() + " " + right->dcCode() + " - ";
+  }
   std::string toString() const;
 
   //use Private to ensure this constructor cannot be called from outside
@@ -95,9 +98,8 @@ public:
   }
 
   int eval() const { return left->eval() - right->eval(); }
-  
-}; //SubExpr
 
+}; //SubExpr
 
 class MulExpr : public Expr {
 private:
@@ -112,15 +114,17 @@ public:
   }
 
   std::string toString() const;
-
   //use Private to ensure this constructor cannot be called from outside
   //this class even though it is public
   MulExpr(ExprPtr& left, ExprPtr& right, Private x) :
     left(left), right(right) {
   }
-
+  std::string dcCode() const
+  {
+    return left->dcCode() + " " + right->dcCode() + " * ";
+  }
   int eval() const { return left->eval() * right->eval(); }
-  
+
 }; //MulExpr
 
 class DivExpr : public Expr {
@@ -134,7 +138,10 @@ public:
   static ExprPtr make(ExprPtr left, ExprPtr right) {
     return std::make_shared<DivExpr>(left, right, Private::TAG);
   }
-
+  std::string dcCode() const
+  {
+    return left->dcCode() + " " + right->dcCode() + " / ";
+  }
   std::string toString() const;
 
   //use Private to ensure this constructor cannot be called from outside
