@@ -10,10 +10,10 @@
 #include <list>
 #include <set>
 #include <vector>
+#include <array>
 
 #include <cstdlib>
 #include <cstring>
-
 #include "out.hh"
 
 /** Return vector of int's read from filePath.  If filePath is
@@ -44,6 +44,14 @@ go(std::string containerSpec, std::vector<int> ints, int arg)
 {
   if (containerSpec == "[]") {
     //@TODO
+    int size = ints.size();
+    int arr [size];
+    for(int i = 0; i < size; i++)
+    {
+        arr[i] = ints.at(i);
+    }
+    loopFn(arr, arr + size, arg);
+    noLoopFn(arr, arr + size, arg);
   }
   else if (containerSpec == "deque") {
     std::deque<int> container(ints.begin(), ints.end());
