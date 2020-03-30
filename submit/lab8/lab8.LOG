@@ -1,0 +1,1402 @@
+Script started on 2020-03-29 22:37:40-04:00 [TERM="xterm-256color" TTY="/dev/pts/11" COLUMNS="114" LINES="24"]
+tloja1@remote04:~/i240b/submit/lab8$ cd ~/i240b/submit/lab8
+tloja1@remote04:~/i240b/submit/lab8$ cp -r ~/cs240/labs/lab8/exercises .
+tloja1@remote04:~/i240b/submit/lab8$ env
+SHELL=/bin/bash
+DERBY_HOME=/usr/lib/jvm/java-8-oracle/db
+JAVA_HOME=/usr/lib/jvm/java-8-oracle
+KRB5CCNAME=FILE:/tmp/krb5cc_14658_07Nr0dmJAu
+PWD=/home/tloja1/i240b/submit/lab8
+LOGNAME=tloja1
+XDG_SESSION_TYPE=tty
+J2REDIR=/usr/lib/jvm/java-8-oracle/jre
+VIRTUALENVWRAPPER_SCRIPT=/usr/share/virtualenvwrapper/virtualenvwrapper.sh
+HOME=/home/tloja1
+LANG=en_US.UTF-8
+_VIRTUALENVWRAPPER_API= mkvirtualenv rmvirtualenv lsvirtualenv showvirtualenv workon add2virtualenv cdsitepackages cdvirtualenv lssitepackages toggleglobalsitepackages cpvirtualenv setvirtualenvproject mkproject cdproject mktmpenv
+SSH_CONNECTION=100.38.119.180 52620 128.226.114.204 22
+XDG_SESSION_CLASS=user
+TERM=xterm-256color
+J2SDKDIR=/usr/lib/jvm/java-8-oracle
+USER=tloja1
+SHLVL=2
+XDG_SESSION_ID=209514
+CLASSPATH=.:/home/tloja1/cs240/lib
+LD_LIBRARY_PATH=.:/home/tloja1/cs240/lib
+XDG_RUNTIME_DIR=/run/user/14658
+SSH_CLIENT=100.38.119.180 52620 22
+PATH=/home/tloja1/cs240/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/14658/bus
+MAIL=/var/mail/tloja1
+SSH_TTY=/dev/pts/11
+OLDPWD=/home/tloja1/i240b/submit/lab8
+_=/usr/bin/env
+tloja1@remote04:~/i240b/submit/lab8$ en[K[K[Ktloja1@remote04:~/i240b/submit/lab8$ [Ktloja1@remote04:~/i240b/submit/lab8$ [Ktloja1@remote04:~/i240b/submit/lab8$ [Ktloja1@remote04:~/i240b/submit/lab8$ [Ktloja1@remote04:~/i240b/submit/lab8$ [Ktloja1@remote04:~/i240b/submit/lab8$ [Ktloja1@remote04:~/i240b/submit/lab8$ [Ktloja1@remote04:~/i240b/submit/lab8$ [Ktloja1@remote04:~/i240b/submit/lab8$ [Ktloja1@remote04:~/i240b/submit/lab8$ [Ktloja1@remote04:~/i240b/submit/lab8$ [Ktloja1@remote04:~/i240b/submit/lab8$ [Ktloja1@remote04:~/i240b/submit/lab8$ [Ktloja1@remote04:~/i240b/submit/lab8$ echo $HOME
+/home/tloja1
+tloja1@remote04:~/i240b/submit/lab8$ echo $PATH
+/home/tloja1/cs240/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+tloja1@remote04:~/i240b/submit/lab8$ 
+tloja1@remote04:~/i240b/submit/lab8$ echo $xxx
+
+tloja1@remote04:~/i240b/submit/lab8$ xxx=123
+tloja1@remote04:~/i240b/submit/lab8$ echo $xxx
+123
+tloja1@remote04:~/i240b/submit/lab8$ env | grep xxx
+tloja1@remote04:~/i240b/submit/lab8$ export xxx
+tloja1@remote04:~/i240b/submit/lab8$ env | grep xx
+xxx=123
+tloja1@remote04:~/i240b/submit/lab8$ export xx=456
+tloja1@remote04:~/i240b/submit/lab8$ env | grep xx
+xxx=123
+xx=456
+tloja1@remote04:~/i240b/submit/lab8$ echo $p
+
+tloja1@remote04:~/i240b/submit/lab8$ p=PATH
+tloja1@remote04:~/i240b/submit/lab8$ echo $p
+PATH
+tloja1@remote04:~/i240b/submit/lab8$ echo PATH[K[K[K[K$PATH
+/home/tloja1/cs240/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+tloja1@remote04:~/i240b/submit/lab8$ /home/tloja1/cs240/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kp=/home/tloja1/cs240/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin/home/tloja1/cs240/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kp=/home/tloja1/cs240/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+tloja1@remote04:~/i240b/submit/lab8$ echo $p
+/home/tloja1/cs240/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+tloja1@remote04:~/i240b/submit/lab8$ PATH=
+tloja1@remote04:~/i240b/submit/lab8$ $PATH
+tloja1@remote04:~/i240b/submit/lab8$ ls
+bash: ls: No such file or directory
+tloja1@remote04:~/i240b/submit/lab8$ PATH=/home/tloja1/cs240/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin
+tloja1@remote04:~/i240b/submit/lab8$ ls
+exercises  lab8.LOG
+tloja1@remote04:~/i240b/submit/lab8$ -[Kls
+exercises  lab8.LOG
+tloja1@remote04:~/i240b/submit/lab8$ cd exercises/
+tloja1@remote04:~/i240b/submit/lab8/exercises$ ls
+3-subshells
+tloja1@remote04:~/i240b/submit/lab8/exercises$ cd ../
+tloja1@remote04:~/i240b/submit/lab8$ c[K-L
+bash: -L: command not found
+tloja1@remote04:~/i240b/submit/lab8$ find -L ~/cs240 '*.c'
+/home/tloja1/cs240
+/home/tloja1/cs240/.git
+/home/tloja1/cs240/.git/branches
+/home/tloja1/cs240/.git/hooks
+/home/tloja1/cs240/.git/hooks/applypatch-msg.sample
+/home/tloja1/cs240/.git/hooks/commit-msg.sample
+/home/tloja1/cs240/.git/hooks/fsmonitor-watchman.sample
+/home/tloja1/cs240/.git/hooks/post-update.sample
+/home/tloja1/cs240/.git/hooks/pre-applypatch.sample
+/home/tloja1/cs240/.git/hooks/pre-commit.sample
+/home/tloja1/cs240/.git/hooks/pre-push.sample
+/home/tloja1/cs240/.git/hooks/pre-rebase.sample
+/home/tloja1/cs240/.git/hooks/pre-receive.sample
+/home/tloja1/cs240/.git/hooks/prepare-commit-msg.sample
+/home/tloja1/cs240/.git/hooks/update.sample
+/home/tloja1/cs240/.git/info
+/home/tloja1/cs240/.git/info/exclude
+/home/tloja1/cs240/.git/description
+/home/tloja1/cs240/.git/refs
+/home/tloja1/cs240/.git/refs/heads
+/home/tloja1/cs240/.git/refs/heads/master
+/home/tloja1/cs240/.git/refs/tags
+/home/tloja1/cs240/.git/refs/remotes
+/home/tloja1/cs240/.git/refs/remotes/origin
+/home/tloja1/cs240/.git/refs/remotes/origin/HEAD
+/home/tloja1/cs240/.git/refs/remotes/origin/master
+/home/tloja1/cs240/.git/HEAD
+/home/tloja1/cs240/.git/config
+/home/tloja1/cs240/.git/objects
+/home/tloja1/cs240/.git/objects/pack
+/home/tloja1/cs240/.git/objects/pack/pack-2420daf969e75135e9fe901ffbd888afbf354217.pack
+/home/tloja1/cs240/.git/objects/pack/pack-2420daf969e75135e9fe901ffbd888afbf354217.idx
+/home/tloja1/cs240/.git/objects/pack/pack-ad1a0267895a9feaedd8f46e095fbec81e808879.pack
+/home/tloja1/cs240/.git/objects/pack/pack-ad1a0267895a9feaedd8f46e095fbec81e808879.idx
+/home/tloja1/cs240/.git/objects/pack/pack-af9cd292eefbaf2820de0fbc472cd097623a9c57.pack
+/home/tloja1/cs240/.git/objects/pack/pack-af9cd292eefbaf2820de0fbc472cd097623a9c57.idx
+/home/tloja1/cs240/.git/objects/pack/pack-bd8cfa383f67fe97bf13718db6235de7d2991e02.pack
+/home/tloja1/cs240/.git/objects/pack/pack-bd8cfa383f67fe97bf13718db6235de7d2991e02.idx
+/home/tloja1/cs240/.git/objects/pack/pack-9471753af663575d9ab72cfae2860b75fbc9bd55.pack
+/home/tloja1/cs240/.git/objects/pack/pack-9471753af663575d9ab72cfae2860b75fbc9bd55.idx
+/home/tloja1/cs240/.git/objects/pack/pack-f6ebaf733eabbbb5b29cb055298a1b91367a3bac.pack
+/home/tloja1/cs240/.git/objects/pack/pack-f6ebaf733eabbbb5b29cb055298a1b91367a3bac.idx
+/home/tloja1/cs240/.git/objects/pack/pack-18ec0da16191464cab906542945bf74263247e8a.pack
+/home/tloja1/cs240/.git/objects/pack/pack-18ec0da16191464cab906542945bf74263247e8a.idx
+/home/tloja1/cs240/.git/objects/pack/pack-7cc46f3edfbc23a6059f5979bb792db629bb69f8.pack
+/home/tloja1/cs240/.git/objects/pack/pack-7cc46f3edfbc23a6059f5979bb792db629bb69f8.idx
+/home/tloja1/cs240/.git/objects/info
+/home/tloja1/cs240/.git/objects/5d
+/home/tloja1/cs240/.git/objects/5d/d82539a8602af509cf65c7824818a565fa4920
+/home/tloja1/cs240/.git/objects/ac
+/home/tloja1/cs240/.git/objects/ac/aff4acf340cb11b4a502a1873f9d38d90dbda8
+/home/tloja1/cs240/.git/objects/9a
+/home/tloja1/cs240/.git/objects/9a/00854f9cabec1a2372184ad0532bf2fdbc45fa
+/home/tloja1/cs240/.git/objects/2d
+/home/tloja1/cs240/.git/objects/2d/eadf8733649528c18964807c56966c120e2a1f
+/home/tloja1/cs240/.git/objects/3e
+/home/tloja1/cs240/.git/objects/3e/d1a02c80b6909f8277a935a23949de8ca79913
+/home/tloja1/cs240/.git/objects/d5
+/home/tloja1/cs240/.git/objects/d5/d9dfb2c7ba3bba19ec6a6eaadb43be366dac20
+/home/tloja1/cs240/.git/objects/f6
+/home/tloja1/cs240/.git/objects/f6/ec71d1df53642f1ba95469ea9143c9c68f8f46
+/home/tloja1/cs240/.git/objects/d6
+/home/tloja1/cs240/.git/objects/d6/7abb77676f4228932ff355abb54f821893fed3
+/home/tloja1/cs240/.git/objects/d6/75a783615f8657e37273d599ef53120d648426
+/home/tloja1/cs240/.git/objects/d9
+/home/tloja1/cs240/.git/objects/d9/b2593eef39e417bf233565894b3a8c59fd8488
+/home/tloja1/cs240/.git/objects/64
+/home/tloja1/cs240/.git/objects/64/58bf5d4a875d0be3c0b425b5ce014bdc633a5e
+/home/tloja1/cs240/.git/objects/64/82534a9903434ab6a27aab489852c68e14d2ef
+/home/tloja1/cs240/.git/objects/30
+/home/tloja1/cs240/.git/objects/30/08c354e310d73d77437766d340e9e43b090bcc
+/home/tloja1/cs240/.git/objects/45
+/home/tloja1/cs240/.git/objects/45/fba003d81d7641715bde1e2c33ab3f99b0c224
+/home/tloja1/cs240/.git/objects/1f
+/home/tloja1/cs240/.git/objects/1f/57275fe663ef9a5288fc0b90ab7aa662101694
+/home/tloja1/cs240/.git/objects/1f/1c31b629371ce5f4c2b736d68d2f84b60d3d1c
+/home/tloja1/cs240/.git/objects/72
+/home/tloja1/cs240/.git/objects/72/23297fcc6af8d1e193cf3d38629605d965922a
+/home/tloja1/cs240/.git/objects/1a
+/home/tloja1/cs240/.git/objects/1a/aca519bbfbaa07f721f99ba7d3070beedc37ce
+/home/tloja1/cs240/.git/objects/cf
+/home/tloja1/cs240/.git/objects/cf/caa1159ee26040ddec29b93eaac7ff5a92804a
+/home/tloja1/cs240/.git/objects/c1
+/home/tloja1/cs240/.git/objects/c1/7beb0f61786fa4e1884ace9792458334efca78
+/home/tloja1/cs240/.git/objects/c1/1c7f01f91aa0c08e8bfe231c233a6bf96de8c1
+/home/tloja1/cs240/.git/objects/b6
+/home/tloja1/cs240/.git/objects/b6/fc4c620b67d95f953a5c1c1230aaab5db5a1b0
+/home/tloja1/cs240/.git/objects/b6/7e14082ef48981f19f0d3ad606b048e92ea885
+/home/tloja1/cs240/.git/objects/8d
+/home/tloja1/cs240/.git/objects/8d/7cc95f5f6ecfee553a6b102367141cb365b64f
+/home/tloja1/cs240/.git/objects/d7
+/home/tloja1/cs240/.git/objects/d7/98b89de32a44c4a43e7618ee0d17cbd1a047c3
+/home/tloja1/cs240/.git/objects/d7/b2f013450972122be9636ee2271df0bec56eb3
+/home/tloja1/cs240/.git/objects/02
+/home/tloja1/cs240/.git/objects/02/132f08280a3bcfc7b79a2e2e9431d0e6f1269e
+/home/tloja1/cs240/.git/objects/02/2ab53951a1c3c84e4334f9c2f9dca1867e4a71
+/home/tloja1/cs240/.git/objects/2b
+/home/tloja1/cs240/.git/objects/2b/f3b43313bc8b4e0a7b55e9fd7d4debe61ada83
+/home/tloja1/cs240/.git/objects/d0
+/home/tloja1/cs240/.git/objects/d0/a5c85e69855c1adce5d244610bec7895f4983d
+/home/tloja1/cs240/.git/objects/29
+/home/tloja1/cs240/.git/objects/29/1fc5c1797c1d7b2754cf33a92889b39e2e7f17
+/home/tloja1/cs240/.git/objects/97
+/home/tloja1/cs240/.git/objects/97/cd4795867f4a6833eda855d39103868d077633
+/home/tloja1/cs240/.git/objects/63
+/home/tloja1/cs240/.git/objects/63/8375c6340797b911865138eb6fc665f206f070
+/home/tloja1/cs240/.git/objects/c7
+/home/tloja1/cs240/.git/objects/c7/3d741b06255e3b3a29f354d21a500501de73aa
+/home/tloja1/cs240/.git/objects/8e
+/home/tloja1/cs240/.git/objects/8e/c64afcb2697e1a0edad71bc8ef85b650bc6442
+/home/tloja1/cs240/.git/objects/b1
+/home/tloja1/cs240/.git/objects/b1/b8921633f1b8669a678ed4870129488c9224fa
+/home/tloja1/cs240/.git/objects/e7
+/home/tloja1/cs240/.git/objects/e7/ff2301b5f1a3230b3fb2f2d3417ed01353929d
+/home/tloja1/cs240/.git/objects/da
+/home/tloja1/cs240/.git/objects/da/59c9a23f68ece9364212f9a8aca0dea0b8119b
+/home/tloja1/cs240/.git/objects/c3
+/home/tloja1/cs240/.git/objects/c3/d4563843ea52282e2fc9c66b184f50638097da
+/home/tloja1/cs240/.git/objects/51
+/home/tloja1/cs240/.git/objects/51/7052ebd86bdfa2ff7248d01d63f21c1a808cee
+/home/tloja1/cs240/.git/objects/1d
+/home/tloja1/cs240/.git/objects/1d/ca717a18d083809ff315a2d5e65057393181c1
+/home/tloja1/cs240/.git/objects/32
+/home/tloja1/cs240/.git/objects/32/606195bb979ec0512eae44f3459220133afae4
+/home/tloja1/cs240/.git/objects/f2
+/home/tloja1/cs240/.git/objects/f2/9ef7d8b15a7e91e10be78f70c5dc1f54d8aa28
+/home/tloja1/cs240/.git/objects/f2/a517f6646b245d319dbf6bdba54a8ba4729f43
+/home/tloja1/cs240/.git/objects/a2
+/home/tloja1/cs240/.git/objects/a2/701c7ed7b78a61ababb8b29efef004ad6f9d1a
+/home/tloja1/cs240/.git/objects/b5
+/home/tloja1/cs240/.git/objects/b5/12a1e6e65b2519f7b6c243e766cefbea51be43
+/home/tloja1/cs240/.git/objects/b5/3c3ef8733bb79e193761bc52c625950e758d90
+/home/tloja1/cs240/.git/objects/13
+/home/tloja1/cs240/.git/objects/13/958d6da6c50bfa2b19457664c74bcd22123c5c
+/home/tloja1/cs240/.git/objects/c6
+/home/tloja1/cs240/.git/objects/c6/39ffc0b58ca104b27e927c223a4456cde86d48
+/home/tloja1/cs240/.git/objects/c6/e82e645948922111bdaa44f6c73099c199aee1
+/home/tloja1/cs240/.git/objects/05
+/home/tloja1/cs240/.git/objects/05/ee0410f2c8a89bc8b756500dba8ff5aa6bf7c0
+/home/tloja1/cs240/.git/objects/a6
+/home/tloja1/cs240/.git/objects/a6/c72a5c6e26996c5f98ed7c4ac5c483b0fe97f2
+/home/tloja1/cs240/.git/objects/68
+/home/tloja1/cs240/.git/objects/68/c72811175e418213181def6d4a97be9e79d3ba
+/home/tloja1/cs240/.git/objects/ee
+/home/tloja1/cs240/.git/objects/ee/724b944e536ec0953931836a433ee61f64873e
+/home/tloja1/cs240/.git/objects/49
+/home/tloja1/cs240/.git/objects/49/6aae1d9616b793d8f553ffddf6182d98d1993c
+/home/tloja1/cs240/.git/objects/3f
+/home/tloja1/cs240/.git/objects/3f/f29c46e63ece2f0b7aa342c39f915e61b7bc52
+/home/tloja1/cs240/.git/objects/74
+/home/tloja1/cs240/.git/objects/74/79018518b59e989d15414753fa97c226bccc16
+/home/tloja1/cs240/.git/objects/86
+/home/tloja1/cs240/.git/objects/86/721a3563de0ed36427f22cc2ba510da8b00bb2
+/home/tloja1/cs240/.git/objects/62
+/home/tloja1/cs240/.git/objects/62/0dba0e209210f149c37d802c5245ba2cb8d02f
+/home/tloja1/cs240/.git/objects/f4
+/home/tloja1/cs240/.git/objects/f4/283ddb190c89ec07c4515565d20c42f6411a7b
+/home/tloja1/cs240/.git/objects/a8
+/home/tloja1/cs240/.git/objects/a8/bace655329d0807a167ae39479b8b2a809e806
+/home/tloja1/cs240/.git/objects/cb
+/home/tloja1/cs240/.git/objects/cb/fe3f465c4d2351bd84e52128ab46b2f82fe03b
+/home/tloja1/cs240/.git/objects/92
+/home/tloja1/cs240/.git/objects/92/3a77709c3d406986cf9609001439a8d7dadca7
+/home/tloja1/cs240/.git/objects/af
+/home/tloja1/cs240/.git/objects/af/15915a5f7c44e36da5051222658463fcba9a25
+/home/tloja1/cs240/.git/objects/7f
+/home/tloja1/cs240/.git/objects/7f/945cd01d919023a869076e78fb5d153158cbc6
+/home/tloja1/cs240/.git/objects/0d
+/home/tloja1/cs240/.git/objects/0d/2e71a2ba425d3ae2afa0fa13ced1efce840235
+/home/tloja1/cs240/.git/objects/ed
+/home/tloja1/cs240/.git/objects/ed/0adec06cf0817127b1e2a801e7cdd1d4f0e9be
+/home/tloja1/cs240/.git/objects/e1
+/home/tloja1/cs240/.git/objects/e1/4470328b8dc670762f67c164e15c2ce479f9d4
+/home/tloja1/cs240/.git/objects/fc
+/home/tloja1/cs240/.git/objects/fc/1e273e56136325cce830609880751f49b0669d
+/home/tloja1/cs240/.git/objects/c0
+/home/tloja1/cs240/.git/objects/c0/8d54dedd8c148f5568c92a5d78edcedf6409ae
+/home/tloja1/cs240/.git/objects/2e
+/home/tloja1/cs240/.git/objects/2e/315154e98131fa891d86b94c59b147400db505
+/home/tloja1/cs240/.git/objects/9c
+/home/tloja1/cs240/.git/objects/9c/2f4b5f72469b9fabfc29b4ad5501511f77c1f6
+/home/tloja1/cs240/.git/objects/fb
+/home/tloja1/cs240/.git/objects/fb/ad91d149fb6fecc350789d58a99d1221bf1397
+/home/tloja1/cs240/.git/objects/e3
+/home/tloja1/cs240/.git/objects/e3/2b967d8fae52bf16e46774a2ebe05eb7b185d4
+/home/tloja1/cs240/.git/objects/1b
+/home/tloja1/cs240/.git/objects/1b/6de9e7f1dba8d06d013d5ce2740ca93ea7fed9
+/home/tloja1/cs240/.git/objects/c9
+/home/tloja1/cs240/.git/objects/c9/d0360a1683b2ba06156662ac42d35fb3f07cc1
+/home/tloja1/cs240/.git/objects/09
+/home/tloja1/cs240/.git/objects/09/cd40769592462a0fdb168e8d8c8cdefee26696
+/home/tloja1/cs240/.git/objects/31
+/home/tloja1/cs240/.git/objects/31/2d689788256ee4cc6f2e2fe3e8de1fa3d5a7f0
+/home/tloja1/cs240/.git/objects/76
+/home/tloja1/cs240/.git/objects/76/edf11f9ba82ff4a97fa2255a15b512ecff861d
+/home/tloja1/cs240/.git/objects/bf
+/home/tloja1/cs240/.git/objects/bf/0cc4b8fc9572e6cead453e0a591fc5fcf11dff
+/home/tloja1/cs240/.git/objects/4a
+/home/tloja1/cs240/.git/objects/4a/6a3d3e5dc2fce7ff254e24a03e8d03be18eea4
+/home/tloja1/cs240/.git/objects/a9
+/home/tloja1/cs240/.git/objects/a9/73c905b0890f996418e0bc7f7dfc19a94162f2
+/home/tloja1/cs240/.git/objects/08
+/home/tloja1/cs240/.git/objects/08/d6ca795cda8627f8402d06604b605565808623
+/home/tloja1/cs240/.git/objects/26
+/home/tloja1/cs240/.git/objects/26/460872fd4b89e3a06be125ffc4218bc49c7bab
+/home/tloja1/cs240/.git/objects/5c
+/home/tloja1/cs240/.git/objects/5c/6294d628806d3b8435dd66d06d20ce2dc29901
+/home/tloja1/cs240/.git/objects/61
+/home/tloja1/cs240/.git/objects/61/637898e8549a95a3013443a20a6eef62ef0c6a
+/home/tloja1/cs240/.git/objects/73
+/home/tloja1/cs240/.git/objects/73/6525918dc26ecd653c61eb2ac87af2c05ed181
+/home/tloja1/cs240/.git/objects/98
+/home/tloja1/cs240/.git/objects/98/7248e29740d735e610cdca8ce555b4fe760ce6
+/home/tloja1/cs240/.git/packed-refs
+/home/tloja1/cs240/.git/logs
+/home/tloja1/cs240/.git/logs/refs
+/home/tloja1/cs240/.git/logs/refs/remotes
+/home/tloja1/cs240/.git/logs/refs/remotes/origin
+/home/tloja1/cs240/.git/logs/refs/remotes/origin/HEAD
+/home/tloja1/cs240/.git/logs/refs/remotes/origin/master
+/home/tloja1/cs240/.git/logs/refs/heads
+/home/tloja1/cs240/.git/logs/refs/heads/master
+/home/tloja1/cs240/.git/logs/HEAD
+/home/tloja1/cs240/.git/index
+/home/tloja1/cs240/.git/FETCH_HEAD
+/home/tloja1/cs240/.git/ORIG_HEAD
+/home/tloja1/cs240/.gitignore
+/home/tloja1/cs240/README.md
+/home/tloja1/cs240/assets
+/home/tloja1/cs240/assets/images
+/home/tloja1/cs240/assets/images/go-first.png
+/home/tloja1/cs240/assets/images/go-last.png
+/home/tloja1/cs240/assets/images/go-next.png
+/home/tloja1/cs240/assets/images/go-previous.png
+/home/tloja1/cs240/assets/images/sidearrow.gif
+/home/tloja1/cs240/assets/scripts
+/home/tloja1/cs240/assets/scripts/nav.js
+/home/tloja1/cs240/assets/scripts/slide-controls.js
+/home/tloja1/cs240/assets/scripts/slideous.js
+/home/tloja1/cs240/assets/styles
+/home/tloja1/cs240/assets/styles/.gitignore
+/home/tloja1/cs240/assets/styles/Makefile
+/home/tloja1/cs240/assets/styles/article.css
+/home/tloja1/cs240/assets/styles/article.scss
+/home/tloja1/cs240/assets/styles/hl-fine_blue.css
+/home/tloja1/cs240/assets/styles/slides.css
+/home/tloja1/cs240/assets/styles/slides.scss
+/home/tloja1/cs240/assets/umt
+/home/tloja1/cs240/assets/umt/article-template.html.bak
+/home/tloja1/cs240/assets/umt/article-template.tex
+/home/tloja1/cs240/assets/umt/slides-template.tex
+/home/tloja1/cs240/assets/umt/article-template.html
+/home/tloja1/cs240/assets/umt/slides-template.html
+/home/tloja1/cs240/docs
+/home/tloja1/cs240/docs/shaffer_data-structures-and-algorithm-analysis_c++-edition.pdf
+/home/tloja1/cs240/docs/index.umt
+/home/tloja1/cs240/docs/index.html
+/home/tloja1/cs240/exams-quizzes
+/home/tloja1/cs240/exams-quizzes/compile-all
+/home/tloja1/cs240/exams-quizzes/cs240a
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a/.quiz-info
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a/quiz1-sol
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a/quiz1-sol/quiz1-sol.umt
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a/quiz1-sol/quiz1-sol
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a/quiz1-sol/quiz1-sol/hl-fine_blue.css
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a/quiz1-sol/quiz1-sol/hl-fine_blue.sty
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a/quiz1-sol/quiz1-sol.html
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a/quiz1-sol/quiz1-sol.pdf
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a/quiz1
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a/quiz1/quiz1.umt
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a/quiz1/quiz1
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a/quiz1/quiz1/hl-fine_blue.css
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a/quiz1/quiz1/hl-fine_blue.sty
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a/quiz1/quiz1.html
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a/quiz1/quiz1.pdf
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a/exam1-sol
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a/exam1-sol/exam1-sol.umt
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a/exam1-sol/exam1-sol
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a/exam1-sol/exam1-sol/hl-fine_blue.css
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a/exam1-sol/exam1-sol/hl-fine_blue.sty
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a/exam1-sol/exam1-sol.html
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a/exam1-sol/exam1-sol.pdf
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a/exam1
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a/exam1/exam1.umt
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a/exam1/exam1
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a/exam1/exam1/hl-fine_blue.css
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a/exam1/exam1/hl-fine_blue.sty
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a/exam1/exam1.html
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-a/exam1/exam1.pdf
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b/.quiz-info
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b/quiz1-sol
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b/quiz1-sol/quiz1-sol.umt
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b/quiz1-sol/quiz1-sol
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b/quiz1-sol/quiz1-sol/hl-fine_blue.css
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b/quiz1-sol/quiz1-sol/hl-fine_blue.sty
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b/quiz1-sol/quiz1-sol.html
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b/quiz1-sol/quiz1-sol.pdf
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b/quiz1
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b/quiz1/quiz1.umt
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b/quiz1/quiz1
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b/quiz1/quiz1/hl-fine_blue.css
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b/quiz1/quiz1/hl-fine_blue.sty
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b/quiz1/quiz1.html
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b/quiz1/quiz1.pdf
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b/exam1-sol
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b/exam1-sol/exam1-sol.umt
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b/exam1-sol/exam1-sol
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b/exam1-sol/exam1-sol/hl-fine_blue.css
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b/exam1-sol/exam1-sol/hl-fine_blue.sty
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b/exam1-sol/exam1-sol.html
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b/exam1-sol/exam1-sol.pdf
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b/exam1
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b/exam1/exam1.umt
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b/exam1/exam1
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b/exam1/exam1/hl-fine_blue.css
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b/exam1/exam1/hl-fine_blue.sty
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b/exam1/exam1.html
+/home/tloja1/cs240/exams-quizzes/cs240a/variant-b/exam1/exam1.pdf
+/home/tloja1/cs240/exams-quizzes/cs240a/index.umt
+/home/tloja1/cs240/exams-quizzes/cs240a/index.html
+/home/tloja1/cs240/exams-quizzes/cs240b
+/home/tloja1/cs240/exams-quizzes/cs240b/index.html
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a/.quiz-info
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a/quiz1-sol
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a/quiz1-sol/quiz1-sol.umt
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a/quiz1-sol/quiz1-sol
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a/quiz1-sol/quiz1-sol/hl-fine_blue.css
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a/quiz1-sol/quiz1-sol/hl-fine_blue.sty
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a/quiz1-sol/quiz1-sol.html
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a/quiz1-sol/quiz1-sol.pdf
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a/quiz1
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a/quiz1/quiz1.umt
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a/quiz1/quiz1
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a/quiz1/quiz1/hl-fine_blue.css
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a/quiz1/quiz1/hl-fine_blue.sty
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a/quiz1/quiz1.html
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a/quiz1/quiz1.pdf
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a/exam1-sol
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a/exam1-sol/exam1-sol.umt
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a/exam1-sol/exam1-sol
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a/exam1-sol/exam1-sol/hl-fine_blue.css
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a/exam1-sol/exam1-sol/hl-fine_blue.sty
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a/exam1-sol/exam1-sol.html
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a/exam1-sol/exam1-sol.pdf
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a/exam1
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a/exam1/exam1.umt
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a/exam1/exam1
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a/exam1/exam1/hl-fine_blue.css
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a/exam1/exam1/hl-fine_blue.sty
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a/exam1/exam1.html
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-a/exam1/exam1.pdf
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b/.quiz-info
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b/quiz1-sol
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b/quiz1-sol/quiz1-sol.umt
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b/quiz1-sol/quiz1-sol
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b/quiz1-sol/quiz1-sol/hl-fine_blue.css
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b/quiz1-sol/quiz1-sol/hl-fine_blue.sty
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b/quiz1-sol/quiz1-sol.html
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b/quiz1-sol/quiz1-sol.pdf
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b/quiz1
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b/quiz1/quiz1.umt
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b/quiz1/quiz1
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b/quiz1/quiz1/hl-fine_blue.css
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b/quiz1/quiz1/hl-fine_blue.sty
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b/quiz1/quiz1.html
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b/quiz1/quiz1.pdf
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b/exam1-sol
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b/exam1-sol/exam1-sol.umt
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b/exam1-sol/exam1-sol
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b/exam1-sol/exam1-sol/hl-fine_blue.css
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b/exam1-sol/exam1-sol/hl-fine_blue.sty
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b/exam1-sol/exam1-sol.html
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b/exam1-sol/exam1-sol.pdf
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b/exam1
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b/exam1/exam1.umt
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b/exam1/exam1
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b/exam1/exam1/hl-fine_blue.css
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b/exam1/exam1/hl-fine_blue.sty
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b/exam1/exam1.html
+/home/tloja1/cs240/exams-quizzes/cs240b/variant-b/exam1/exam1.pdf
+/home/tloja1/cs240/exams-quizzes/mk-quiz
+/home/tloja1/cs240/exams-quizzes/mv-quiz
+/home/tloja1/cs240/exams-quizzes/quiz1-questions.txt
+/home/tloja1/cs240/exams-quizzes/templates
+/home/tloja1/cs240/exams-quizzes/templates/quiz-sol.umt
+/home/tloja1/cs240/exams-quizzes/templates/quiz.umt
+/home/tloja1/cs240/exams-quizzes/exam1-outline
+/home/tloja1/cs240/exams-quizzes/exam1-outline/exam1-outline.html
+/home/tloja1/cs240/exams-quizzes/exam1-outline/exam1-outline.pdf
+/home/tloja1/cs240/exams-quizzes/exam1-outline/exam1-outline.umt
+/home/tloja1/cs240/exams-quizzes/index.umt
+/home/tloja1/cs240/exams-quizzes/index.html
+/home/tloja1/cs240/exercises
+/home/tloja1/cs240/exercises/config.json
+/home/tloja1/cs240/exercises/index.umt
+/home/tloja1/cs240/exercises/questions
+/home/tloja1/cs240/exercises/questions/index.js
+/home/tloja1/cs240/exercises/questions/package-lock.json
+/home/tloja1/cs240/exercises/questions/package.json
+/home/tloja1/cs240/exercises/questions/src
+/home/tloja1/cs240/exercises/questions/src/cpp
+/home/tloja1/cs240/exercises/questions/src/cpp/arith.js
+/home/tloja1/cs240/exercises/questions/src/cpp/bitwise-operators.js
+/home/tloja1/cs240/exercises/questions/src/cpp/code
+/home/tloja1/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors
+/home/tloja1/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/.gitignore
+/home/tloja1/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/Makefile
+/home/tloja1/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/const-ptr-inc.cc
+/home/tloja1/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ok-1.cc
+/home/tloja1/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ok-2.cc
+/home/tloja1/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ptr-to-non-const.cc
+/home/tloja1/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ref-to-expr.cc
+/home/tloja1/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ref-to-literal.cc
+/home/tloja1/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/ref-to-non-const.cc
+/home/tloja1/cs240/exercises/questions/src/cpp/code/x-ref-ptr-const-errors/uninit-ref.cc
+/home/tloja1/cs240/exercises/questions/src/cpp/int-literals.js
+/home/tloja1/cs240/exercises/questions/src/cpp/ptr-arrays.js
+/home/tloja1/cs240/exercises/questions/src/cpp/ref-ptr-const-errors.js
+/home/tloja1/cs240/exercises/questions/src/cpp/meta.js
+/home/tloja1/cs240/exercises/questions/src/tools
+/home/tloja1/cs240/exercises/questions/src/tools/makefiles.js
+/home/tloja1/cs240/exercises/questions/src/tools/meta.js
+/home/tloja1/cs240/exercises/questions/src/meta.js
+/home/tloja1/cs240/exercises/questions/src/ds-alg
+/home/tloja1/cs240/exercises/questions/src/ds-alg/array-insert.js
+/home/tloja1/cs240/exercises/questions/src/ds-alg/equiv-rel.js
+/home/tloja1/cs240/exercises/questions/src/ds-alg/meta.js
+/home/tloja1/cs240/exercises/templates
+/home/tloja1/cs240/exercises/templates/index.html
+/home/tloja1/cs240/exercises/index.html
+/home/tloja1/cs240/hws
+/home/tloja1/cs240/hws/hw1
+/home/tloja1/cs240/hws/hw1/hw1
+/home/tloja1/cs240/hws/hw1/hw1/hl-fine_blue.css
+/home/tloja1/cs240/hws/hw1/hw1/hl-fine_blue.sty
+/home/tloja1/cs240/hws/hw1/hw1.umt
+/home/tloja1/cs240/hws/hw1/hw1.html
+/home/tloja1/cs240/hws/hw1/hw1.pdf
+/home/tloja1/cs240/hws/hw1-sol
+/home/tloja1/cs240/hws/hw1-sol/hw1-sol.umt
+/home/tloja1/cs240/hws/hw1-sol/hw1-sol
+/home/tloja1/cs240/hws/hw1-sol/hw1-sol/hl-fine_blue.css
+/home/tloja1/cs240/hws/hw1-sol/hw1-sol/hl-fine_blue.sty
+/home/tloja1/cs240/hws/hw1-sol/hw1-sol.html
+/home/tloja1/cs240/hws/hw1-sol/hw1-sol.pdf
+/home/tloja1/cs240/hws/hw2-sol
+/home/tloja1/cs240/hws/hw2-sol/hw2-sol.umt
+/home/tloja1/cs240/hws/hw2-sol/hw2-sol
+/home/tloja1/cs240/hws/hw2-sol/hw2-sol/hl-fine_blue.css
+/home/tloja1/cs240/hws/hw2-sol/hw2-sol/hl-fine_blue.sty
+/home/tloja1/cs240/hws/hw2-sol/stk-occupied-top.hh
+/home/tloja1/cs240/hws/hw2-sol/hw2-sol.html
+/home/tloja1/cs240/hws/hw2-sol/hw2-sol.pdf
+/home/tloja1/cs240/hws/hw2
+/home/tloja1/cs240/hws/hw2/hw2.umt
+/home/tloja1/cs240/hws/hw2/hw2.html
+/home/tloja1/cs240/hws/hw2/hw2.pdf
+/home/tloja1/cs240/hws/hw3
+/home/tloja1/cs240/hws/hw3/hw3.html
+/home/tloja1/cs240/hws/hw3/hw3.pdf
+/home/tloja1/cs240/hws/hw3/hw3.umt
+/home/tloja1/cs240/hws/index.html
+/home/tloja1/cs240/hws/index.umt
+/home/tloja1/cs240/labs
+/home/tloja1/cs240/labs/lab0
+/home/tloja1/cs240/labs/lab0/lab0
+/home/tloja1/cs240/labs/lab0/lab0/hl-fine_blue.css
+/home/tloja1/cs240/labs/lab0/lab0/hl-fine_blue.sty
+/home/tloja1/cs240/labs/lab0/lab0.umt
+/home/tloja1/cs240/labs/lab0/lab0.html
+/home/tloja1/cs240/labs/lab0/lab0.pdf
+/home/tloja1/cs240/labs/lab1
+/home/tloja1/cs240/labs/lab1/.gitignore
+/home/tloja1/cs240/labs/lab1/exercises
+/home/tloja1/cs240/labs/lab1/exercises/.gitignore
+/home/tloja1/cs240/labs/lab1/exercises/0-hello
+/home/tloja1/cs240/labs/lab1/exercises/0-hello/.gitignore
+/home/tloja1/cs240/labs/lab1/exercises/0-hello/hello.cc
+/home/tloja1/cs240/labs/lab1/exercises/1-monolithic
+/home/tloja1/cs240/labs/lab1/exercises/1-monolithic/fns-compare.cc
+/home/tloja1/cs240/labs/lab1/exercises/2-separate-compilation
+/home/tloja1/cs240/labs/lab1/exercises/2-separate-compilation/fns-compare.cc
+/home/tloja1/cs240/labs/lab1/exercises/2-separate-compilation/fns-compare.hh
+/home/tloja1/cs240/labs/lab1/exercises/2-separate-compilation/linear.cc
+/home/tloja1/cs240/labs/lab1/exercises/3-makefile
+/home/tloja1/cs240/labs/lab1/exercises/3-makefile/Makefile
+/home/tloja1/cs240/labs/lab1/exercises/3-makefile/constant.cc
+/home/tloja1/cs240/labs/lab1/exercises/3-makefile/cubic.cc
+/home/tloja1/cs240/labs/lab1/exercises/3-makefile/exponential.cc
+/home/tloja1/cs240/labs/lab1/exercises/3-makefile/fact.cc
+/home/tloja1/cs240/labs/lab1/exercises/3-makefile/fns-compare.cc
+/home/tloja1/cs240/labs/lab1/exercises/3-makefile/fns-compare.hh
+/home/tloja1/cs240/labs/lab1/exercises/3-makefile/lg.cc
+/home/tloja1/cs240/labs/lab1/exercises/3-makefile/linear.cc
+/home/tloja1/cs240/labs/lab1/exercises/3-makefile/nlg.cc
+/home/tloja1/cs240/labs/lab1/exercises/3-makefile/quadratic.cc
+/home/tloja1/cs240/labs/lab1/exercises/4-dependencies
+/home/tloja1/cs240/labs/lab1/exercises/4-dependencies/Makefile
+/home/tloja1/cs240/labs/lab1/exercises/4-dependencies/constant.cc
+/home/tloja1/cs240/labs/lab1/exercises/4-dependencies/cubic.cc
+/home/tloja1/cs240/labs/lab1/exercises/4-dependencies/exponential.cc
+/home/tloja1/cs240/labs/lab1/exercises/4-dependencies/fact.cc
+/home/tloja1/cs240/labs/lab1/exercises/4-dependencies/fns-compare.cc
+/home/tloja1/cs240/labs/lab1/exercises/4-dependencies/fns-compare.hh
+/home/tloja1/cs240/labs/lab1/exercises/4-dependencies/lg.cc
+/home/tloja1/cs240/labs/lab1/exercises/4-dependencies/linear.cc
+/home/tloja1/cs240/labs/lab1/exercises/4-dependencies/nlg.cc
+/home/tloja1/cs240/labs/lab1/exercises/4-dependencies/quadratic.cc
+/home/tloja1/cs240/labs/lab1/exercises/5-auto-dependencies
+/home/tloja1/cs240/labs/lab1/exercises/5-auto-dependencies/.gitignore
+/home/tloja1/cs240/labs/lab1/exercises/5-auto-dependencies/Makefile
+/home/tloja1/cs240/labs/lab1/exercises/5-auto-dependencies/constant.cc
+/home/tloja1/cs240/labs/lab1/exercises/5-auto-dependencies/cubic.cc
+/home/tloja1/cs240/labs/lab1/exercises/5-auto-dependencies/exponential.cc
+/home/tloja1/cs240/labs/lab1/exercises/5-auto-dependencies/fact.cc
+/home/tloja1/cs240/labs/lab1/exercises/5-auto-dependencies/fns-compare.cc
+/home/tloja1/cs240/labs/lab1/exercises/5-auto-dependencies/fns-compare.hh
+/home/tloja1/cs240/labs/lab1/exercises/5-auto-dependencies/lg.cc
+/home/tloja1/cs240/labs/lab1/exercises/5-auto-dependencies/linear.cc
+/home/tloja1/cs240/labs/lab1/exercises/5-auto-dependencies/nlg.cc
+/home/tloja1/cs240/labs/lab1/exercises/5-auto-dependencies/quadratic.cc
+/home/tloja1/cs240/labs/lab1/lab1
+/home/tloja1/cs240/labs/lab1/lab1/hl-fine_blue.css
+/home/tloja1/cs240/labs/lab1/lab1/hl-fine_blue.sty
+/home/tloja1/cs240/labs/lab1/lab1.umt
+/home/tloja1/cs240/labs/lab1/lab1.html
+/home/tloja1/cs240/labs/lab1/lab1.pdf
+/home/tloja1/cs240/labs/submission
+/home/tloja1/cs240/labs/submission/submission.umt
+/home/tloja1/cs240/labs/submission/submission
+/home/tloja1/cs240/labs/submission/submission/hl-fine_blue.css
+/home/tloja1/cs240/labs/submission/submission/hl-fine_blue.sty
+/home/tloja1/cs240/labs/submission/submission.html
+/home/tloja1/cs240/labs/submission/submission.pdf
+/home/tloja1/cs240/labs/lab2
+/home/tloja1/cs240/labs/lab2/exercises
+/home/tloja1/cs240/labs/lab2/exercises/.gitignore
+/home/tloja1/cs240/labs/lab2/exercises/1-hello
+/home/tloja1/cs240/labs/lab2/exercises/1-hello/.gitignore
+/home/tloja1/cs240/labs/lab2/exercises/1-hello/Makefile
+/home/tloja1/cs240/labs/lab2/exercises/1-hello/README
+/home/tloja1/cs240/labs/lab2/exercises/1-hello/hello.cc
+/home/tloja1/cs240/labs/lab2/exercises/2-hello
+/home/tloja1/cs240/labs/lab2/exercises/2-hello/.gitignore
+/home/tloja1/cs240/labs/lab2/exercises/2-hello/Makefile
+/home/tloja1/cs240/labs/lab2/exercises/2-hello/README
+/home/tloja1/cs240/labs/lab2/exercises/2-hello/hello.cc
+/home/tloja1/cs240/labs/lab2/exercises/3-overload
+/home/tloja1/cs240/labs/lab2/exercises/3-overload/.gitignore
+/home/tloja1/cs240/labs/lab2/exercises/3-overload/Makefile
+/home/tloja1/cs240/labs/lab2/exercises/3-overload/overload.cc
+/home/tloja1/cs240/labs/lab2/exercises/Makefile
+/home/tloja1/cs240/labs/lab2/lab2.umt
+/home/tloja1/cs240/labs/lab2/lab2
+/home/tloja1/cs240/labs/lab2/lab2/hl-fine_blue.css
+/home/tloja1/cs240/labs/lab2/lab2/hl-fine_blue.sty
+/home/tloja1/cs240/labs/lab2/lab2.html
+/home/tloja1/cs240/labs/lab2/lab2.pdf
+/home/tloja1/cs240/labs/lab3
+/home/tloja1/cs240/labs/lab3/exercises
+/home/tloja1/cs240/labs/lab3/exercises/1-greet
+/home/tloja1/cs240/labs/lab3/exercises/1-greet/.gitignore
+/home/tloja1/cs240/labs/lab3/exercises/1-greet/README
+/home/tloja1/cs240/labs/lab3/exercises/1-greet/greet.cc
+/home/tloja1/cs240/labs/lab3/exercises/2-greet
+/home/tloja1/cs240/labs/lab3/exercises/2-greet/.gitignore
+/home/tloja1/cs240/labs/lab3/exercises/2-greet/README
+/home/tloja1/cs240/labs/lab3/exercises/2-greet/greet.cc
+/home/tloja1/cs240/labs/lab3/exercises/3-greet
+/home/tloja1/cs240/labs/lab3/exercises/3-greet/.gitignore
+/home/tloja1/cs240/labs/lab3/exercises/3-greet/README
+/home/tloja1/cs240/labs/lab3/exercises/3-greet/greet.cc
+/home/tloja1/cs240/labs/lab3/exercises/4-sortnums
+/home/tloja1/cs240/labs/lab3/exercises/4-sortnums/.gitignore
+/home/tloja1/cs240/labs/lab3/exercises/4-sortnums/nums1.dat
+/home/tloja1/cs240/labs/lab3/exercises/4-sortnums/nums2.dat
+/home/tloja1/cs240/labs/lab3/exercises/4-sortnums/sortnums.cc
+/home/tloja1/cs240/labs/lab3/exercises/5-numpaths
+/home/tloja1/cs240/labs/lab3/exercises/5-numpaths/.gitignore
+/home/tloja1/cs240/labs/lab3/exercises/5-numpaths/numpaths.cc
+/home/tloja1/cs240/labs/lab3/exercises/Makefile
+/home/tloja1/cs240/labs/lab3/exercises/data
+/home/tloja1/cs240/labs/lab3/exercises/data/.gitignore
+/home/tloja1/cs240/labs/lab3/exercises/data/1.dat
+/home/tloja1/cs240/labs/lab3/exercises/data/10.dat
+/home/tloja1/cs240/labs/lab3/exercises/data/2.dat
+/home/tloja1/cs240/labs/lab3/exercises/data/3.dat
+/home/tloja1/cs240/labs/lab3/exercises/data/4.dat
+/home/tloja1/cs240/labs/lab3/exercises/data/5.dat
+/home/tloja1/cs240/labs/lab3/exercises/data/6.dat
+/home/tloja1/cs240/labs/lab3/exercises/data/7.dat
+/home/tloja1/cs240/labs/lab3/exercises/data/8.dat
+/home/tloja1/cs240/labs/lab3/exercises/data/9.dat
+/home/tloja1/cs240/labs/lab3/exercises/data/gen-nums.cc
+/home/tloja1/cs240/labs/lab3/lab3.umt
+/home/tloja1/cs240/labs/lab3/lab3
+/home/tloja1/cs240/labs/lab3/lab3/hl-fine_blue.css
+/home/tloja1/cs240/labs/lab3/lab3/hl-fine_blue.sty
+/home/tloja1/cs240/labs/lab3/lab3.html
+/home/tloja1/cs240/labs/lab3/lab3.pdf
+/home/tloja1/cs240/labs/lab4
+/home/tloja1/cs240/labs/lab4/exercises
+/home/tloja1/cs240/labs/lab4/exercises/1-point
+/home/tloja1/cs240/labs/lab4/exercises/1-point/main.cc
+/home/tloja1/cs240/labs/lab4/exercises/1-point/point.cc
+/home/tloja1/cs240/labs/lab4/exercises/1-point/point.hh
+/home/tloja1/cs240/labs/lab4/exercises/2-shape
+/home/tloja1/cs240/labs/lab4/exercises/2-shape/main.cc
+/home/tloja1/cs240/labs/lab4/exercises/2-shape/point.cc
+/home/tloja1/cs240/labs/lab4/exercises/2-shape/point.hh
+/home/tloja1/cs240/labs/lab4/exercises/2-shape/shapes.hh
+/home/tloja1/cs240/labs/lab4/exercises/2-shape/tostring.cc
+/home/tloja1/cs240/labs/lab4/exercises/2-shape/tostring.hh
+/home/tloja1/cs240/labs/lab4/exercises/3-expr
+/home/tloja1/cs240/labs/lab4/exercises/3-expr/expr.cc
+/home/tloja1/cs240/labs/lab4/exercises/3-expr/expr.hh
+/home/tloja1/cs240/labs/lab4/exercises/3-expr/main.cc
+/home/tloja1/cs240/labs/lab4/exercises/3-expr/parse.cc
+/home/tloja1/cs240/labs/lab4/exercises/3-expr/parse.hh
+/home/tloja1/cs240/labs/lab4/exercises/3-expr/tostring.cc
+/home/tloja1/cs240/labs/lab4/exercises/3-expr/tostring.hh
+/home/tloja1/cs240/labs/lab4/exercises/Makefile
+/home/tloja1/cs240/labs/lab4/lab4.umt
+/home/tloja1/cs240/labs/lab4/lab4
+/home/tloja1/cs240/labs/lab4/lab4/hl-fine_blue.css
+/home/tloja1/cs240/labs/lab4/lab4/hl-fine_blue.sty
+/home/tloja1/cs240/labs/lab4/lab4.html
+/home/tloja1/cs240/labs/lab4/lab4.pdf
+/home/tloja1/cs240/labs/lab5
+/home/tloja1/cs240/labs/lab5/exercises
+/home/tloja1/cs240/labs/lab5/exercises/1-animal
+/home/tloja1/cs240/labs/lab5/exercises/1-animal/.gitignore
+/home/tloja1/cs240/labs/lab5/exercises/1-animal/animal.hh
+/home/tloja1/cs240/labs/lab5/exercises/1-animal/main.cc
+/home/tloja1/cs240/labs/lab5/exercises/2-expr
+/home/tloja1/cs240/labs/lab5/exercises/2-expr/.gitignore
+/home/tloja1/cs240/labs/lab5/exercises/2-expr/expr.cc
+/home/tloja1/cs240/labs/lab5/exercises/2-expr/expr.hh
+/home/tloja1/cs240/labs/lab5/exercises/2-expr/main.cc
+/home/tloja1/cs240/labs/lab5/exercises/2-expr/parse.cc
+/home/tloja1/cs240/labs/lab5/exercises/2-expr/parse.hh
+/home/tloja1/cs240/labs/lab5/exercises/2-expr/tostring.cc
+/home/tloja1/cs240/labs/lab5/exercises/2-expr/tostring.hh
+/home/tloja1/cs240/labs/lab5/exercises/Makefile
+/home/tloja1/cs240/labs/lab5/lab5.umt
+/home/tloja1/cs240/labs/lab5/lab5
+/home/tloja1/cs240/labs/lab5/lab5/hl-fine_blue.css
+/home/tloja1/cs240/labs/lab5/lab5/hl-fine_blue.sty
+/home/tloja1/cs240/labs/lab5/lab5.html
+/home/tloja1/cs240/labs/lab5/lab5.pdf
+/home/tloja1/cs240/labs/lab6
+/home/tloja1/cs240/labs/lab6/exercises
+/home/tloja1/cs240/labs/lab6/exercises/4-quoting
+/home/tloja1/cs240/labs/lab6/exercises/4-quoting/'12
+/home/tloja1/cs240/labs/lab6/exercises/4-quoting/**
+/home/tloja1/cs240/labs/lab6/exercises/4-quoting/-l
+/home/tloja1/cs240/labs/lab6/exercises/4-quoting/1"2
+/home/tloja1/cs240/labs/lab6/exercises/4-quoting/1$2
+/home/tloja1/cs240/labs/lab6/exercises/4-quoting/\\ab
+/home/tloja1/cs240/labs/lab6/exercises/4-quoting/a"b
+/home/tloja1/cs240/labs/lab6/exercises/4-quoting/a$b
+/home/tloja1/cs240/labs/lab6/exercises/4-quoting/a'b
+/home/tloja1/cs240/labs/lab6/lab6.umt
+/home/tloja1/cs240/labs/lab6/lab6
+/home/tloja1/cs240/labs/lab6/lab6/hl-fine_blue.css
+/home/tloja1/cs240/labs/lab6/lab6/hl-fine_blue.sty
+/home/tloja1/cs240/labs/lab6/lab6.html
+/home/tloja1/cs240/labs/lab6/lab6.pdf
+/home/tloja1/cs240/labs/lab7
+/home/tloja1/cs240/labs/lab7/exercises
+/home/tloja1/cs240/labs/lab7/exercises/1-out
+/home/tloja1/cs240/labs/lab7/exercises/1-out/main.cc
+/home/tloja1/cs240/labs/lab7/exercises/1-out/out.hh
+/home/tloja1/cs240/labs/lab7/exercises/2-find
+/home/tloja1/cs240/labs/lab7/exercises/2-find/find.hh
+/home/tloja1/cs240/labs/lab7/exercises/3-sort
+/home/tloja1/cs240/labs/lab7/exercises/3-sort/sort.hh
+/home/tloja1/cs240/labs/lab7/exercises/4-rm
+/home/tloja1/cs240/labs/lab7/exercises/4-rm/rm.hh
+/home/tloja1/cs240/labs/lab7/exercises/Makefile
+/home/tloja1/cs240/labs/lab7/exercises/test.data
+/home/tloja1/cs240/labs/lab7/lab7.html
+/home/tloja1/cs240/labs/lab7/lab7.pdf
+/home/tloja1/cs240/labs/lab7/lab7.umt
+/home/tloja1/cs240/labs/lab7/lab7
+/home/tloja1/cs240/labs/lab7/lab7/hl-fine_blue.css
+/home/tloja1/cs240/labs/lab7/lab7/hl-fine_blue.sty
+/home/tloja1/cs240/labs/index.html
+/home/tloja1/cs240/labs/index.umt
+/home/tloja1/cs240/labs/lab8
+/home/tloja1/cs240/labs/lab8/exercises
+/home/tloja1/cs240/labs/lab8/exercises/3-subshells
+/home/tloja1/cs240/labs/lab8/exercises/3-subshells/Makefile
+/home/tloja1/cs240/labs/lab8/lab8.html
+/home/tloja1/cs240/labs/lab8/lab8.pdf
+/home/tloja1/cs240/labs/lab8/lab8.umt
+/home/tloja1/cs240/labs/lab8/lab8
+/home/tloja1/cs240/labs/lab8/lab8/hl-fine_blue.css
+/home/tloja1/cs240/labs/lab8/lab8/hl-fine_blue.sty
+/home/tloja1/cs240/misc
+/home/tloja1/cs240/misc/academic-honesty-statement
+/home/tloja1/cs240/misc/academic-honesty-statement/Makefile
+/home/tloja1/cs240/misc/academic-honesty-statement/academic-honesty-policy.umt
+/home/tloja1/cs240/misc/academic-honesty-statement/academic-honesty-statement.umt
+/home/tloja1/cs240/misc/academic-honesty-statement/cs-honesty-letter.pdf
+/home/tloja1/cs240/misc/academic-honesty-statement/index.html
+/home/tloja1/cs240/misc/academic-honesty-statement/academic-honesty-policy.html
+/home/tloja1/cs240/misc/academic-honesty-statement/academic-honesty-policy.pdf
+/home/tloja1/cs240/misc/academic-honesty-statement/academic-honesty-statement.html
+/home/tloja1/cs240/misc/academic-honesty-statement/academic-honesty-statement.pdf
+/home/tloja1/cs240/misc/grading-guidelines
+/home/tloja1/cs240/misc/grading-guidelines/Makefile
+/home/tloja1/cs240/misc/grading-guidelines/grading-guidelines.umt
+/home/tloja1/cs240/misc/grading-guidelines/grading-guidelines.html
+/home/tloja1/cs240/misc/grading-guidelines/grading-guidelines.pdf
+/home/tloja1/cs240/misc/index.html
+/home/tloja1/cs240/misc/index.umt
+/home/tloja1/cs240/misc/online
+/home/tloja1/cs240/misc/online/online.html
+/home/tloja1/cs240/misc/online/online.pdf
+/home/tloja1/cs240/misc/online/online.umt
+/home/tloja1/cs240/projects
+/home/tloja1/cs240/projects/prj1
+/home/tloja1/cs240/projects/prj1/prj1.umt
+/home/tloja1/cs240/projects/prj1/prj1
+/home/tloja1/cs240/projects/prj1/prj1/hl-fine_blue.css
+/home/tloja1/cs240/projects/prj1/prj1/hl-fine_blue.sty
+/home/tloja1/cs240/projects/prj1/prj1.html
+/home/tloja1/cs240/projects/prj1/prj1.pdf
+/home/tloja1/cs240/projects/prj1-sol
+/home/tloja1/cs240/projects/prj1-sol/.gitignore
+/home/tloja1/cs240/projects/prj1-sol/Makefile
+/home/tloja1/cs240/projects/prj1-sol/hints.txt
+/home/tloja1/cs240/projects/prj1-sol/wordcounts.cc
+/home/tloja1/cs240/projects/prj2
+/home/tloja1/cs240/projects/prj2/extras
+/home/tloja1/cs240/projects/prj2/extras/command.cc
+/home/tloja1/cs240/projects/prj2/extras/command.hh
+/home/tloja1/cs240/projects/prj2/extras/overflow-array.data
+/home/tloja1/cs240/projects/prj2/extras/seq-test.cc
+/home/tloja1/cs240/projects/prj2/extras/test.data
+/home/tloja1/cs240/projects/prj2/prj2-sol
+/home/tloja1/cs240/projects/prj2/prj2-sol/README
+/home/tloja1/cs240/projects/prj2/prj2-sol/arrayseq.hh
+/home/tloja1/cs240/projects/prj2/prj2-sol/seq.hh
+/home/tloja1/cs240/projects/prj2/prj2.umt
+/home/tloja1/cs240/projects/prj2/prj2
+/home/tloja1/cs240/projects/prj2/prj2/hl-fine_blue.css
+/home/tloja1/cs240/projects/prj2/prj2/hl-fine_blue.sty
+/home/tloja1/cs240/projects/prj2/prj2.html
+/home/tloja1/cs240/projects/prj2/prj2.pdf
+/home/tloja1/cs240/projects/index.html
+/home/tloja1/cs240/projects/index.umt
+/home/tloja1/cs240/projects/prj2-sol
+/home/tloja1/cs240/projects/prj2-sol/.gitignore
+/home/tloja1/cs240/projects/prj2-sol/Makefile
+/home/tloja1/cs240/projects/prj2-sol/arrayseq.hh
+/home/tloja1/cs240/projects/prj2-sol/command.cc
+/home/tloja1/cs240/projects/prj2-sol/command.hh
+/home/tloja1/cs240/projects/prj2-sol/dlinkseq.hh
+/home/tloja1/cs240/projects/prj2-sol/nums.cc
+/home/tloja1/cs240/projects/prj2-sol/seq-test.cc
+/home/tloja1/cs240/projects/prj2-sol/seq.hh
+/home/tloja1/cs240/slides
+/home/tloja1/cs240/slides/intro
+/home/tloja1/cs240/slides/intro/intro.umt
+/home/tloja1/cs240/slides/intro/intro.html
+/home/tloja1/cs240/slides/intro/intro.pdf
+/home/tloja1/cs240/slides/syllabus
+/home/tloja1/cs240/slides/syllabus/syllabus.umt
+/home/tloja1/cs240/slides/syllabus/syllabus.html
+/home/tloja1/cs240/slides/syllabus/syllabus.pdf
+/home/tloja1/cs240/slides/umt-slides.make
+/home/tloja1/cs240/slides/c++-intro
+/home/tloja1/cs240/slides/c++-intro/c++-intro
+/home/tloja1/cs240/slides/c++-intro/c++-intro/hl-fine_blue.css
+/home/tloja1/cs240/slides/c++-intro/c++-intro/hl-fine_blue.sty
+/home/tloja1/cs240/slides/c++-intro/code
+/home/tloja1/cs240/slides/c++-intro/code/hello.cc
+/home/tloja1/cs240/slides/c++-intro/code/Makefile
+/home/tloja1/cs240/slides/c++-intro/code/alloc-dealloc.cc
+/home/tloja1/cs240/slides/c++-intro/code/class-point.cc
+/home/tloja1/cs240/slides/c++-intro/code/sum-array.cc
+/home/tloja1/cs240/slides/c++-intro/code/.gitignore
+/home/tloja1/cs240/slides/c++-intro/code/autogen-fns1.cc
+/home/tloja1/cs240/slides/c++-intro/code/autogen-fns2.cc
+/home/tloja1/cs240/slides/c++-intro/code/exercises
+/home/tloja1/cs240/slides/c++-intro/code/exercises/.gitignore
+/home/tloja1/cs240/slides/c++-intro/code/exercises/autogen-fns.LOG
+/home/tloja1/cs240/slides/c++-intro/code/exercises/autogen-fns.cc
+/home/tloja1/cs240/slides/c++-intro/code/exercises/call-params.LOG
+/home/tloja1/cs240/slides/c++-intro/code/exercises/call-params.cc
+/home/tloja1/cs240/slides/c++-intro/code/exercises/constness.LOG
+/home/tloja1/cs240/slides/c++-intro/code/exercises/constness.cc
+/home/tloja1/cs240/slides/c++-intro/code/exercises/ref-ptrs.LOG
+/home/tloja1/cs240/slides/c++-intro/code/exercises/ref-ptrs.cc
+/home/tloja1/cs240/slides/c++-intro/code/ptr.cc
+/home/tloja1/cs240/slides/c++-intro/code/smart-ptr.cc
+/home/tloja1/cs240/slides/c++-intro/code/struct-point.cc
+/home/tloja1/cs240/slides/c++-intro/c++-intro.umt
+/home/tloja1/cs240/slides/c++-intro/c++-intro.html
+/home/tloja1/cs240/slides/c++-intro/c++-intro.pdf
+/home/tloja1/cs240/slides/collections1
+/home/tloja1/cs240/slides/collections1/code
+/home/tloja1/cs240/slides/collections1/code/Makefile
+/home/tloja1/cs240/slides/collections1/code/binary-search
+/home/tloja1/cs240/slides/collections1/code/binary-search/.gitignore
+/home/tloja1/cs240/slides/collections1/code/binary-search/main.cc
+/home/tloja1/cs240/slides/collections1/code/linear-search
+/home/tloja1/cs240/slides/collections1/code/linear-search/.gitignore
+/home/tloja1/cs240/slides/collections1/code/linear-search/main.cc
+/home/tloja1/cs240/slides/collections1/code/lists
+/home/tloja1/cs240/slides/collections1/code/lists/alist.hh
+/home/tloja1/cs240/slides/collections1/code/lists/command.cc
+/home/tloja1/cs240/slides/collections1/code/lists/command.hh
+/home/tloja1/cs240/slides/collections1/code/lists/dlinkedlist.hh
+/home/tloja1/cs240/slides/collections1/code/lists/freelist-link.hh
+/home/tloja1/cs240/slides/collections1/code/lists/linkedlist.hh
+/home/tloja1/cs240/slides/collections1/code/lists/list.hh
+/home/tloja1/cs240/slides/collections1/code/lists/main.cc
+/home/tloja1/cs240/slides/collections1/code/lists/tostring.cc
+/home/tloja1/cs240/slides/collections1/code/lists/tostring.hh
+/home/tloja1/cs240/slides/collections1/code/lists/xlist.hh
+/home/tloja1/cs240/slides/collections1/code/lists/.gitignore
+/home/tloja1/cs240/slides/collections1/code/ordered-linear-search
+/home/tloja1/cs240/slides/collections1/code/ordered-linear-search/.gitignore
+/home/tloja1/cs240/slides/collections1/code/ordered-linear-search/main.cc
+/home/tloja1/cs240/slides/collections1/code/queues
+/home/tloja1/cs240/slides/collections1/code/queues/.gitignore
+/home/tloja1/cs240/slides/collections1/code/queues/aqueue.hh
+/home/tloja1/cs240/slides/collections1/code/queues/main.cc
+/home/tloja1/cs240/slides/collections1/code/queues/queue.hh
+/home/tloja1/cs240/slides/collections1/code/stacks
+/home/tloja1/cs240/slides/collections1/code/stacks/.gitignore
+/home/tloja1/cs240/slides/collections1/code/stacks/astack.hh
+/home/tloja1/cs240/slides/collections1/code/stacks/lstack.hh
+/home/tloja1/cs240/slides/collections1/code/stacks/stack.hh
+/home/tloja1/cs240/slides/collections1/collections1
+/home/tloja1/cs240/slides/collections1/collections1/hl-fine_blue.css
+/home/tloja1/cs240/slides/collections1/collections1/hl-fine_blue.sty
+/home/tloja1/cs240/slides/collections1/figs
+/home/tloja1/cs240/slides/collections1/figs/alist-insert.png
+/home/tloja1/cs240/slides/collections1/figs/dlinkedlist-insert.png
+/home/tloja1/cs240/slides/collections1/figs/dlinkedlist-remove.png
+/home/tloja1/cs240/slides/collections1/figs/dlinkedlist.png
+/home/tloja1/cs240/slides/collections1/figs/linkedlist-init.png
+/home/tloja1/cs240/slides/collections1/figs/linkedlist-insert.png
+/home/tloja1/cs240/slides/collections1/figs/linkedlist-remove.png
+/home/tloja1/cs240/slides/collections1/figs/array-queue-circular.png
+/home/tloja1/cs240/slides/collections1/figs/array-queue-index-drift.png
+/home/tloja1/cs240/slides/collections1/figs/fact-trace.png
+/home/tloja1/cs240/slides/collections1/figs/two-stacks.png
+/home/tloja1/cs240/slides/collections1/collections1.umt
+/home/tloja1/cs240/slides/collections1/collections1.html
+/home/tloja1/cs240/slides/collections1/collections1.pdf
+/home/tloja1/cs240/slides/collections2
+/home/tloja1/cs240/slides/collections2/collections2
+/home/tloja1/cs240/slides/collections2/collections2/61a86f58ca8a1eb6ce816c835a5d9df8.dot
+/home/tloja1/cs240/slides/collections2/collections2/61a86f58ca8a1eb6ce816c835a5d9df8.png
+/home/tloja1/cs240/slides/collections2/collections2/61a86f58ca8a1eb6ce816c835a5d9df8.tree
+/home/tloja1/cs240/slides/collections2/collections2/bb3d288d341f4258bd540f752ac4341c.dot
+/home/tloja1/cs240/slides/collections2/collections2/bb3d288d341f4258bd540f752ac4341c.png
+/home/tloja1/cs240/slides/collections2/collections2/bb3d288d341f4258bd540f752ac4341c.tree
+/home/tloja1/cs240/slides/collections2/collections2/hl-fine_blue.css
+/home/tloja1/cs240/slides/collections2/collections2/hl-fine_blue.sty
+/home/tloja1/cs240/slides/collections2/figs
+/home/tloja1/cs240/slides/collections2/figs/2-trees.png
+/home/tloja1/cs240/slides/collections2/figs/chain-tree.png
+/home/tloja1/cs240/slides/collections2/figs/full-complete.png
+/home/tloja1/cs240/slides/collections2/figs/tree-defs.png
+/home/tloja1/cs240/slides/collections2/figs/array-btree.png
+/home/tloja1/cs240/slides/collections2/figs/bst-examples.png
+/home/tloja1/cs240/slides/collections2/figs/bst-remove.png
+/home/tloja1/cs240/slides/collections2/figs/expr-btree.png
+/home/tloja1/cs240/slides/collections2/figs/pointer-btree.png
+/home/tloja1/cs240/slides/collections2/figs/remove-min.png
+/home/tloja1/cs240/slides/collections2/figs/traversals.png
+/home/tloja1/cs240/slides/collections2/figs/wrong-remove.png
+/home/tloja1/cs240/slides/collections2/figs/alt-heaps.png
+/home/tloja1/cs240/slides/collections2/figs/heap-build.png
+/home/tloja1/cs240/slides/collections2/figs/heap-siftdown.png
+/home/tloja1/cs240/slides/collections2/code
+/home/tloja1/cs240/slides/collections2/code/bin-node.hh
+/home/tloja1/cs240/slides/collections2/code/bst-node.hh
+/home/tloja1/cs240/slides/collections2/code/composite-expr.hh
+/home/tloja1/cs240/slides/collections2/code/inherit-expr.hh
+/home/tloja1/cs240/slides/collections2/code/.gitignore
+/home/tloja1/cs240/slides/collections2/code/Makefile
+/home/tloja1/cs240/slides/collections2/code/int-bst.cc
+/home/tloja1/cs240/slides/collections2/code/maxheap.cc
+/home/tloja1/cs240/slides/collections2/collections2.html
+/home/tloja1/cs240/slides/collections2/collections2.pdf
+/home/tloja1/cs240/slides/collections2/collections2.umt
+/home/tloja1/cs240/slides/complexity1
+/home/tloja1/cs240/slides/complexity1/code
+/home/tloja1/cs240/slides/complexity1/code/max-find.cc
+/home/tloja1/cs240/slides/complexity1/code/seq-search.cc
+/home/tloja1/cs240/slides/complexity1/code/sq.cc
+/home/tloja1/cs240/slides/complexity1/complexity1.umt
+/home/tloja1/cs240/slides/complexity1/complexity1
+/home/tloja1/cs240/slides/complexity1/complexity1/hl-fine_blue.css
+/home/tloja1/cs240/slides/complexity1/complexity1/hl-fine_blue.sty
+/home/tloja1/cs240/slides/complexity1/figs
+/home/tloja1/cs240/slides/complexity1/figs/growth-table.png
+/home/tloja1/cs240/slides/complexity1/figs/growth1.png
+/home/tloja1/cs240/slides/complexity1/figs/growth2.png
+/home/tloja1/cs240/slides/complexity1/complexity1.html
+/home/tloja1/cs240/slides/complexity1/complexity1.pdf
+/home/tloja1/cs240/slides/index.html
+/home/tloja1/cs240/slides/index.umt
+/home/tloja1/cs240/slides/union-find
+/home/tloja1/cs240/slides/union-find/figs
+/home/tloja1/cs240/slides/union-find/figs/array-repr.png
+/home/tloja1/cs240/slides/union-find/figs/equiv1.png
+/home/tloja1/cs240/slides/union-find/figs/equiv2.png
+/home/tloja1/cs240/slides/union-find/figs/graph.png
+/home/tloja1/cs240/slides/union-find/figs/path-compression.png
+/home/tloja1/cs240/slides/union-find/union-find.html
+/home/tloja1/cs240/slides/union-find/union-find.pdf
+/home/tloja1/cs240/slides/union-find/union-find.umt
+/home/tloja1/cs240/slides/union-find/union-find
+/home/tloja1/cs240/slides/union-find/union-find/hl-fine_blue.css
+/home/tloja1/cs240/slides/union-find/union-find/hl-fine_blue.sty
+/home/tloja1/cs240/umt.make
+/home/tloja1/cs240/announce.umt
+/home/tloja1/cs240/announce.html
+/home/tloja1/cs240/bin
+/home/tloja1/cs240/bin/git-changes.rb
+/home/tloja1/cs240/bin/student.cshrc
+/home/tloja1/cs240/bin/student.emacs
+/home/tloja1/cs240/bin/student.login
+/home/tloja1/cs240/bin/student.logout
+/home/tloja1/cs240/bin/student.profile
+/home/tloja1/cs240/bin/student.rc
+/home/tloja1/cs240/online
+/home/tloja1/cs240/online/index.html
+/home/tloja1/cs240/online/index.umt
+/home/tloja1/cs240/online/online
+/home/tloja1/cs240/online/online/online.html
+/home/tloja1/cs240/online/online/online.pdf
+/home/tloja1/cs240/online/online/online.umt
+/home/tloja1/cs240/online/videos
+/home/tloja1/cs240/online/videos/cs240a
+/home/tloja1/cs240/online/videos/cs240a/index.html
+/home/tloja1/cs240/online/videos/cs240a/index.umt
+/home/tloja1/cs240/online/videos/cs240b
+/home/tloja1/cs240/online/videos/cs240b/index.html
+/home/tloja1/cs240/online/videos/cs240b/index.umt
+/home/tloja1/cs240/index.html
+/home/tloja1/cs240/index.umt
+find: ‘*.c’: No such file or directory
+tloja1@remote04:~/i240b/submit/lab8$ find -L ~/cs240 '*.c'[C-'*.c'n'*.c'a'*.c'm'*.c'e'*.c' '*.c'
+tloja1@remote04:~/i240b/submit/lab8$ jobs
+tloja1@remote04:~/i240b/submit/lab8$ find / -name '*.c' 2>/dev/null >c-files.lst &
+[1] 3156029
+tloja1@remote04:~/i240b/submit/lab8$ kill &[K%1
+tloja1@remote04:~/i240b/submit/lab8$ josb
+bash: josb: command not found
+[1]+  Terminated              find / -name '*.c' 2> /dev/null > c-files.lst
+tloja1@remote04:~/i240b/submit/lab8$ cd ~
+tloja1@remote04:~$ pwd
+/home/tloja1
+tloja1@remote04:~$ xx=123
+tloja1@remote04:~$ pwd; echo $xx; (xx=abc; cd /; pwd; echo 4xx);[K[K[K[K[K$xx); pwd; echo $xx
+/home/tloja1
+123
+/
+abc
+/home/tloja1
+123
+tloja1@remote04:~$ ls
+ a.out	 cs240	   Documents   i240    lab2     lab3	 Music	   '~.profile'	 Public      tmp
+ cs120	 Desktop   Downloads   i240b   lab2.c   lab3.c	 Pictures   projects	 Templates   Videos
+tloja1@remote04:~$ cd i240b
+tloja1@remote04:~/i240b$ ls
+README.md  submit
+tloja1@remote04:~/i240b$ cd submit/
+tloja1@remote04:~/i240b/submit$ ls
+lab0  lab1  lab2  lab3	lab4  lab5  lab6  lab7	lab8  prj1-sol	prj2-sol
+tloja1@remote04:~/i240b/submit$ cd lab8/
+tloja1@remote04:~/i240b/submit/lab8$ ls
+c-files.lst  exercises	lab8.LOG
+tloja1@remote04:~/i240b/submit/lab8$ cd exercises/
+tloja1@remote04:~/i240b/submit/lab8/exercises$ ls
+3-subshells
+tloja1@remote04:~/i240b/submit/lab8/exercises$ cd 3-subshells/
+tloja1@remote04:~/i240b/submit/lab8/exercises/3-subshells$ mka[K[Kake
+cd ~/cs240
+ls
+Makefile
+tloja1@remote04:~/i240b/submit/lab8/exercises/3-subshells$ ls
+Makefile
+tloja1@remote04:~/i240b/submit/lab8/exercises/3-subshells$ ls
+Makefile
+tloja1@remote04:~/i240b/submit/lab8/exercises/3-subshells$ make
+cd ~/cs240
+ls
+Makefile
+tloja1@remote04:~/i240b/submit/lab8/exercises/3-subshells$ cd ../
+tloja1@remote04:~/i240b/submit/lab8/exercises$ wc -l 
+ç^C
+tloja1@remote04:~/i240b/submit/lab8/exercises$ wc -l &
+[1] 3159038
+tloja1@remote04:~/i240b/submit/lab8/exercises$ echo $?
+0
+
+[1]+  Stopped                 wc -l
+tloja1@remote04:~/i240b/submit/lab8/exercises$ false; echo 123
+123
+tloja1@remote04:~/i240b/submit/lab8/exercises$ true [K; de[Kec[K[K[K[Kecho[K[K[K[K echo123
+bash: echo123: command not found
+tloja1@remote04:~/i240b/submit/lab8/exercises$ true:[K; echo 123
+123
+tloja1@remote04:~/i240b/submit/lab8/exercises$ false && echo 123
+tloja1@remote04:~/i240b/submit/lab8/exercises$ ture && echo 123
+bash: ture: command not found
+tloja1@remote04:~/i240b/submit/lab8/exercises$ true $[K&& echo 123
+123
+tloja1@remote04:~/i240b/submit/lab8/exercises$ false || echo 123
+123
+tloja1@remote04:~/i240b/submit/lab8/exercises$ true || echo 123
+tloja1@remote04:~/i240b/submit/lab8/exercises$ sleep echo[K[K[K[K[K; echo 123
+sleep: missing operand
+Try 'sleep --help' for more information.
+123
+tloja1@remote04:~/i240b/submit/lab8/exercises$ sleep echo 123
+sleep: invalid time interval ‘echo’
+Try 'sleep --help' for more information.
+tloja1@remote04:~/i240b/submit/lab8/exercises$ sleep --help
+Usage: sleep NUMBER[SUFFIX]...
+  or:  sleep OPTION
+Pause for NUMBER seconds.  SUFFIX may be 's' for seconds (the default),
+'m' for minutes, 'h' for hours or 'd' for days.  Unlike most implementations
+that require NUMBER be an integer, here NUMBER may be an arbitrary floating
+point number.  Given two or more arguments, pause for the amount of time
+specified by the sum of their values.
+
+      --help     display this help and exit
+      --version  output version information and exit
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Full documentation at: <https://www.gnu.org/software/coreutils/sleep>
+or available locally via: info '(coreutils) sleep invocation'
+tloja1@remote04:~/i240b/submit/lab8/exercises$ sleep [K[K[K[K[K[Ksleep 5; echo 123
+123
+tloja1@remote04:~/i240b/submit/lab8/exercises$ cd ../
+tloja1@remote04:~/i240b/submit/lab8$ c[Kls
+c-files.lst  exercises	lab8.LOG
+tloja1@remote04:~/i240b/submit/lab8$ cd exercises/
+tloja1@remote04:~/i240b/submit/lab8/exercises$ ls
+3-subshells
+tloja1@remote04:~/i240b/submit/lab8/exercises$ cd 20[K[K3-subshells/
+tloja1@remote04:~/i240b/submit/lab8/exercises/3-subshells$ ls
+Makefile
+tloja1@remote04:~/i240b/submit/lab8/exercises/3-subshells$ mka[K[Kake
+cd ~/cs240
+ls
+Makefile
+tloja1@remote04:~/i240b/submit/lab8/exercises/3-subshells$ (make)
+cd ~/cs240
+ls
+Makefile
+tloja1@remote04:~/i240b/submit/lab8/exercises/3-subshells$ cd ../
+tloja1@remote04:~/i240b/submit/lab8/exercises$ grep -i 'MAIN(' `find ~/cs140[K[K[K240/projects -name '*.cc'`
+/home/tloja1/cs240/projects/prj1-sol/wordcounts.cc:main(int argc, char *argv[])
+/home/tloja1/cs240/projects/prj2/extras/seq-test.cc:int main(int argc, char *argv[]) {
+/home/tloja1/cs240/projects/prj2-sol/nums.cc:int main(int argc, char* argv[])
+/home/tloja1/cs240/projects/prj2-sol/seq-test.cc:int main(int argc, char *argv[]) {
+tloja1@remote04:~/i240b/submit/lab8/exercises$ cd 3-subshells/
+tloja1@remote04:~/i240b/submit/lab8/exercises/3-subshells$ ls
+Makefile
+tloja1@remote04:~/i240b/submit/lab8/exercises/3-subshells$ make
+cd ~/cs240
+ls
+Makefile
+tloja1@remote04:~/i240b/submit/lab8/exercises/3-subshells$ emacs makefile
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[34d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[33d[?25l[30m[47m-UUU:----F1  [39;49m[1m[30m[47m*scratch*   [0m[39;49m[30m[47m   All L1     (Fundamental) -------------------------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[34d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[34;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[34;54H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[34;59H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[34;58H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[34;60H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25ldictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[34;77H[?25ldone[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[34;75H[?25ldone[H
+[?12l[?25h[?12;25h[34;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[34;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34;61H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34;10H[?25lusr/share/emacs/site-lisp/elpa/haskel[34@l-mode-16.1/haskell-mode-autoloads[H
+[?12l[?25h[?12;25h[34;96H[?25ldone[H
+[?12l[?25h[?12;25h[34;10H[?25letc/emacs/site-start.d/50haskell-mode[34P[H
+[?12l[?25h[?12;25h[34;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[34;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[34;75H[?25ldone[H
+[?12l[?25h[?12;25h[34;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[34;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[34;64H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[34;54H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[34;65H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[34;54H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[34;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c[34d[?25lLoading /etc/emacs/site-start.d/50texlive-lang-english.el (source)...done[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                                             [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[48;5;250m-UUU:----F1  [39;49m[1m[30m[48;5;250m*scratch*   [0m[39;49m[30m[48;5;250m   All L1     (Lisp Interaction ElDoc) --------------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[?2004h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H
+[?12l[?25h[?12;25h[34d[?25l(New file)[K[H
+[?12l[?25h[?12;25h[34d[?25l(New file)[K[H[7mFile Edit Options Buffers Tools Makefile Help                                                                     [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[48;5;250m-UUU:----F1  [39;49m[1m[30m[48;5;250mmakefile    [0m[39;49m[30m[48;5;250m   All L1     (GNUmakefile) -------------------------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[34d[?25lBeginning of buffer[H
+[?12l[?25h[?12;25h[34d[?25lEnd[6P[H
+[?12l[?25h[?12;25h[34d[?25lBeg[6@inning[H
+[?12l[?25h[?12;25h[34d[K[2d[34d[?25lC-c C-d is undefined[H
+[?12l[?25h[?12;25h[34d[?25lEnd of buffer[K[H
+[?12l[?25h[?12;25h[34d[K[2d[34d[K[?2004l[?1l>[?12l[?25h[?1049l[23;0;0t[39;49mtloja1@remote04:~/i240b/submit/lab8/exercises/3-subshells$ emacs makefile[K[K[K[K[K[K[K[K[K Makefile
+[?1049h[22;0;0t[?12;25h[?1h=[H[2J[34d[K[?1l>[?12l[?25h[?1049l[23;0;0t[39;49m[?1049h[22;0;0t[?12;25h[?1h=[H[2J[33d[?25l[30m[47m-UUU:----F1  [39;49m[1m[30m[47m*scratch*   [0m[39;49m[30m[47m   All L1     (Fundamental) -------------------------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[34d[?25lLoading /etc/emacs/site-start.d/00debian.el (source)...done[K[H
+[?12l[?25h[?12;25h[34;33H[?25l50a2ps.el (source)...[K[H
+[?12l[?25h[?12;25h[34;54H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lsymptote.el (source)...[H
+[?12l[?25h[?12;25h[34;59H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lutoconf.el (source)...[K[H
+[?12l[?25h[?12;25h[34;58H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lcmake-data.el (source)...[K[H
+[?12l[?25h[?12;25h[34;60H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25ldictionaries-common.el (source)...[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-default.el (source)...[H
+[?12l[?25h[?12;25h[34;77H[?25ldone[H
+[?12l[?25h[?12;25h[34;9H[?25ldebian-ispell...done[K[H
+[?12l[?25h[?12;25h[34;9H[?25l/var/cache/dictionaries-common/emacsen-ispell-dicts.el (source)...[H
+[?12l[?25h[?12;25h[34;75H[?25ldone[H
+[?12l[?25h[?12;25h[34;10H[?25letc/emacs/site-start.d/50dictionaries-common[6P[H
+[?12l[?25h[?12;25h[34;35H[?25lerlang-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34;61H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lhaskell-mode.el (source)...[K[H
+[?12l[?25h[?12;25h[34;10H[?25lusr/share/emacs/site-lisp/elpa/haskel[34@l-mode-16.1/haskell-mode-autoloads[H
+[?12l[?25h[?12;25h[34;96H[?25ldone[H
+[?12l[?25h[?12;25h[34;10H[?25letc/emacs/site-start.d/50haskell-mode[34P[H
+[?12l[?25h[?12;25h[34;35H[?25llatex-cjk-common.el (source)...[H
+[?12l[?25h[?12;25h[34;10H[?25lusr/share/emacs/site-lisp/latex-cjk-commo[9@n/cjk-enc[H
+[?12l[?25h[?12;25h[34;75H[?25ldone[H
+[?12l[?25h[?12;25h[34;10H[?25letc/emacs/site-start.d/50latex-cjk-common[9P[H
+[?12l[?25h[?12;25h[34;45H[?25lthai.el (source)...[K[H
+[?12l[?25h[?12;25h[34;64H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25lpsvn.el (source)...[K[H
+[?12l[?25h[?12;25h[34;54H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lython-docutils.el (source)...[H
+[?12l[?25h[?12;25h[34;65H[?25ldone[H
+[?12l[?25h[?12;25h[34;35H[?25ltcsh.el (source)...[K[H
+[?12l[?25h[?12;25h[34;54H[?25ldone[H
+[?12l[?25h[?12;25h[34;36H[?25lexlive-lang-english.el (source)...[H
+[?12l[?25h[?12;25h[34;70H[?25ldone[H
+[?12l[?25h[?12;25h[>0c[34d[?25lLoading /etc/emacs/site-start.d/50texlive-lang-english.el (source)...done[K[H[7mFile Edit Options Buffers Tools Lisp-Interaction Help                                                             [0m[39;49m[27m
+[A
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[48;5;250m-UUU:----F1  [39;49m[1m[30m[48;5;250m*scratch*   [0m[39;49m[30m[48;5;250m   All L1     (Lisp Interaction ElDoc) --------------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[?2004h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H
+[?12l[?25h[?12;25h[34d[?25lFor information about GNU Emacs and the GNU system, type C-h C-a.[K[H[7mFile Edit Options Buffers Tools Makefile Help                                                                     [0m[39;49m[27m
+[A
+[38;5;21mall[39;49m:[K
+                cd ~/cs240[K
+                ls[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[30m[48;5;250m-UU-:----F1  [39;49m[1m[30m[48;5;250mMakefile    [0m[39;49m[30m[48;5;250m   All L1     (GNUmakefile) -------------------------------------------------------------[39;49m
+[A[2d[?12l[?25h[?12;25h[34d[K[33;34H[?25l[30m[48;5;250m2[39;49m[H
+
+[?12l[?25h[?12;25h[33;34H[?25l[30m[48;5;250m1[39;49m[H
+[?12l[?25h[?12;25h[C[C[C[C[33;34H[?25l[30m[48;5;250m2[39;49m[H
+
+[?12l[?25h[?12;25h		[C		[C[C[C[33;34H[?25l[30m[48;5;250m3[39;49m[4;17H[?12l[?25h[?12;25h	[8P[33;6H[?25l[30m[48;5;250m**[39;49m[4;9H[?12l[?25h[?12;25h[8P[3;27H[?25lls
+[K[33;34H[30m[48;5;250m2[39;49m[3;27H[?12l[?25h[?12;25h[?25l;ls[?12l[?25h[?12;25h[?25l ls[?12l[?25h[?12;25h[C[33;34H[?25l[30m[48;5;250m1[39;49m[2;5H[?12l[?25h[?12;25h[34;1H[?25lBeginning of buffer[2;5H[?12l[?25h[?12;25h[34;1H[K[33;34H[?25l[30m[48;5;250m2[39;49m[3;25H[?12l[?25h[?12;25h[34;1H[?25lSaving file /home/tloja1/i240b/submit/lab8/exercises/3-subshells/Makefile...[3;25H[?12l[?25h[?12;25h[34;1H[?25lWrote /home/tloja1/i240b/submit/lab8/exercises/3-subshells/Makefile[K[3;25H[?12l[?25h[?12;25h[33;6H[?25l[30m[48;5;250m--[39;49m[3;25H[?12l[?25h[?12;25h[34;1H[K[3;25H[34;1H[K[?2004l[?1l>[?12l[?25h[?1049l[23;0;0t[39;49mtloja1@remote04:~/i240b/submit/lab8/exercises/3-subshells$ emacs Makefilemakefilemake[K
+cd ~/cs240; ls
+announce.html  assets  docs	      exercises  index.html  labs  online    README.md	umt.make
+announce.umt   bin     exams-quizzes  hws	 index.umt   misc  projects  slides
+tloja1@remote04:~/i240b/submit/lab8/exercises/3-subshells$ jobs
+[1]+  Stopped                 wc -l  (wd: ~/i240b/submit/lab8/exercises)
+tloja1@remote04:~/i240b/submit/lab8/exercises/3-subshells$ cd ~/i240b
+tloja1@remote04:~/i240b$ git checkout -b lab8
+fatal: A branch named 'lab8' already exists.
+tloja1@remote04:~/i240b$ exit
+There are stopped jobs.
+tloja1@remote04:~/i240b$ exit
+
+Script done on 2020-03-29 23:33:27-04:00 [COMMAND_EXIT_CODE="128"]
